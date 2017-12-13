@@ -20,7 +20,7 @@ module.exports =
     "artist",
     "italiana"
   ],
-  "description": {
+  "biography": {
     "it": "",
     "zh": "",
     "en": ""
@@ -48,7 +48,7 @@ module.exports =
       }
     }
   ],
-  "events": [
+  "news": [
     {
       "content": {
         "it": ".null",
@@ -72,6 +72,29 @@ module.exports =
     }
   ],
   "works": [
+    {
+      "content": {
+        "it": ".null",
+        "zh": ".null",
+        "en": ".null"
+      }
+    },
+    {
+      "content": {
+        "it": ".null",
+        "zh": ".null",
+        "en": ".null"
+      }
+    },
+    {
+      "content": {
+        "it": ".null",
+        "zh": ".null",
+        "en": ".null"
+      }
+    }
+  ],
+  "selectTexts":[
     {
       "content": {
         "it": ".null",
