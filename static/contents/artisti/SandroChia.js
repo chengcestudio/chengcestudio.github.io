@@ -25,96 +25,33 @@ module.exports =
     "zh": "",
     "en": ""
   },
-  "exhibitions": [
-    {
-      "content": {
-        "it": ".null",
-        "zh": ".null",
-        "en": ".null"
-      }
-    },
-    {
-      "content": {
-        "it": ".null",
-        "zh": ".null",
-        "en": ".null"
-      }
-    },
-    {
-      "content": {
-        "it": ".null",
-        "zh": ".null",
-        "en": ".null"
-      }
-    }
-  ],
-  "news": [
-    {
-      "content": {
-        "it": ".null",
-        "zh": ".null",
-        "en": ".null"
-      }
-    },
-    {
-      "content": {
-        "it": ".null",
-        "zh": ".null",
-        "en": ".null"
-      }
-    },
-    {
-      "content": {
-        "it": ".null",
-        "zh": ".null",
-        "en": ".null"
-      }
-    }
-  ],
+  "exhibitions":{
+    zh:[],it:[],en:[]
+  },
+
   "works": [
-    {
-      "content": {
-        "it": ".null",
-        "zh": ".null",
-        "en": ".null"
-      }
-    },
-    {
-      "content": {
-        "it": ".null",
-        "zh": ".null",
-        "en": ".null"
-      }
-    },
-    {
-      "content": {
-        "it": ".null",
-        "zh": ".null",
-        "en": ".null"
-      }
-    }
   ],
-  "selectTexts":[
-    {
-      "content": {
-        "it": ".null",
-        "zh": ".null",
-        "en": ".null"
-      }
-    },
-    {
-      "content": {
-        "it": ".null",
-        "zh": ".null",
-        "en": ".null"
-      }
-    },
-    {
-      "content": {
-        "it": ".null",
-        "zh": ".null",
-        "en": ".null"
-      }
-    }
-  ]
+  // "selectTexts":[
+  //   {
+  //     "content": {
+  //       "it": ".null",
+  //       "zh": ".null",
+  //       "en": ".null"
+  //     }
+  //   },
+  //   {
+  //     "content": {
+  //       "it": ".null",
+  //       "zh": ".null",
+  //       "en": ".null"
+  //     }
+  //   },
+  //   {
+  //     "content": {
+  //       "it": ".null",
+  //       "zh": ".null",
+  //       "en": ".null"
+  //     }
+  //   }
+  // ]
 }

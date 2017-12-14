@@ -21,56 +21,14 @@ module.exports =
     "italiana"
   ],
   "biography": {
-    "it": "",
-    "zh": "",
-    "en": ""
+    "it": "Artista, critico, curatore d’arte. Ricercatore presso l’Accademia Nazionale Cinese di Pittura, pittore di prima classe a livello nazionale. Dottorato in belle arti presso l’Istituto di Ricerca d’Arte Cinese, dottorato in economia presso l’Università di Wuhan. Membro dell’Associazione degli Artisti Cinesi, membro della Società Culturale di Poesia Cinese, presidente del consiglio direttivo dell’Archivio d’Arte Contemporanea Nazionale Cinese. Ha dato vita a mostre personali quali “Oltre l’Ego”, “Wang Yi 2016 Esposizione di Ricerca” e molte altre ancora.",
+    "zh": "艺术家，评论家，策展人。中国国家画院研究员，国家一级美术师。中国艺术研究院美术学博士，武汉大学经济学博士。中国美术家协会会员，中国诗歌学会会员，中国国家当代艺术档案库理事长。曾举办“非常自我”、“王艺2016研究展”等个展。",
+    "en": "Artista, critico, curatore d’arte. Ricercatore presso l’Accademia Nazionale Cinese di Pittura, pittore di prima classe a livello nazionale. Dottorato in belle arti presso l’Istituto di Ricerca d’Arte Cinese, dottorato in economia presso l’Università di Wuhan. Membro dell’Associazione degli Artisti Cinesi, membro della Società Culturale di Poesia Cinese, presidente del consiglio direttivo dell’Archivio d’Arte Contemporanea Nazionale Cinese. Ha dato vita a mostre personali quali “Oltre l’Ego”, “Wang Yi 2016 Esposizione di Ricerca” e molte altre ancora."
   },
-  "exhibitions": [
-    {
-      "content": {
-        "it": ".null",
-        "zh": ".null",
-        "en": ".null"
-      }
-    },
-    {
-      "content": {
-        "it": ".null",
-        "zh": ".null",
-        "en": ".null"
-      }
-    },
-    {
-      "content": {
-        "it": ".null",
-        "zh": ".null",
-        "en": ".null"
-      }
-    }
-  ],
-  "news": [
-    {
-      "content": {
-        "it": ".null",
-        "zh": ".null",
-        "en": ".null"
-      }
-    },
-    {
-      "content": {
-        "it": ".null",
-        "zh": ".null",
-        "en": ".null"
-      }
-    },
-    {
-      "content": {
-        "it": ".null",
-        "zh": ".null",
-        "en": ".null"
-      }
-    }
-  ],
+  "exhibitions":{
+    zh:[],it:[],en:[]
+  },
+
   "works": [
     {
       "title": {

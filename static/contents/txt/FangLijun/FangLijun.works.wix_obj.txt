@@ -1,0 +1,182 @@
+[
+  {
+    "title": {
+      "zh": "《系列一 之四》 布面油画",
+      "en": "Series 1 No,4, oil on canvas",
+      "it": "Series 1 No,4, oil on canvas"
+    },
+    "img": "1f2952_edec98c39e024733b337b9cdaac563ee~mv2.jpg",
+    "time": "1990-1994",
+    "dim": "100x100cm"
+  },
+  {
+    "title": {
+      "zh": "《系列2  No,2, 19911992, 1992年》 布面油画",
+      "en": "Series 2 No,2 1991-1992, oil on canvas",
+      "it": "Series 2 No,2 1991-1992, oil on canvas"
+    },
+    "img": "1f2952_84de2dfc99d24360b4bc61ed623243d9~mv2.jpg",
+    "time": "1992",
+    "dim": "200x230cm"
+  },
+  {
+    "title": {
+      "zh": "《1994, No, 6》 布面油画",
+      "en": "1994,No,6, oil on canvas",
+      "it": "1994,No,6, oil on canvas"
+    },
+    "img": "1f2952_4933336a19ff469c86450161be40f366~mv2.jpg",
+    "time": "1993-1994",
+    "dim": "179,5x249,5cm"
+  },
+  {
+    "title": {
+      "zh": "《1995,1》  1995年 布面油画",
+      "en": "1995,1 oil on canvas",
+      "it": "1995,1 oil on canvas"
+    },
+    "img": "1f2952_d855e6a4aa6f4f4b8c69e435923b5ead~mv2.jpg",
+    "time": "1995",
+    "dim": "70x116cm"
+  },
+  {
+    "title": {
+      "zh": "《1997,1 》 布面油画",
+      "en": "1997,1, oil on canvas",
+      "it": "1997,1, oil on canvas"
+    },
+    "img": "1f2952_fcf1f74f549e438884253ebd383cbf67~mv2.jpg",
+    "time": "1997",
+    "dim": "162,5x129,5cm"
+  },
+  {
+    "title": {
+      "zh": "《1997,7》 布面油画",
+      "en": "1997,7 oil, on canvas",
+      "it": "1997,7 oil, on canvas"
+    },
+    "img": "1f2952_65a87de3babf46ca9850eb88e4352854~mv2.jpg",
+    "time": "1997",
+    "dim": "150x110cm"
+  },
+  {
+    "title": {
+      "zh": "《2000,1,30》 布面油画",
+      "en": "2000,1,30, oil on canvas",
+      "it": "2000,1,30, oil on canvas"
+    },
+    "img": "1f2952_a2ba209a825c4985832fbd5d931fa7e7~mv2.jpg",
+    "time": "2000",
+    "dim": "357,4x249cm"
+  },
+  {
+    "title": {
+      "zh": "《2001,1,1》 布面油画",
+      "en": "2001,1,1, oil on canvas",
+      "it": "2001,1,1, oil on canvas"
+    },
+    "img": "1f2952_e228fc39d9ee481ab97f65799d209d95~mv2.jpg",
+    "time": "2001",
+    "dim": "110,8x139,5cm"
+  },
+  {
+    "title": {
+      "zh": "《2005,11,11》 布面油画",
+      "en": "2005,11,11, oil on canvas",
+      "it": "2005,11,11, oil on canvas"
+    },
+    "img": "1f2952_b2371828e084458593f3a9f20c513c04~mv2.jpg",
+    "time": "2005",
+    "dim": "80,2x180,5cm"
+  },
+  {
+    "title": {
+      "zh": "《2008 春》 布面油画",
+      "en": "2008 spring, oil on canvas",
+      "it": "2008 spring, oil on canvas"
+    },
+    "img": "1f2952_923cd250989348f1997d30c1a2ae4d14~mv2.jpg",
+    "time": "2008",
+    "dim": "180x140cm"
+  },
+  {
+    "title": {
+      "zh": "《2008,3,30》 布面油画",
+      "en": "2008,3,30, oil on canvas",
+      "it": "2008,3,30, oil on canvas"
+    },
+    "img": "1f2952_3c7146a6d0fc40ae89ab7786e8989eb5~mv2.jpg",
+    "time": "2008",
+    "dim": "303x176cm"
+  },
+  {
+    "title": {
+      "zh": "《2008,6,15》 布面油画",
+      "en": "2008,6,15, oil on canvas",
+      "it": "2008,6,15, oil on canvas"
+    },
+    "img": "1f2952_4602c5a573284c77960b7c58bb1d3618~mv2.jpg",
+    "time": "2008",
+    "dim": "250x360cm"
+  },
+  {
+    "title": {
+      "zh": "《2008,8,8》 布面油画",
+      "en": "2008,8,8, oil on canvas",
+      "it": "2008,8,8, oil on canvas"
+    },
+    "img": "1f2952_f8f94599880247d1ab9734af78897977~mv2.jpg",
+    "time": "2008",
+    "dim": "80x120cm"
+  },
+  {
+    "title": {
+      "zh": "《2008》 布面油画",
+      "en": "2008, oil on canvas",
+      "it": "2008, oil on canvas"
+    },
+    "img": "1f2952_c0bbb3b233084f4b81c02dfda774dd5b~mv2.jpg",
+    "time": "2008",
+    "dim": "300x170cm"
+  },
+  {
+    "title": {
+      "zh": "《2009 春》 布面油画",
+      "en": "2009 spring, oil on canvas",
+      "it": "2009 spring, oil on canvas"
+    },
+    "img": "1f2952_0007dbb58dff4f3092bb9e48bfa39e06~mv2.jpg",
+    "time": "2009",
+    "dim": "80x100cm"
+  },
+  {
+    "title": {
+      "zh": "《20132016 2016年》 套色木刻",
+      "en": "2013-2016, colored woodcut",
+      "it": "2013-2016, colored woodcut"
+    },
+    "img": "1f2952_5d54f4766b864fdb976581d361760c29~mv2.jpg",
+    "time": "2016",
+    "dim": "122x163cm"
+  },
+  {
+    "title": {
+      "zh": "《2016 夏》  布面油画",
+      "en": "2016 Summer, oil on canvas",
+      "it": "2016 Summer, oil on canvas"
+    },
+    "img": "1f2952_ab7e151e9a084839b1d8c49c52c58180~mv2.jpg",
+    "time": "2016",
+    "dim": "80x110cm"
+  },
+  {
+    "title": {
+      "zh": "《2016,2016年》 套色木刻",
+      "en": "2016, colored woodcut",
+      "it": "2016, colored woodcut"
+    },
+    "img": "1f2952_64a0630abdcc45cfbba2576464e8644e~mv2.jpg",
+    "time": "2016",
+    "dim": "244x366cm"
+  }
+]

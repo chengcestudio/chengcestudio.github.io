@@ -728,29 +728,29 @@ module.exports =
       "dim": "120x160cm"
     }
   ], //work
-  "selectTexts":[
-    {
-      "content": {
-        "it": ".null",
-        "zh": ".null",
-        "en": ".null"
-      }
-    },
-    {
-      "content": {
-        "it": ".null",
-        "zh": ".null",
-        "en": ".null"
-      }
-    },
-    {
-      "content": {
-        "it": ".null",
-        "zh": ".null",
-        "en": ".null"
-      }
-    }
-  ]
+  // "selectTexts":[
+  //   {
+  //     "content": {
+  //       "it": ".null",
+  //       "zh": ".null",
+  //       "en": ".null"
+  //     }
+  //   },
+  //   {
+  //     "content": {
+  //       "it": ".null",
+  //       "zh": ".null",
+  //       "en": ".null"
+  //     }
+  //   },
+  //   {
+  //     "content": {
+  //       "it": ".null",
+  //       "zh": ".null",
+  //       "en": ".null"
+  //     }
+  //   }
+  // ]
 } //artist
 
 
