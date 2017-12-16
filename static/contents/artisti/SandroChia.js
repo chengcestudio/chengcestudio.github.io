@@ -21,37 +21,39 @@ module.exports =
     "italiana"
   ],
   "biography": {
-    "it": "",
-    "zh": "",
-    "en": ""
-  },
-  "exhibitions":{
-    zh:[],it:[],en:[]
-  },
 
-  "works": [
-  ],
-  // "selectTexts":[
-  //   {
-  //     "content": {
-  //       "it": ".null",
-  //       "zh": ".null",
-  //       "en": ".null"
-  //     }
-  //   },
-  //   {
-  //     "content": {
-  //       "it": ".null",
-  //       "zh": ".null",
-  //       "en": ".null"
-  //     }
-  //   },
-  //   {
-  //     "content": {
-  //       "it": ".null",
-  //       "zh": ".null",
-  //       "en": ".null"
-  //     }
-  //   }
-  // ]
-}
+        "it":`\n\n\n Comming soon ... `,
+        "zh":`\n\n\n Comming soon ... `,
+        "en":`\n\n\n Comming soon ... `,
+    },
+    "exhibitions":{
+        zh:[],
+        it:[],
+        en:[]
+    },
+
+    "works": [],
+    // "selectTexts":[
+    //   {
+    //     "content": {
+    //       "it": ".null",
+    //       "zh": ".null",
+    //       "en": ".null"
+    //     }
+    //   },
+    //   {
+    //     "content": {
+    //       "it": ".null",
+    //       "zh": ".null",
+    //       "en": ".null"
+    //     }
+    //   },
+    //   {
+    //     "content": {
+    //       "it": ".null",
+    //       "zh": ".null",
+    //       "en": ".null"
+    //     }
+    //   }
+    // ]
+    }

@@ -1,0 +1,81 @@
+2014--远方 布面油画--Lontana olio su tavola--25.5x20.5cm.jpg
+2016--偶像 青铜雕塑--idolo Bronzo--∞x∞cm.JPG
+2017--长尾 素描纸本--matita su carta in Codalunga--∞x∞cm.jpeg
+1984--圣1984 炭笔纸本--ST 1984 carboncino su carta--46x18cm.jpg
+0000--扫描--Scansione--∞x∞cm.jpeg
+0000--扫面 2号--Scansione 2--∞x∞cm.jpeg
+2014--目前为止, 够了, 布面油画--Per Ora... Basta , olio su tela--60x85cm.jpg
+
+
+[
+  {
+    "title": {
+      "zh": "扫描",
+      "en": "Scansione",
+      "it": "Scansione"
+    },
+    "img": "1f2952_b7ccbf0bb0974ab098a74f4674a4f968~mv2_d_2756_1995_s_2.jpeg",
+    "time": "0000",
+    "dim": "∞x∞cm"
+  },
+  {
+    "title": {
+      "zh": "扫面 2号",
+      "en": "Scansione 2",
+      "it": "Scansione 2"
+    },
+    "img": "1f2952_867591b91667499380cf00b1468bf7fb~mv2_d_2043_2411_s_2.jpeg",
+    "time": "0000",
+    "dim": "∞x∞cm"
+  },
+  {
+    "title": {
+      "zh": "圣1984 炭笔纸本",
+      "en": "ST 1984 carboncino su carta",
+      "it": "ST 1984 carboncino su carta"
+    },
+    "img": "1f2952_9cb534f9dec44bd6983b764710605e00~mv2_d_1393_1802_s_2.jpg",
+    "time": "1984",
+    "dim": "46x18cm"
+  },
+  {
+    "title": {
+      "zh": "目前为止, 够了, 布面油画",
+      "en": "Per Ora... Basta , olio su tela",
+      "it": "Per Ora... Basta , olio su tela"
+    },
+    "img": "1f2952_04b21335722b4a389fac0e9ff989d07c~mv2_d_2736_3648_s_4_2.jpg",
+    "time": "2014",
+    "dim": "60x85cm"
+  },
+  {
+    "title": {
+      "zh": "远方 布面油画",
+      "en": "Lontana olio su tavola",
+      "it": "Lontana olio su tavola"
+    },
+    "img": "1f2952_87708f6209a74cae8f8cb55e328635f2~mv2_d_1200_1494_s_2.jpg",
+    "time": "2014",
+    "dim": "25.5x20.5cm"
+  },
+  {
+    "title": {
+      "zh": "偶像 青铜雕塑",
+      "en": "idolo Bronzo",
+      "it": "idolo Bronzo"
+    },
+    "img": "1f2952_ffe176ce2c0040a4bcc8dd3c732f38c2~mv2_d_2051_2781_s_2.jpg",
+    "time": "2016",
+    "dim": "∞x∞cm"
+  },
+  {
+    "title": {
+      "zh": "长尾 素描纸本",
+      "en": "matita su carta in Codalunga",
+      "it": "matita su carta in Codalunga"
+    },
+    "img": "1f2952_c0c12b274ac5436ab10414661e9f3950~mv2_d_5034_5132_s_4_2.jpeg",
+    "time": "2017",
+    "dim": "∞x∞cm"
+  }
+]

@@ -23,10 +23,103 @@ module.exports =
   "biography": {
     "it": "Artista, critico, curatore d’arte. Ricercatore presso l’Accademia Nazionale Cinese di Pittura, pittore di prima classe a livello nazionale. Dottorato in belle arti presso l’Istituto di Ricerca d’Arte Cinese, dottorato in economia presso l’Università di Wuhan. Membro dell’Associazione degli Artisti Cinesi, membro della Società Culturale di Poesia Cinese, presidente del consiglio direttivo dell’Archivio d’Arte Contemporanea Nazionale Cinese. Ha dato vita a mostre personali quali “Oltre l’Ego”, “Wang Yi 2016 Esposizione di Ricerca” e molte altre ancora.",
     "zh": "艺术家，评论家，策展人。中国国家画院研究员，国家一级美术师。中国艺术研究院美术学博士，武汉大学经济学博士。中国美术家协会会员，中国诗歌学会会员，中国国家当代艺术档案库理事长。曾举办“非常自我”、“王艺2016研究展”等个展。",
-    "en": "Artista, critico, curatore d’arte. Ricercatore presso l’Accademia Nazionale Cinese di Pittura, pittore di prima classe a livello nazionale. Dottorato in belle arti presso l’Istituto di Ricerca d’Arte Cinese, dottorato in economia presso l’Università di Wuhan. Membro dell’Associazione degli Artisti Cinesi, membro della Società Culturale di Poesia Cinese, presidente del consiglio direttivo dell’Archivio d’Arte Contemporanea Nazionale Cinese. Ha dato vita a mostre personali quali “Oltre l’Ego”, “Wang Yi 2016 Esposizione di Ricerca” e molte altre ancora."
+    "en": "Wang Yi was born in Donghai, Jiangsu, November 1960. He is artist, critic and curator, professor of China National Academy of Painter, doctor of China Academy of Arts and economics Ph.D. of Wuhan University. He is a member of China Artists Association, a member of Chinese Poetry Society, and director of China National Archive of Contemporary Art. He had held solo exhibition “Beyond Ego” and \"Wang Yi 2016 Research Exhibition\" and other solo exhibitions. He also participated many times in art exhibitions at home and abroad. He has also a number of art monographs, essays and poems published. Wang Yi is an artist cruising between various art forms, from calligraphy to seal carving, from painting to sculpture. He develops a variety of artistic depiction of the world to observe and understand the expression and understanding of art and life. Some people say that he has distinctive style, unique personality, some people say that he has heroic romance. However, he did not want to be defined in any form, he advocates a freer complex of the literati in the Wei and Jin dynasties. At the same time, he is also a contemporary scholar who pays attention to himself and the other. As an artist, he writes poetry, makes painting, sculpture and photography. It has become a state of life and an important way of expressing his thoughts and self-narratives."
   },
   "exhibitions":{
-    zh:[],it:[],en:[]
+    zh:[
+  {
+    "2014": [
+      "11月，《非常自我——王艺个展》，福建泉州THC-泰华宸文化艺术馆.",
+      "8—9月，《非常自我——王艺个展》，北京时代美术馆。",
+      "8月，《如此·王艺摄影展》，北京恭王府安善堂。",
+      "6月10日，《文人意像·艺术生活呈现展》，《中国水墨》杂志。",
+      "5月—7月，《茶酒论（北京）展览》，北京艺术8（中法大学旧址）。",
+      "5月，《王艺诗书画印展》，法国、德国、捷克巡回展览。"
+    ],
+    "2016": [
+      "10-11月，《王艺2016研究展》，北京时代美术馆新馆。"
+    ]
+  },
+  {
+    "2013": [
+      "《梦回魏晋——王艺、魏广军人物山水画展》，北京恭王府嘉乐堂。"
+    ],
+    "2014": [
+      "11月，《肖像进行时——中国当代城市生活》，北京时代美术馆。",
+      "12月，《“以神媚道”中国画名家邀请展》，南京金陵美术馆。",
+      "12月，《2014年云中蜀歌——当代中国画名家学术邀请展》，北京时代美术馆。"
+    ],
+    "2015": [
+      "5-6月，《巧写象成——八人紫砂书画作品联展》，北京恭王府抱厦。",
+      "7月，《2015年度书画频道提名展·当代中国画12家》，奥林匹克森林公园南园书画频道美术馆。",
+      "8月，《茶酒论展览》，法国老佛爷中心美术馆。"
+    ]
+  }
+],
+    it:[
+  {
+    "2013": [
+      "Dicembre  «Esposizione fotografica stile tibetano», Museo d’Arte Epoche di Pechino"
+    ],
+    "2014": [
+      "Novembre  «Oltre l’Ego ― Mostra personale di Wang Yi», Museo d’Arte e Cultura Taihua Chen del Fujian Quanzhou",
+      "Agosto – Settembre  «Oltre l’Ego ― Mostra personale di Wang Yi», Museo d’Arte Epoche di Pechino",
+      "Agosto  «Così • Esposizione fotografica di Wang Yi», Sala Anshan della Residenza del Principe Gong a Pechino",
+      "10 Giugno  «L’immagine del letterato • Esposizione di vita artistica», «Inchiostro cinese», riviste",
+      "Maggio – Luglio  «Esposizione teorie sul tè e sul vino (Pechino)», Arte 8 Pechino (antica sede dell’Università Sino-francese)",
+      "Maggio  «Esposizione stampa, pittura, calligrafia e poesia di Wang Yi», Esposizione itinerante in Francia, Germania e Repubblica Ceca"
+    ],
+    "2016": [
+      "Ottobre – Novembre  « Wang Yi 2016 Esposizione di Ricerca», nuova sede del Museo d’Arte Epoche di Pechino"
+    ]
+  },
+  {
+    "2014": [
+      "Novembre  «Ritratto ora ―  Vita urbana contemporanea cinese», Museo d’Arte Epoche di Pechino",
+      "Dicembre  «“Stregonerie in nome dello spirito” Esposizione su invito di maestri pittori cinesi», Museo d’Arte Jinling di Nanchino",
+      "Dicembre  «Melodie del Sichuan in mezzo alle nuvole 2014 ― Esposizione su invito di accademici pittori contemporanei cinesi», Museo d’Arte Epoche di Pechino"
+    ],
+    "2015": [
+      "Luglio  «Esposizione e nomination dei canali di pittura e calligrafia 2015 • 12 artisti contemporanei cinesi», Museo d’Arte dei Canali di Pittura e Calligrafia del Parco Sud della Foresta Olimpica",
+      "Maggio – Giugno  «Linguaggio figurativo in abili rappresentazioni ― Esposizione di otto artisti di pittura, calligrafia e vasellame in terraglia rossa», edificio annesso alla Residenza del Principe Gong a Pechino",
+      "Agosto  «Esposizione teorie sul tè e sul vino», Museo d’Arte Centro Lafayette in Francia"
+    ],
+    "2016": [
+      "Ottobre  «La rinnovata Via dell’Arte ― Esposizione delle opere del maestro Zhang Xiaoling e dei suoi allievi», Sala Jiale della Residenza del Principe Gong a Pechino"
+    ]
+  }
+],
+    en:[
+  {
+    "2013": [
+      "\"Wang Yi Tibet culture photography exhibition\", Beijing Times Art Museum, Beijing"
+    ],
+    "2014": [
+      "“Song of Sichuan Cloud” Contemporary Chinese painting masters academic invitation exhibition Times Art Museum, Beijing",
+      "\"Apparition of God\" Chinese painting masters invitation exhibition, Jingling Art Museum, Nanjing",
+      "“Portrait Now!” Urban life in contemporary China, Times Art Museum, Beijing",
+      "“Beyond Ego-Wang Yi’s Solo Exhibition”, Times Art Museum, Beijing",
+      "“Beyond Ego-Wang Yi’s Solo Exhibition”, Quanzhou THC Hantaihuan culture museum. Quanzhou, Fujian",
+      "“Just like it, Wang Yi photography exhibition”, Prince Gong's Mansion,Beijing",
+      "“Literati · Art exhibition” China Ink( Shui Mo Zhong Guo) Magazine, Beijing",
+      "Tea Theory (Beijing) Exhibition, Beijing Art 8, Beijing",
+      "May 2014, \"Wang Yi poetry and painting exhibition\", France, Germany, Czech roving exhibition."
+    ],
+    "2016": [
+      "Wang Yi Research Exhibition, Times Art Museum, Beijing"
+    ]
+  },
+  {
+    "2015": [
+      "Annual Chinese painting channel Nomination Exhibition · 12 contemporary Chinese painting masters\", Beijing Olympic Park (South Park), Beijing.",
+      "“Zisha painting and calligraphy exhibition of eight people”, Prince Gong's Mansion,Beijing",
+      "\"Tea on the exhibition\", the French Galeries Lafayette Center."
+    ],
+    "2016": [
+      "Arts Nisshin Road - Zhang Xiaoling Teachers and Students Art Exhibition,Prince Gong's Mansion,Beijing"
+    ]
+  }
+]
   },
 
   "works": [
