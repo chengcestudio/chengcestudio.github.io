@@ -1,13 +1,26 @@
 /*
+    objs JSON ==> 数组 JSON
+
     遍历 ./select text/ 目录的文件夹 下的所有JSON文件
-    合并成数据
-    输出 /select text_all.json
+    合并成数据成数组
+    输出 /out_all_selectText.json
 
  */
+
+/*
+艺术家路径
+    EnzoCucchi
+    FangLijun
+    PangMaokun
+    SandroChia
+    VincenzoVentimiglia
+    WangYi
+ */
+const artist = 'WangYi'
 const fs = require('fs');
-// @ 输出路径
-const readFilesPath = '/select text/'
-const outFilePath =__dirname + '/out_all_selectText.json';
+// @ 输出路径 __dirname
+const readFilesPath =`/${artist}/select text/`//@艺术家路径
+const outFilePath =`${__dirname}/${artist}/out_all_selectText.json`;
 
 /*-----
 ref: Reading all files in a directory, store them in objects, and send the object
