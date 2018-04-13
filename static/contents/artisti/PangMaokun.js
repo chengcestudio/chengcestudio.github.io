@@ -591,7 +591,7 @@ module.exports =
     "title": {
       "zh": "女孩肖像",
       "en": "Portrait of a young women",
-      "it": "Portrait of a young women"
+      "it": "Ritratto di fanciulla"
     },
     "img": "1f2952_0b8e371a5fe14a7fa2f9ad9f5d6387a8~mv2_d_1969_2362_s_2.jpg",
     "time": "2012",
@@ -601,7 +601,7 @@ module.exports =
     "title": {
       "zh": "拿苹果的女孩",
       "en": "The girl with an apple in hand",
-      "it": "The girl with an apple in hand"
+      "it": "La raggazza con una mela in mano"
     },
     "img": "1f2952_cbd487e4a58b4bf89392afbc05c567a4~mv2_d_1287_1575_s_2.jpg",
     "time": "2012",
@@ -611,7 +611,7 @@ module.exports =
     "title": {
       "zh": "春雨",
       "en": "Spring rain",
-      "it": "Spring rain"
+      "it": "Pioggia primaverile"
     },
     "img": "1f2952_a8acba7096314fa490a9ef3cf70ec365~mv2_d_2362_2183_s_2.jpg",
     "time": "2012",
@@ -621,7 +621,7 @@ module.exports =
     "title": {
       "zh": "暖冬",
       "en": "Warm winter",
-      "it": "Warm winter"
+      "it": "L'inverno caldo"
     },
     "img": "1f2952_4272edd3b97e4c7d9bb464ca48d54fde~mv2_d_1889_2362_s_2.jpg",
     "time": "2012",
@@ -630,8 +630,8 @@ module.exports =
   {
     "title": {
       "zh": "花季",
-      "en": "In theSeason of Flowers",
-      "it": "In theSeason of Flowers"
+      "en": "In theSeason of flowers",
+      "it": "La stagione dei fiori"
     },
     "img": "1f2952_89d1f671c4734020b8b9aa15f2eb1915~mv2_d_1246_1575_s_2.jpg",
     "time": "2012",
@@ -641,7 +641,7 @@ module.exports =
     "title": {
       "zh": "蓝衣少女",
       "en": "The girl in a blue dress",
-      "it": "The girl in a blue dress"
+      "it": "La raggazza con il vestito blu"
     },
     "img": "1f2952_f075d7623a054effa8df376b63d36832~mv2_d_2362_1847_s_2.jpg",
     "time": "2012",
@@ -651,7 +651,7 @@ module.exports =
     "title": {
       "zh": "镜前女孩",
       "en": "The Girl in front of the Mirror",
-      "it": "The Girl in front of the Mirror"
+      "it": "La raggazza davanti allo specchio"
     },
     "img": "1f2952_bf4b0cb7457444d2ab2f4c3800e7f319~mv2_d_1964_2362_s_2.jpg",
     "time": "2012",
@@ -661,7 +661,7 @@ module.exports =
     "title": {
       "zh": "闲书",
       "en": "Light readings",
-      "it": "Light readings"
+      "it": "Letture leggere"
     },
     "img": "1f2952_98afb09a5f084027877b0ba96653e945~mv2_d_1760_2362_s_2.jpg",
     "time": "2012",
@@ -671,7 +671,7 @@ module.exports =
     "title": {
       "zh": "子夜",
       "en": "Midnight",
-      "it": "Midnight"
+      "it": "Mezzanote"
     },
     "img": "1f2952_cb61afdfe2a1467a8233c0b9db7732d5~mv2_d_4094_1679_s_2.jpg",
     "time": "2015",
@@ -681,7 +681,7 @@ module.exports =
     "title": {
       "zh": "暗香",
       "en": "Secret Fragrance",
-      "it": "Secret Fragrance"
+      "it": "La fragranza segreta"
     },
     "img": "1f2952_dd0f0f57ca224a86b1f90e5e1c110e74~mv2_d_1327_1772_s_2.jpg",
     "time": "2015",
@@ -701,7 +701,7 @@ module.exports =
     "title": {
       "zh": "委拉斯贵兹的客厅, 布面油画",
       "en": "The Living Room of Diego Velázquez, Oil on canvas",
-      "it": "The Living Room of Diego Velázquez, Oil on canvas"
+      "it": "Il soggiorno di Diego Velázquez"
     },
     "img": "1f2952_640a634008ea4027a03d6b35f2a551f9~mv2_d_3542_2277_s_2.jpg",
     "time": "2017",
@@ -711,7 +711,7 @@ module.exports =
     "title": {
       "zh": "对应的肖像",
       "en": "Corresponding Portraits",
-      "it": "Corresponding Portraits"
+      "it": "Il rittratto corrispondente"
     },
     "img": "1f2952_b63165e19b39469da9570d21c8f65611~mv2_d_3543_2117_s_2.jpg",
     "time": "2017",
@@ -721,7 +721,7 @@ module.exports =
     "title": {
       "zh": "折叠的伊甸园",
       "en": "Sketch of Foldaway Eden",
-      "it": "Sketch of Foldaway Eden"
+      "it": "Schizzo dell'EDEN pieghevole"
     },
     "img": "1f2952_b770799a8ca04b39b6b5c3194710d4a2~mv2_d_4134_4864_s_4_2.jpg",
     "time": "2017",
@@ -731,7 +731,7 @@ module.exports =
     "title": {
       "zh": "抱貂的女人, 布面油画",
       "en": "Lady with an Ermine, Oil on canvas",
-      "it": "Lady with an Ermine, Oil on canvas"
+      "it": "Dama con l'ermellino"
     },
     "img": "1f2952_3c81d7284c1d45dcb69ab142758da0bb~mv2_d_2880_3544_s_4_2.jpg",
     "time": "2017",
@@ -741,7 +741,7 @@ module.exports =
     "title": {
       "zh": "朵来多游记",
       "en": "Toledo's Travel Notes",
-      "it": "Toledo's Travel Notes"
+      "it": "Diario del viaggio di Toledo"
     },
     "img": "1f2952_9cec0ffcd4354fab8597e6ad2e49d556~mv2_d_3544_2278_s_2.jpg",
     "time": "2017",
@@ -751,7 +751,7 @@ module.exports =
     "title": {
       "zh": "格列柯的天空, 布面油画",
       "en": "The Sky of El Greco, Oil on canvas",
-      "it": "The Sky of El Greco, Oil on canvas"
+      "it": "Il cielo di El Greco"
     },
     "img": "1f2952_7325322dfb2f47a08e2d6f272c09061e~mv2_d_3543_2657_s_4_2.jpg",
     "time": "2017",
@@ -761,7 +761,7 @@ module.exports =
     "title": {
       "zh": "犹滴的新仆人",
       "en": "Judith's New Servant",
-      "it": "Judith's New Servant"
+      "it": "Il nuovo servo di Judith"
     },
     "img": "1f2952_74589732866d473d9ddcde571d633da2~mv2_d_3543_2835_s_4_2.jpg",
     "time": "2017",
@@ -771,7 +771,7 @@ module.exports =
     "title": {
       "zh": "纳西索斯的新世界",
       "en": "Narcissus's New World",
-      "it": "Narcissus's New World"
+      "it": "Il nuovo mondo di Narcissus"
     },
     "img": "1f2952_698ac44fb5204b29a1f478b56e722f4a~mv2_d_2756_3543_s_4_2.jpg",
     "time": "2017",
@@ -781,7 +781,7 @@ module.exports =
     "title": {
       "zh": "被指的内心",
       "en": "The Pointed Inner Heart",
-      "it": "The Pointed Inner Heart"
+      "it": "Il cuore interiore mostrato"
     },
     "img": "1f2952_ef4ea9fe1358460aaf9f5d89aba192c4~mv2_d_3543_2206_s_2.jpg",
     "time": "2017",
@@ -791,7 +791,7 @@ module.exports =
     "title": {
       "zh": "证婚人",
       "en": "The Wedding Witness",
-      "it": "The Wedding Witness"
+      "it": "Il testimone"
     },
     "img": "1f2952_3e261ae362174329bb2f6a11296f9de9~mv2_d_2577_3543_s_4_2.jpg",
     "time": "2017",
@@ -801,7 +801,7 @@ module.exports =
     "title": {
       "zh": "阅读者, 布面油画",
       "en": "Reader, Oil on canvas",
-      "it": "Reader, Oil on canvas"
+      "it": "Lettore"
     },
     "img": "1f2952_6bfdf3f6d052431c85f7184a44086eab~mv2_d_3543_2657_s_4_2.jpg",
     "time": "2017",
