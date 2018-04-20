@@ -123,167 +123,77 @@ module.exports =
   },
 
   "works": [
-    {
-      "title": {
-        "zh": "《坐观》 纸本设色",
-        "en": "The View, Ink and Color on Paper",
-        "it": "The View, Ink and Color on Paper"
-      },
-      "img": "1f2952_43d20682cfb44d25867e430d4c89876c~mv2.jpeg",
-      "time": "2014",
-      "dim": "140x35cm"
+  {
+    "title": {
+      "zh": "《几平米》综合材料",
+      "en": "'a few square meters' Integrated materials",
+      "it": "'Storia di pochi metri quadrati' Integrated materials "
     },
-    {
-      "title": {
-        "zh": "《消夏图》 纸本设色",
-        "en": "Summer Heat，Ink and Color on Paper",
-        "it": "Summer Heat，Ink and Color on Paper"
-      },
-      "img": "1f2952_1f857fdf9b594131b407a105d63240a3~mv2.jpeg",
-      "time": "2014",
-      "dim": "70x70cm"
+    "img": "1f2952_84d1637a456746b787f94c769cea2e19~mv2_d_3799_5699_s_4_2.jpg",
+    "time": "2016",
+    "dim": "200x150x58cm"
+  },
+  {
+    "title": {
+      "zh": "《几平米》综合材料",
+      "en": "'a few square meters' Integrated materials",
+      "it": "'Storia di pochi metri quadrati' Integrated materials "
     },
-    {
-      "title": {
-        "zh": "《滋味图》 纸本设色",
-        "en": "Tasty Food, Ink and Color on Paper",
-        "it": "Tasty Food, Ink and Color on Paper"
-      },
-      "img": "1f2952_8a89f69fcd4141ae899bebf363110bdb~mv2.jpeg",
-      "time": "2015",
-      "dim": "37x145.3cm"
+    "img": "1f2952_8aa2dc4590fd4ce98800ede2eeb55fec~mv2_d_5774_3850_s_4_2.jpg",
+    "time": "2016",
+    "dim": "210x175x48cm"
+  },
+  {
+    "title": {
+      "zh": "《是死是活，这还真是一个问题》不锈钢",
+      "en": "'To live, or to die, that is the question' Stainless steel",
+      "it": "'sta vivo o morto, questo è davvero un problema' Acciaio inossidabile "
     },
-    {
-      "title": {
-        "zh": "《世界那么大，我们去看看》瓷",
-        "en": "Let’s Go and See the Large World, Resin",
-        "it": "Let’s Go and See the Large World, Resin"
-      },
-      "img": "1f2952_36de7371796442209c7607dbd7afcd06~mv2_d_5760_3840_s_4_2.jpg",
-      "time": "2016",
-      "dim": "68x34x42cm"
+    "img": "1f2952_baeac67aef45428eb3072d61b7c4bbe4~mv2_d_3840_5760_s_4_2.jpg",
+    "time": "2016",
+    "dim": "200x200x450cm"
+  },
+  {
+    "title": {
+      "zh": "《茄子》综合材料",
+      "en": "'aubergine' Integrated materials",
+      "it": "'Melanzana' Integrated materials "
     },
-    {
-      "title": {
-        "zh": "《人籁图》（与魏广君合作）纸本设色",
-        "en": "Musical Sound (Coproduction with Wei Guangjun), Ink and Color on Paper",
-        "it": "Musical Sound (Coproduction with Wei Guangjun), Ink and Color on Paper"
-      },
-      "img": "1f2952_6a42400eb0b3471d9d02d123c460b115~mv2.jpeg",
-      "time": "2016",
-      "dim": "35X70cm"
+    "img": "1f2952_dcfcd624365b4523b7b277995084d374~mv2_d_5760_3840_s_4_2.jpg",
+    "time": "2016",
+    "dim": "700x500cm"
+  },
+  {
+    "title": {
+      "zh": "《红》",
+      "en": "'Red'",
+      "it": "'Rosso'"
     },
-    {
-      "title": {
-        "zh": "《修身养德图》 纸本设色",
-        "en": "Self-cultivation，Ink and Color on Paper",
-        "it": "Self-cultivation，Ink and Color on Paper"
-      },
-      "img": "1f2952_e655a51d3b394acea2593f039fc43e1e~mv2.jpeg",
-      "time": "2016",
-      "dim": "28x45.8cm"
+    "img": "1f2952_51a5f2ce40a44755a1c8134c71673124~mv2_d_13995_6887_s_5_3_2.jpg",
+    "time": "2017",
+    "dim": "300x600cm"
+  },
+  {
+    "title": {
+      "zh": "《自我》不锈钢",
+      "en": "'self' Stainless steel",
+      "it": "'se stesso' Acciaio inossidabile 'self' "
     },
-    {
-      "title": {
-        "zh": "《是死是活，这还真是一个问题》(9)不锈钢",
-        "en": "To be, or not to be, Synthetic materials",
-        "it": "To be, or not to be, Synthetic materials"
-      },
-      "img": "1f2952_ad791a4f300d4daea9fdc945ddf905d9~mv2_d_3840_5760_s_4_2.jpg",
-      "time": "2016",
-      "dim": "200x200x450cm"
+    "img": "1f2952_f70376f6d9254df1ba257440b50dc1c7~mv2_d_3840_5760_s_4_2.jpg",
+    "time": "2017",
+    "dim": "1680×200×500mm"
+  },
+  {
+    "title": {
+      "zh": "《规定》丝网版画",
+      "en": "'Regulations' screen printing",
+      "it": "'Normativa' Serigrafia "
     },
-    {
-      "title": {
-        "zh": "《最喜小儿无赖》树脂",
-        "en": "Love the Youngest the Most, Resin",
-        "it": "Love the Youngest the Most, Resin"
-      },
-      "img": "1f2952_6e9cfec20e01482e9f0226fc9719c02f~mv2_d_5760_3840_s_4_2.jpg",
-      "time": "2016",
-      "dim": "50x16x36cm"
-    },
-    {
-      "title": {
-        "zh": "《礼乐图》 综合材料",
-        "en": "Portrait of Rites and Music, Synthetic materials",
-        "it": "Portrait of Rites and Music, Synthetic materials"
-      },
-      "img": "1f2952_68514080e900476e96ab7020df4609f4~mv2_d_3840_5760_s_4_2.jpg",
-      "time": "2016",
-      "dim": "300x200cm"
-    },
-    {
-      "title": {
-        "zh": "《终有一般情别》树脂",
-        "en": "Another Kind of Beauty, Resin",
-        "it": "Another Kind of Beauty, Resin"
-      },
-      "img": "1f2952_1160e44a31c94c8e835df3520a53750b~mv2_d_3840_5760_s_4_2.jpg",
-      "time": "2016",
-      "dim": "56x34x63cm"
-    },
-    {
-      "title": {
-        "zh": "《茄子》(2)综合材料",
-        "en": "Cheese, Synthetic materials",
-        "it": "Cheese, Synthetic materials"
-      },
-      "img": "1f2952_5610521cecb34185a796b03caa41290b~mv2_d_5760_3840_s_4_2.jpg",
-      "time": "2016",
-      "dim": "700 x 500cm"
-    },
-    {
-      "title": {
-        "zh": "《茄子》(8)综合材料",
-        "en": "Cheese, Synthetic materials",
-        "it": "Cheese, Synthetic materials"
-      },
-      "img": "1f2952_f2ebb3aacf2e40e187b60be80dd188b3~mv2_d_3840_5760_s_4_2.jpg",
-      "time": "2016",
-      "dim": "700 x 500cm"
-    },
-    {
-      "title": {
-        "zh": "《酬酒花间》 树脂",
-        "en": "Drinking among Flowers, Resin",
-        "it": "Drinking among Flowers, Resin"
-      },
-      "img": "1f2952_3748cefa26e547f1ac01680cc2c5bd8a~mv2_d_5760_3840_s_4_2.jpg",
-      "time": "2016",
-      "dim": "26x15x25cm "
-    },
-    {
-      "title": {
-        "zh": "《高山流水图》 纸本设色",
-        "en": "Lofty Mountains and Flowing Water, Ink and Color on Paper",
-        "it": "Lofty Mountains and Flowing Water, Ink and Color on Paper"
-      },
-      "img": "1f2952_64597030632c44b4ba3c65ef6b20c401~mv2.jpeg",
-      "time": "2016",
-      "dim": "182x97cm"
-    },
-    {
-      "title": {
-        "zh": "《哎呀我的天 2》不锈钢",
-        "en": "Oh My God No.2, Stainless steel",
-        "it": "Oh My God No.2, Stainless steel"
-      },
-      "img": "1f2952_3680fc11e6904d429fe9cb0201b948b7~mv2_d_7386_6471_s_4_2.jpg",
-      "time": "2017",
-      "dim": "340x320x300cm"
-    },
-    {
-      "title": {
-        "zh": "《哎呀我的天》(5)不锈钢",
-        "en": "Oh My God, Stainless steel",
-        "it": "Oh My God, Stainless steel"
-      },
-      "img": "1f2952_3290f390f44c48be9655448433b3fa51~mv2_d_5180_6471_s_4_2.jpg",
-      "time": "2017",
-      "dim": "300x200x160cm"
-    }
-  ],
+    "img": "1f2952_bea01756c97f4167877cc1e081d3cdd0~mv2_d_4256_2832_s_4_2.jpg",
+    "time": "2017",
+    "dim": "1700×2800mm"
+  }
+],
   "selectTexts":[{"title":{"en":"Real Man Wang Yi","zh":"汉子王艺 "},"author":{"en":"Ai Xuan","zh":"艾轩"},"content":{"en":"Wang Yi and I were both born in Nanshagou. It's one of the most famous places in China. Many elites come from here, including Wang Yi, Wang Bingqian, Tian Zhuangzhuang, Yu Pingbo, Qian Zhongshu, Yang Jiang, Yang Shangkun, Hong Xuezhi, Hua Junwu, Jiang Zemin, Luo Gan, Ling Zifeng, Huang Yongyu ...( in the order of the number of strokes in the surnames). Therefore, he is so great.\nHe is a strange person, often making me in a trance when we talk face to face. When sharing an appalling idea calmly and sincerely, he is not like a con.dent policy-maker, designer or manipulator, but a modest executor reporting work to me. I often feel confused, doubting I am not his conversation target.\nHe has bought many ancient mansions to be destroyed from all places of China. Such mansions are moved to Beijing. This is really hard for ordinary people. He does it for his esteem and deep understanding of Chinese traditional culture. He investigates repeatedly in Guangdong, Anhui, Shanxi and other places in an almost crazy way...to .nd any ancient cultural relics with the fate of destruction. After strictly numbering, sorting and removing each pillar, door, window, head stone, brick and tile, he will transport them to Beijing after check. The quantities are beyond imagination. He has bought a dozen of valuable cultural relics from different places. It's really amazing and incredible. His courage, perseverance, strength and consumption are unprecedented. However, is he that person? Standing leisurely with a smile, he .rmly tell you that he has worked out.\nDuring the 5.12 earthquake, he showed his hardihood, determination, passion and persistence. Immediately after knowing Chinese realistic painting school decided to make a large-scale oil painting, he as the curator of the Times Museum decided to let them use the museum resources freely. The next day, all resources necessary were prepared well. Putting aside other work, he went to the creation site every day to solve the problems and mobilize the manpower, material and other resources. The success of Burning May oil painting half owed to Wang Yi's efforts. After the successful auction, he as a real man was remembered. Looking at his bloodshot eyes, I wondered whether he slept in seven or eight days. I feel that he really valued the creation with those artists, regarding it as a most important activity of the Times Museum.\nI often see him busy in a crowd. His indifference makes me puzzled. Is he a student, a scholar, or an immortal?\nWang Yi, spring is coming. I'm going to .sh in the lake in front of your villa.","zh":"王艺是南沙沟出来的人，和我是“沟”友。这南沙沟是中国最著名的“沟”之一，看看出来的人：王艺、王炳乾、田壮壮、俞平伯、钱钟书、杨绛、杨尚昆、洪学智、华君武、江泽民、罗干、凌子风、黄永玉……（当然排序是按姓氏笔划来的）可见来头不小，和上列一干人混，能差么？\n王艺是个奇怪的人，面对面交谈时会让我时常神情恍惚。他平和诚挚地陈述一件骇人听闻的设想时，根本就不像一个运筹帷幄的决策者、设计者和操控者，倒像是一个谦和的执行者在向我汇报工作。弄得我时常反辨自己的身份，抑或是感觉挡住了他要面对的人，回头看去并无他人。\n说的是，他把散落在中国各地面临灭顶之灾的古代大宅子买到北京来，整个院落搬走。这种抢救性的活儿非常人能涉足，这缘自他对中国传统文化的敬仰和至深的理解。一遍遍实地考察，广东的、安徽的、山西的……疯子般在各个行将毁灭的古文化遗存之间奔走、呼号，每根柱子、每扇门、每扇窗户、每快础石、每片砖瓦都需要严格编号，对号注册、梳理，对位拆下，在原地再重新按号盖一遍，看看有无缺失，再拆下装至北京，工程之浩繁难以想像。且非一处，一弄就是十几处；且非一地，天南海北。扪心自问，别说动手干了，光是一听，已然是一个头两个大，这等魄力、这等毅力、这等体力、这等耗力。再看看这人，像吗？慢悠悠，笑容可鞠地站在那儿，但眼神还是不容置疑地告诉你，已经搞定了！\n5·12大地震，又让我见识了一个面对民族灾难时的汉子王艺，刚烈、坚毅、热血沸腾、从事果断。在中国写实画派决定要作一幅大型油画之际，作为时代美术馆馆长的他，在第一时间把美术馆全让出来给二十几位画家。第二天，变戏法似地把所有油画创作所必需的配置全部安排到位。他什么都放下了，天天到创作现场解决问题，动员手下大批的人力、物力和各种资源往这幅大油画上砸感情。《热血5月》这幅油画的成功有一大半是靠王艺撑着的，此说一点儿也不为过。成功拍卖之后，所有的人都记住了这个有血性的人。我看着他布满血丝的眼睛，不禁纳闷：这个人在七八天里睡过觉没有？他的感觉是和这群艺术家在一起干这件事是他一生中特别重要的一次记忆，也是时代美术馆最重要的一次创展活动，甚至他做了多少事情也不如这样和艺术家联手创作来得珍贵。\n经常见到他在一群根本不相干的人中间挤来挤去，满不在乎的样子还是觉得奇怪，这是一个什么人？是学生？是学者？是散仙？\n王艺，春天来了，我要去你别墅前面的湖里去偷鱼。"}}],
 
 }
