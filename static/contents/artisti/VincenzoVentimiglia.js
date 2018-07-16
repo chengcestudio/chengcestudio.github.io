@@ -21,7 +21,7 @@ module.exports =
     "italiana"
   ],
   "biography": {
-    "it": "Vincenzo Ventimiglia nasce a Cinisi (Palermo) nel 1968.Nel 1986  consegue la maturità al Liceo Artistico di Palermo.Nel 1987 si  trasferisce a Firenze per frequentare il corso di scultura dell’Accademia di Belle Arti,  diplomandosi nel 1991.Dal 1988 è attivo presso il laboratorio Leonetto Tintori di Prato e studia le tecniche di pittura murale antiche e moderne.Dal 1990 insegna presso il laboratorio e partecipa alle iniziative dell’associazione Tintori per lo studio delle antiche tecniche legate all’affresco (conferenze, workshop, mostre e pubblicazioni). Esegue commissioni di grandi affreschi in Sicilia. Ha svolto un’intensa attività anche nel campo della conservazione e restauro delle pitture murali.Nel 1995 e nel 1997 lavora come docente nell’ambito dei corsi di formazione  professionale della Regione Toscana, in convenzione con la Provincia di Prato.Dal 1992 al 1996 ha lavorato come assistente di scultura presso la Syracuse University of Florence.Nel 1996 e nel 1997 ha insegnato Plastica Ornamentale presso l’Accademia di Belle Arti di Firenze e Palermo.Dal 1998 è docente di ruolo presso la scuola di Scultura dell’ Accademia di Belle Arti di Firenze. Dal 2008 insegna presso la stessa Accademia nel Biennio specialistico sperimentale di Arti visive e nuovi linguaggi espressivi.Presso l’Accademia di Belle Arti è stato Prodirettore e Consigliere Accademico per sei anni consecutivi.Lavora come artista in ambiti diversi. Le sue opere fanno parte di collezioni private e pubbliche.Svolge un’intensa attività anche come organizzatore e curatore d’iniziative culturali.",
+    "it": "Vincenzo Ventimiglia nasce a Cinisi (Palermo) nel 1968, attualmente vive e lavora a Firenze.\nLavora come artista in ambiti diversi. Le sue opere fanno parte di collezioni private e pubbliche. \nIl suo lavoro è caratterizzato da sperimentazioni formali come verifica costante del linguaggio della scultura. Nelle opere recenti prevale la dimensione simbolica o concettuale.\nSi diploma in scultura all’Accademia di Belle arti di Firenze nel 1991.\nDal 1995 al 1997 lavora come docente nell’ambito dei corsi di formazione professionale della Regione Toscana, in convenzione con la Provincia di Prato. Dal 1998 è docente di ruolo di Scultura presso l’Accademia di Belle Arti di Firenze. Dal 2007 insegna nel Biennio specialistico sperimentale di Arti Visive e nuovi linguaggi espressivi. E’ stato Vicedirettore e Consigliere Accademico per sei anni consecutivi.",
     "zh": "1968年出生于巴勒莫的契尼斯镇。艺术家，佛罗伦萨美术学院研究生雕塑系教授。现任佛罗伦萨美术学院研究生视觉艺术与新表现语言专业系主任。毕业于佛罗伦萨美术学院雕塑系。现工作并生活在佛罗伦萨。自1998年开始成为佛罗伦萨美术学院雕塑系终身教授并于2008年起任研究生雕塑系教授。曾担任6年佛罗伦萨美术学院副院长。\n自1999年起策划并帮助当代视觉艺术领域新兴画家举办展览。2004年“Còrtoons”罗马电影卡通节陪审团成员。负责策划美院与罗马艺术纪录片中心于罗马威尼斯宫合作举办2004，2005届“艺术电影纪录片回顾展”。自1998至2009筹划举办所有“INchiostro”佛罗伦萨美院年轻艺术家回顾展。2003年于佛罗伦萨美院统筹设立“特别雕塑奖”以及“Raffaello Franchi iItalo Griselli奖学金”。2003年佛罗伦萨“雕塑之星”奖评委会成员。2003年佛罗伦萨“Clarice Plana”雕塑奖评委会成员。2005年组织并帮助当代视觉艺术领域新兴画家举办“Forme a venire”展览，并与佛罗伦萨学院美术馆合作设立米开朗基罗奖。与M. Cianchi一同负责“艺术与游戏，十位和平文化艺术家”展览举办。自2011年12月13日起，多次与佛罗伦萨美院合作举办“Startpoint”回顾展, 与 M.Raffaele 及 M. Orsini合作举办 2013/14年“Startpoint”回顾展，与“Startpoint”展组委会合作，负责于2013年12月12-18日美院吉贝尔蒂厅举办的佛罗伦萨“当代设计”展过程，主题，材料及表现方式设计",
     "en": "Vincenzo Ventimiglia nasce a Cinisi (Palermo) nel 1968.Nel 1986  consegue la maturità al Liceo Artistico di Palermo.Nel 1987 si  trasferisce a Firenze per frequentare il corso di scultura dell’Accademia di Belle Arti,  diplomandosi nel 1991.Dal 1988 è attivo presso il laboratorio Leonetto Tintori di Prato e studia le tecniche di pittura murale antiche e moderne.Dal 1990 insegna presso il laboratorio e partecipa alle iniziative dell’associazione Tintori per lo studio delle antiche tecniche legate all’affresco (conferenze, workshop, mostre e pubblicazioni). Esegue commissioni di grandi affreschi in Sicilia. Ha svolto un’intensa attività anche nel campo della conservazione e restauro delle pitture murali.Nel 1995 e nel 1997 lavora come docente nell’ambito dei corsi di formazione  professionale della Regione Toscana, in convenzione con la Provincia di Prato.Dal 1992 al 1996 ha lavorato come assistente di scultura presso la Syracuse University of Florence.Nel 1996 e nel 1997 ha insegnato Plastica Ornamentale presso l’Accademia di Belle Arti di Firenze e Palermo.Dal 1998 è docente di ruolo presso la scuola di Scultura dell’ Accademia di Belle Arti di Firenze. Dal 2008 insegna presso la stessa Accademia nel Biennio specialistico sperimentale di Arti visive e nuovi linguaggi espressivi.Presso l’Accademia di Belle Arti è stato Prodirettore e Consigliere Accademico per sei anni consecutivi.Lavora come artista in ambiti diversi. Le sue opere fanno parte di collezioni private e pubbliche.Svolge un’intensa attività anche come organizzatore e curatore d’iniziative culturali."
   },
@@ -158,6 +158,9 @@ module.exports =
     ],
     "2009": [
       "Commissione per opera pubblica: retablo della  Cappella maggiore del Campus Bio-Medico di Trigoria, Roma."
+    ],
+    "2016": [
+      "Mostra personale: “DISEGNI 1986-1988”. Galleria della China Academy of Art, Hangzhou."
     ]
   },
   {
@@ -196,6 +199,12 @@ module.exports =
     ],
     "2014": [
       "Collettiva: “ EX LIBRIS”, rassegna di libri di Artisti Siciliani a cura di Antonina Greco. Monreale (PA), Galleria Civica “G. Sciortino”."
+    ],
+    "2017": [
+      "Collettiva “ARTE E TECNOLOGIA, ARTE CONTEMPORANEA ITALIANA” a cura di Riccardo Farinelli. Qingdao, CINA, Museo di LanWan"
+    ],
+    "2017": [
+      "Collettiva: “ DE ACADEMIA”, a cura di Pier Luigi Tazzi. Accademia di Belle Arti di Firenze"
     ]
   }
 ],

@@ -26,7 +26,7 @@ module.exports =
 
     "biography": {
 
-        "it": `Pang Maokun è nato a Chongqing nel 1963. Dal 1978 al 1981 ha frequentato il Liceo affiliato all’Accademia di Belle Arti del Sichuan; dal 1981 al 1988 ha inoltre studiato presso il Dipartimento di Pittura ad Olio dell’Accademia di Belle Arti del Sichuan, conseguendo nel 1988 un Master. Attualmente è Rettore dell’Accademia di Belle Arti del Sichuan, Presidente dell’Associazione degli Artisti di Chongqing, Rettore dell’Accademia di Pittura di Chongqing, Direttore della Galleria d’Arte di Chongqing, Membro del Comitato Consultivo dell’Associazione degli Artisti Cinesi, Vice-Direttore del Comitato per la Pittura ad Olio dell’Associazione degli Artisti Cinesi, Membro del Comitato Consultivo dell’Istituto di Pittura ad Olio Cinese.\nPer diversi anni ha perseguito nell’intento di esplorare il linguaggio della pittura ad olio classica nelle espressioni e rappresentazioni del contesto culturale contemporaneo, accostando le sue personali creazioni artistiche alla realtà sociale. Delineando sempre la realtà percepita dal suo sguardo, ha anche conferito all’originario stile classico permeato di solenne serenità una sorta di distanza ed estraneità propria del quotidiano. Un tale temperamento artistico non solo rappresenta la creazione e la rifinitura di uno stile personale maturo ma ancor più svela il valore e il significato della pittura ad olio nel contesto dell’arte contemporanea. Sia in patria che all’estero, le sue opere suono state più volte esibite e collezionate da istituzioni artistiche così come da privati. Tra le opere rappresentative possono essere annoverate «Le mele sono mature», «L’arcobaleno silenziosamente nel cielo», «Estate dorata», «La serie indistinta», «La serie del tempo virtuale», «La serie della coincidenza», «La serie scintillante», «La serie visione del mondo fluttuante» e così via.`,
+        "it": `Pang Maokun è nato a Chongqing nel 1963, attualmente vive e lavora a Chongqing.\nE’ uno dei pittori più famosi nel panorama dell’arte della Cina contemporanea.\nE’ considerato uno degli artisti cinesi che meglio hanno rappresentato le diverse minoranze etniche nell’ambito del movimento della pittura cosiddetta rurale. Per diversi anni ha esplorato il linguaggio della pittura a olio classica nelle rappresentazioni del contesto culturale contemporaneo, accostando le sue personali creazioni artistiche alla realtà sociale.\nDal 1981 al 1988 ha studiato nel Dipartimento di Pittura a Olio dell’Accademia di Belle Arti di Sichuan, conseguendo nel 1988 un Master. Pang Maokun, attualmente è Presidente dell'Accademia di Belle Arti di Sichuan.`,
         "zh": `庞茂琨，1963年生于重庆，1978年至1981年就读于四川美术学院附中，1981年至1988年就读于四川美术学院油画系并获油画专业硕士学位，现为四川美术学院院长、重庆美术家协会主席，重庆画院院长，重庆美术馆执行馆长，中国美术家协会理事，中国美术家协会油画艺委会副主任,中国油画学会理事。\n多年来，他一直坚持探索古典油画语言在当代文化情境的表达与呈现，将个人的艺术创作熔铸在当下社会现实之中，他总是以凝视的视角来描述现实本身，原本静穆的古典画风也被他赋予了一种别样于日常的陌生感和距离感，而这样的艺术气质不仅仅代表着个人化风格的建构与完整，更能由此衍生出油画艺术在当代艺术中的价值和意义。作品多次参加国内外的艺术展览，并被海内外多个艺术机构以及私人收藏。代表作品有《苹果熟了》、《彩虹悄然当空》、《一个满地金黄的夏天》、《模糊系列》、《虚拟时光系列》、《巧合系列》、《光耀系列》、《游观系列》等。`,
         "en": `Pang Maokun was born in Chongqing in 1963. He studied in Affiliated Senior High School of Sichuan Fine Arts Institute from 1978 to1981，studied in Oil Painting Department of Sichuan Fine Arts Institute from 1981 to1988; Pang received his master's degree in 1988. Currently, Pang is the President of Sichuan Fine Arts Institute, Chairman of the Chongqing Artists Association, President of Chongqing Painting Academy，Executive Director of Chongqing Museum of Art, Advisory Board Member at the China Artists Association, Deputy director of the China Artists Association Oil Painting Council, and Advisory Board Member at the China Oil Painting Society.\nFor years Pang has been exploring the possibility of classical oil painting language under current circumstances, combining his personal art creation with the social reality. His classical paintings appear distant and different from the daily life as he sets his gaze towards reality. It indicates the maturity of his personal style, which also reveals the value and meaning of oil paintings in contemporary art. His works are exhibited and collected in and out of China. His representative works include Apples are Ripe, The Rainbow is Silently Above, A Golden Summer, Blur Series, Virtual Time Series, Coincidence Series, Shining Brightly Series , Viewing the Floating World Series and etc.`,
     },
@@ -689,16 +689,6 @@ module.exports =
   },
   {
     "title": {
-      "zh": "纳西索斯",
-      "en": "Narcissus",
-      "it": "Narcissus"
-    },
-    "img": "1f2952_3fa12567eaa840aea128b93dc7a6a450~mv2_d_1472_2362_s_2.jpg",
-    "time": "2016",
-    "dim": "160x200cmx2"
-  },
-  {
-    "title": {
       "zh": "委拉斯贵兹的客厅, 布面油画",
       "en": "The Living Room of Diego Velázquez, Oil on canvas",
       "it": "Il soggiorno di Diego Velázquez"
@@ -796,16 +786,6 @@ module.exports =
     "img": "1f2952_3e261ae362174329bb2f6a11296f9de9~mv2_d_2577_3543_s_4_2.jpg",
     "time": "2017",
     "dim": "110x80cm"
-  },
-  {
-    "title": {
-      "zh": "阅读者, 布面油画",
-      "en": "Reader, Oil on canvas",
-      "it": "Lettore"
-    },
-    "img": "1f2952_6bfdf3f6d052431c85f7184a44086eab~mv2_d_3543_2657_s_4_2.jpg",
-    "time": "2017",
-    "dim": "120x160cm"
   }
 ], //work
 

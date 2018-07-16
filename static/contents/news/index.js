@@ -16,5 +16,15 @@ export default [
           },
           slug: '2018_artists_plan',
           date: '2018-2-4'
+    },
+    {
+        "title": {
+            "it": "Attualità del passato -- La pittura colta di Pang Maokun",
+            "zh": "历史的现实性 -- 庞茂琨作品展",
+            "en": "Actuality of the past -- The cultured canvas of Pang Maokun"
+          },
+            slug: '2018_Actuality_of_the_past',
+            date: '2018-5-22'
     }
 ]
+
