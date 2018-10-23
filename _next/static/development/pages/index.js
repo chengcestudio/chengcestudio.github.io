@@ -1,9 +1,9 @@
-((window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\artisti.js"],{
+((window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\index.js"],{
 
-/***/ "./components/artisti.tab.Wrapper.js":
-/*!*******************************************!*\
-  !*** ./components/artisti.tab.Wrapper.js ***!
-  \*******************************************/
+/***/ "./components/SEO.index.js":
+/*!*********************************!*\
+  !*** ./components/SEO.index.js ***!
+  \*********************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -11,14 +11,63 @@
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var glamor__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! glamor */ "./node_modules/glamor/lib/index.js");
-/* harmony import */ var glamor__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(glamor__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var gsap__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! gsap */ "./node_modules/gsap/esm/index.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _static_contents_artisti__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../static/contents/artisti */ "./static/contents/artisti/index.js");
+/* harmony import */ var _static_contents_artisti__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_static_contents_artisti__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _utils_ui__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../utils/ui */ "./utils/ui.js");
 /* harmony import */ var _utils_ui__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_utils_ui__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
-/* harmony import */ var redux__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! redux */ "./node_modules/redux/es/index.js");
-/* harmony import */ var _copyright__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./copyright */ "./components/copyright.js");
+/* harmony import */ var glamor__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! glamor */ "./node_modules/glamor/lib/index.js");
+/* harmony import */ var glamor__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(glamor__WEBPACK_IMPORTED_MODULE_4__);
+
+
+
+
+
+console.log(_static_contents_artisti__WEBPACK_IMPORTED_MODULE_2__["artistInfo"]);
+
+var SEO = function SEO() {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", Object(glamor__WEBPACK_IMPORTED_MODULE_4__["css"])({
+    overflow: 'hidden',
+    color: _utils_ui__WEBPACK_IMPORTED_MODULE_3__["ui"].color.w_2
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, '中艺国际'), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, '中艺国际, ZAI, zhong art international, 是一个致力于在意大利传播中国艺术文化的现实：我们的目标是让我们的传播者介绍中国传统和现代的艺术和文化，促进他们在意大利得到适当的赞赏。另一方面，我们在中国实现同样的目标，在两个地理遥远的国家之间的交流与互惠的逻辑，但接近精神'), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, 'ZAI'), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, 'zhong art international'), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, '艺术家'), _static_contents_artisti__WEBPACK_IMPORTED_MODULE_2__["artistInfo"].map(function (item, index) {
+    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+      href: {
+        pathname: '/artisti',
+        query: {
+          id: item.id
+        }
+      },
+      as: "/artisti/".concat(item.id),
+      key: 'seo' + item.id + index
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "".concat(item.name.zh, " ").concat(item.name.it, " ")));
+  }));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (SEO);
+
+/***/ }),
+
+/***/ "./components/about.js":
+/*!*****************************!*\
+  !*** ./components/about.js ***!
+  \*****************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
+/* harmony import */ var redux__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! redux */ "./node_modules/redux/es/index.js");
+/* harmony import */ var _reducers_nav__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../reducers/nav */ "./reducers/nav.js");
+/* harmony import */ var glamor__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! glamor */ "./node_modules/glamor/lib/index.js");
+/* harmony import */ var glamor__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(glamor__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _utils_ui__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../utils/ui */ "./utils/ui.js");
+/* harmony import */ var _utils_ui__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_utils_ui__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _svg_icons_logo__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./svg/icons_logo */ "./components/svg/icons_logo.js");
+/* harmony import */ var _aboutBackGround__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./aboutBackGround */ "./components/aboutBackGround.js");
 
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
@@ -33,767 +82,105 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
 function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
 
-function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
-
 function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
 
 function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
 
-
-
-
-
-
-
-
-/*
- Wrapper Function(VERSION redux )
- Usage: import 该 Wrapper ,
- 例如嵌套组件 'Biography' , 组件为 TAB()(Biography)
-
- Usage:
- export default   connect(mapStateToProps,null)(TAB()(Biography ,'BIOGRAPHY'))
-
- @this.props.tabName ----'BIOGRAPHY'(从page artisti 调入)
- @this.props.on ----true/false (从 redux 映射 )
- */
-
-var TAB = function TAB() {
-  return function (Comp) {
-    var Tab =
-    /*#__PURE__*/
-    function (_PureComponent) {
-      _inherits(Tab, _PureComponent);
-
-      function Tab(props) {
-        _classCallCheck(this, Tab);
-
-        return _possibleConstructorReturn(this, _getPrototypeOf(Tab).call(this, props));
-      }
-
-      _createClass(Tab, [{
-        key: "componentWillReceiveProps",
-        value: function componentWillReceiveProps(nextProps) {
-          // 点击了该Tab , 当 nexprops  = 'BIOGRAPHY'
-          if (nextProps.onTab === this.props.tabName) {
-            gsap__WEBPACK_IMPORTED_MODULE_2__["TweenMax"].fromTo(".WRAPPER_".concat(this.props.tabName), 0.5, {
-              y: 150,
-              autoAlpha: 0,
-              display: 'none'
-            }, {
-              y: 0,
-              autoAlpha: 1,
-              //opacity:1,visibility:'visible'
-              display: 'flex',
-              ease: Power4.easeOut
-            }, 0.2);
-            /*TweenMax*/
-          } // 从这个Tab退出 , 激活其他Tabs 时
-
-
-          if (this.props.onTab === this.props.tabName) {
-            gsap__WEBPACK_IMPORTED_MODULE_2__["TweenMax"].to(".WRAPPER_".concat(this.props.tabName), 0.5, {
-              y: 150,
-              autoAlpha: 0,
-              display: 'none',
-              ease: Power4.easeOut
-            }, 0.2);
-            /*TweenMax*/
-          }
-        } // 过滤与这个Tab 无关的更新, 避免on 一更改就渲染一次
-        // // 实测不需要
-
-      }, {
-        key: "componentshouldupdate",
-        value: function componentshouldupdate(nextProps) {
-          if (this.props.onTab !== this.props.tabName && nextProps.onTab !== this.props.tabName) {
-            return true;
-          } else {
-            return false;
-          }
-        }
-      }, {
-        key: "render",
-        value: function render() {
-          var show = this.props.tabName === this.props.onTab;
-
-          var _ref = this.props || {
-            language: 'zh'
-          },
-              language = _ref.language;
-
-          var copyRight;
-
-          if (language === 'zh') {
-            copyRight = 'Copyright © 2017 中艺国际有限公司.All rights reserved';
-          } else if (language === 'it') {
-            copyRight = 'Copyright © 2017 ZHONG ART INTERNATIONAL SRL.All rights reserved';
-          } else {
-            copyRight = 'Copyright © 2017 ZHONG ART INTERNATIONAL LTD.All rights reserved';
-          }
-
-          return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", _extends({}, Object(glamor__WEBPACK_IMPORTED_MODULE_1__["css"])({
-            position: 'absolute',
-
-            /*居中*/
-            display: show ? 'flex' : 'none',
-            width: '100vw',
-            flexDirection: 'column',
-            // justifyContent:'center',
-
-            /*居中*/
-            visibility: show ? 'visible' : 'hidden',
-            paddingTop: "".concat(this.props.landscape ? '0rem' : '3rem'),
-            //手机需要和上面tab 按钮 有一定空隙
-            paddingBottom: '7rem' // for CopuRight
-
-          }), {
-            className: "WRAPPER_".concat(this.props.tabName),
-            key: "TAB_".concat(this.props.tabName, "_").concat(language)
-          }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Comp, {
-            tabName: this.props.tabName,
-            contents: this.props.contents,
-            width: this.props.width
-          }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_copyright__WEBPACK_IMPORTED_MODULE_6__["default"], null));
-        }
-      }]);
-
-      return Tab;
-    }(react__WEBPACK_IMPORTED_MODULE_0__["PureComponent"]);
-
-    var mapStateToProps = function mapStateToProps(state) {
-      return {
-        onTab: state.Tab.on,
-        vw: state.Root.view_size.vw,
-        landscape: state.Root.view_size.is_landscape,
-        language: state.Root.language
-      };
-    };
-
-    return Object(react_redux__WEBPACK_IMPORTED_MODULE_4__["connect"])(mapStateToProps, null)(Tab);
-  };
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (TAB); // export default connect(mapStateToProps,null)(TAB)
-
-/***/ }),
-
-/***/ "./components/artisti.tab.biography.js":
-/*!*********************************************!*\
-  !*** ./components/artisti.tab.biography.js ***!
-  \*********************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var glamor__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! glamor */ "./node_modules/glamor/lib/index.js");
-/* harmony import */ var glamor__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(glamor__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _utils_ui__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../utils/ui */ "./utils/ui.js");
-/* harmony import */ var _utils_ui__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_utils_ui__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
-/* harmony import */ var redux__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! redux */ "./node_modules/redux/es/index.js");
-/* harmony import */ var _artisti_tab_Wrapper__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./artisti.tab.Wrapper */ "./components/artisti.tab.Wrapper.js");
-
-
-function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; var ownKeys = Object.keys(source); if (typeof Object.getOwnPropertySymbols === 'function') { ownKeys = ownKeys.concat(Object.getOwnPropertySymbols(source).filter(function (sym) { return Object.getOwnPropertyDescriptor(source, sym).enumerable; })); } ownKeys.forEach(function (key) { _defineProperty(target, key, source[key]); }); } return target; }
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
 
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
-function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
-function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
-function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
-
-function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
-
-function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
-
-function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
-
-function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
-
-function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+ // import withRedux from 'next-redux-wrapper'
 
 
 
 
+ //class=aboutBG
 
-
-
-
-var Button =
+var Logo2About =
 /*#__PURE__*/
 function (_PureComponent) {
-  _inherits(Button, _PureComponent);
+  _inherits(Logo2About, _PureComponent);
 
-  function Button(props) {
-    _classCallCheck(this, Button);
-
-    return _possibleConstructorReturn(this, _getPrototypeOf(Button).call(this, props));
-  }
-
-  _createClass(Button, [{
-    key: "render",
-    value: function render() {
-      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", _extends({}, Object(glamor__WEBPACK_IMPORTED_MODULE_1__["css"])({
-        marginRight: this.props.landscape ? '3rem' : 0,
-        cursor: 'pointer',
-        // width:'3rem',/*居中*/
-        color: this.props.on ? _utils_ui__WEBPACK_IMPORTED_MODULE_2__["ui"].color.b_o1 : _utils_ui__WEBPACK_IMPORTED_MODULE_2__["ui"].color.b_o2,
-        fontWeight: this.props.on ? 900 : 100,
-        userSelect: 'none'
-      }), {
-        onClick: this.props.onClick
-      }), this.props.name);
-    }
-  }]);
-
-  return Button;
-}(react__WEBPACK_IMPORTED_MODULE_0__["PureComponent"]);
-
-var Biography =
-/*#__PURE__*/
-function (_PureComponent2) {
-  _inherits(Biography, _PureComponent2);
-
-  function Biography(props) {
+  function Logo2About(props) {
     var _this;
 
-    _classCallCheck(this, Biography);
+    _classCallCheck(this, Logo2About);
 
-    _this = _possibleConstructorReturn(this, _getPrototypeOf(Biography).call(this, props));
+    _this = _possibleConstructorReturn(this, _getPrototypeOf(Logo2About).call(this, props));
+
+    _defineProperty(_assertThisInitialized(_assertThisInitialized(_this)), "LogoClick", function () {
+      _this.setState({
+        showAbout: !_this.state.showAbout
+      });
+    });
+
     _this.state = {
-      on: 'ALL'
-    };
-    _this.handleClick = _this.onClick.bind(_assertThisInitialized(_assertThisInitialized(_this)));
-    _this.exhibitionButtons = {
-      en: ['ALL EXHIBITIONS', 'SOLO EXHIBITIONS', 'GROUP EXHIBITIONS'],
-      it: ['TUTTE LE MOSTRE', 'MOSTRE PERSONALI', 'MOSTRE COLLETTIVE'],
-      zh: ['所有展览', '个展', '群展']
+      showAbout: false
     };
     return _this;
   }
 
-  _createClass(Biography, [{
-    key: "onClick",
-    value: function onClick(name) {
-      this.setState({
-        on: name
-      });
-    }
-  }, {
+  _createClass(Logo2About, [{
     key: "render",
     value: function render() {
-      var _this2 = this;
-
-      // debugger
-      var EXHIBITIONS = this.props.contents.exhibitions;
-      var BIOGRAPHY = this.props.contents.biography;
-      var exhibitions = {};
-
-      if (this.state.on === 'Solo') {
-        exhibitions = EXHIBITIONS[this.props.language][0];
-      } else if (this.state.on === 'Group') {
-        exhibitions = EXHIBITIONS[this.props.language][1];
-      } else if (this.state.on === 'ALL') {
-        // 遗憾 array 的数据没有合并在一起
-        // 1.
-
-        /*let obj = Object.assign({},{...this.props.exhibitions[this.props.language][0]},{...this.props.exhibitions[this.props.language][1]})*/
-        var solo = EXHIBITIONS[this.props.language][0];
-        var group = EXHIBITIONS[this.props.language][1];
-        var all = Object.assign({}, _objectSpread({}, solo));
-
-        for (var key in all) {
-          if (group[key]) {
-            all[key] = all[key].concat(group[key]);
-          }
-        }
-
-        exhibitions = Object.assign({}, _objectSpread({}, group), _objectSpread({}, all));
-      }
-
-      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", _extends({}, Object(glamor__WEBPACK_IMPORTED_MODULE_1__["css"])({
-        position: 'relative',
-        width: "".concat(this.props.width),
-        margin: 'auto',
-        //居中
-        minHeight: '60vh',
-        //为了footer
-        userSelect: 'none'
-      }), {
-        className: this.props.tabName
-      }), BIOGRAPHY[this.props.language].split('\n').map(function (item, key) {
-        return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-          key: "".concat(_this2.props.tabName, "_").concat(key, "_").concat(_this2.props.language)
-        }, item, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null));
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", Object(glamor__WEBPACK_IMPORTED_MODULE_1__["css"])({
-        display: 'flex',
-        flexDirection: 'row',
-        justifyContent: this.props.landscape ? 'flex-start' : 'center',
-
-        /*如果是手机居中*/
-        // marginLeft:'auto',
-        // marginRight:'auto',
-        // alignItems: 'center',
-        marginTop: '2rem',
-        marginBottom: '3rem'
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Button, {
-        name: this.exhibitionButtons[this.props.language][0],
-        landscape: this.props.landscape,
-        width: this.props.width,
-        onClick: function onClick() {
-          _this2.handleClick('ALL');
-        },
-        on: this.state.on === 'ALL'
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Button, {
-        name: this.exhibitionButtons[this.props.language][1],
-        landscape: this.props.landscape,
-        width: this.props.width,
-        onClick: function onClick() {
-          _this2.handleClick('Solo');
-        },
-        on: this.state.on === 'Solo'
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Button, {
-        name: this.exhibitionButtons[this.props.language][2],
-        landscape: this.props.landscape,
-        width: this.props.width,
-        onClick: function onClick() {
-          _this2.handleClick('Group');
-        },
-        on: this.state.on === 'Group'
-      })), Object.keys(exhibitions).map(function (item, index) {
-        return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", _extends({}, Object(glamor__WEBPACK_IMPORTED_MODULE_1__["css"])({
-          justifyContent: 'flex-start',
-          display: 'flex',
-          flexDirection: 'row'
-        }), {
-          key: "".concat(_this2.props.tabName, "_exhibitions_").concat(Object.keys(item), "_").concat(_this2.props.language, "_").concat(index)
-        }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", Object(glamor__WEBPACK_IMPORTED_MODULE_1__["css"])({
-          color: _utils_ui__WEBPACK_IMPORTED_MODULE_2__["ui"].color.b_o2,
-          fontWeight: 900
-        }), item), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", Object(glamor__WEBPACK_IMPORTED_MODULE_1__["css"])({
-          justifyContent: 'flex-start',
-          display: 'flex',
-          flexDirection: 'column',
-          marginLeft: _this2.props.landscape ? '2rem' : '0.8em',
-          marginBottom: '1rem'
-        }), exhibitions[item].map(function (s, i) {
-          return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", _extends({}, Object(glamor__WEBPACK_IMPORTED_MODULE_1__["css"])({
-            marginTop: '0.3em',
-            marginBottom: '0.3em',
-            userSelect: 'none'
-          }), {
-            key: "".concat(_this2.props.tabName, "_exhibitions_").concat(Object.keys(item), "_").concat(index, "_").concat(i)
-          }), "".concat(s));
-        })));
-      }));
-      /*return*/
-    }
-    /*render*/
-
-  }]);
-
-  return Biography;
-}(react__WEBPACK_IMPORTED_MODULE_0__["PureComponent"]);
-
-var mapStateToProps = function mapStateToProps(state) {
-  return {
-    // vw:state.Root.view_size.vw,
-    // landscape:state.Root.view_size.is_landscape,
-    language: state.Root.language,
-    landscape: state.Root.view_size.is_landscape // on:state.Tab.on,
-
-  };
-};
-
-var Comp = Object(react_redux__WEBPACK_IMPORTED_MODULE_3__["connect"])(mapStateToProps, null)(Biography);
-/* harmony default export */ __webpack_exports__["default"] = (Object(_artisti_tab_Wrapper__WEBPACK_IMPORTED_MODULE_5__["default"])()(Comp));
-
-/***/ }),
-
-/***/ "./components/artisti.tab.button.js":
-/*!******************************************!*\
-  !*** ./components/artisti.tab.button.js ***!
-  \******************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var glamor__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! glamor */ "./node_modules/glamor/lib/index.js");
-/* harmony import */ var glamor__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(glamor__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _utils_ui__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../utils/ui */ "./utils/ui.js");
-/* harmony import */ var _utils_ui__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_utils_ui__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
-/* harmony import */ var redux__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! redux */ "./node_modules/redux/es/index.js");
-/* harmony import */ var _reducers_artisti_tabs__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../reducers/artisti.tabs */ "./reducers/artisti.tabs.js");
-/* harmony import */ var _utils_mouse__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../utils/mouse */ "./utils/mouse.js");
-
-
-function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
-
-function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
-
-function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
-
-function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
-
-function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
-
-function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
-
-function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
-
-
-
-
-
-
-
-
-/**
- * 位于Avatar 右侧 的tab 导航栏
- * *** Component
- * COMP-1.TABS.BUTTONS 按钮
- * COMP-2.TBS.LINE 灰色斜线
- * *** 初始化工作
- * - 根据每个 ARTISTI 存在的Key生成 TAB.BUTTONS 按钮
- * - 储存每个TAB.BUTTONS 按钮位置 , 作为灰线移动依据
- * - 默认停留在第一个KEY - biography 上
- * *** Touch 选定交互
- * - 某个KEY (高亮) ,
- * - 灰色斜线(fixed) 移动至选定 Tab/Button 上
- * - reducer 发射通知 Artisti.Tab.section 组件 ,显示对相应KEY 的 value
- *
- */
-
-/* COMP-1.TABS.BUTTONS 按钮 */
-
-var TABS =
-/*#__PURE__*/
-function (_PureComponent) {
-  _inherits(TABS, _PureComponent);
-
-  function TABS(props) {
-    var _this;
-
-    _classCallCheck(this, TABS);
-
-    _this = _possibleConstructorReturn(this, _getPrototypeOf(TABS).call(this, props));
-    _this.handleClick = _this._onClickTab;
-    _this.tabs = ['BIOGRAPHY', 'WORKS', 'SELECTTEXTS', 'NEWS', 'EXHIBITIONS'];
-    _this.tabsName = {
-      it: ['BIOGRAFIA', 'OPERE', 'SELECTTEXTS', 'NOTIZIE', 'MOSTRE'],
-      zh: ['简  历', '作  品', '摘  文', '新  闻', '展  览'],
-      en: ['BIOGRAPHY', 'WORKS', 'SELECTTEXTS', 'NEWS', 'EXHIBITIONS']
-    };
-    return _this;
-  }
-
-  _createClass(TABS, [{
-    key: "componentDidMount",
-    value: function componentDidMount() {
-      var _this2 = this;
-
-      var obj = {};
-      this.tabs.map(function (tab) {
-        return obj[tab] = Object(_utils_mouse__WEBPACK_IMPORTED_MODULE_6__["findPos"])(_this2["$".concat(tab)]);
-      });
-      this.props.initTabs(obj);
-      /*用于网页刷新/跳转时初始化 各个Tabs 的状态*/
-      // 默认选择第一个Tab
-
-      var firstTab = this.tabs[0];
-      this.props.touchOnTab(firstTab);
-    }
-  }, {
-    key: "_onClickTab",
-    value: function _onClickTab(index) {
-      // debugger
-      var tabName = this.tabs[index];
-      this.props.touchOnTab(tabName);
-    }
-  }, {
-    key: "render",
-    value: function render() {
-      var _this3 = this;
-
-      return [react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", _extends({}, Object(glamor__WEBPACK_IMPORTED_MODULE_1__["css"])({
-        position: 'relative',
-        top: 0,
-        right: 0,
-        width: this.props.width,
+      var language = this.props.language || 'zh';
+      var landscape = this.props.landscape || false;
+      var vw = this.props.vw || 0;
+      var vh = this.props.vh || 0;
+      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", _extends({}, Object(glamor__WEBPACK_IMPORTED_MODULE_4__["css"])({
+        /*居中*/
         display: 'flex',
         flexDirection: 'column',
-        justifyContent: 'flex-end',
-        //space-around均匀分布
-        transformStyle: 'preserve-3d',
-        backfaceVisibility: 'hidden'
-      }), {
-        key: "TABS",
-        className: 'Buttons'
-      }), this.tabsName[this.props.language].map(function (tab, index) {
-        return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", _extends({}, Object(glamor__WEBPACK_IMPORTED_MODULE_1__["css"])({
-          // button
-          transformStyle: 'preserve-3d',
-          //@parallax
-          cursor: 'pointer',
-          marginTop: '1.5em',
-          // marginBottom:'.5em',
-          textAlign: 'right'
-        }), {
-          ref: function ref(c) {
-            return _this3["$".concat(_this3.tabs[index])] = c;
-          },
-          key: "tabs_".concat(index),
-          id: _this3.tabs[index],
-          className: 'tabsButtons',
-          onClick: _this3._onClickTab.bind(_this3, index) //传入tabName
-
-        }), tab);
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", _extends({}, Object(glamor__WEBPACK_IMPORTED_MODULE_1__["css"])({
-        position: 'absolute'
-      }), {
-        key: 'tabs_line'
-      }))]; //return
-    }
-  }]);
-
-  return TABS;
-}(react__WEBPACK_IMPORTED_MODULE_0__["PureComponent"]);
-
-var mapStateToProps = function mapStateToProps(state) {
-  return {
-    language: state.Root.language
-  };
-};
-
-var mapDispatchToProps = function mapDispatchToProps(dispatch) {
-  return {
-    initTabs: Object(redux__WEBPACK_IMPORTED_MODULE_4__["bindActionCreators"])(_reducers_artisti_tabs__WEBPACK_IMPORTED_MODULE_5__["initTabs"], dispatch),
-    touchOnTab: Object(redux__WEBPACK_IMPORTED_MODULE_4__["bindActionCreators"])(_reducers_artisti_tabs__WEBPACK_IMPORTED_MODULE_5__["touchOnTab"], dispatch)
-  };
-}; // export default Nav;
-
-
-/* harmony default export */ __webpack_exports__["default"] = (Object(react_redux__WEBPACK_IMPORTED_MODULE_3__["connect"])(mapStateToProps, mapDispatchToProps)(TABS)); // Post2Tabs = () => {
-//     this.tab_names = [
-//   ];,
-
-/***/ }),
-
-/***/ "./components/artisti.tab.selectText.js":
-/*!**********************************************!*\
-  !*** ./components/artisti.tab.selectText.js ***!
-  \**********************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var glamor__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! glamor */ "./node_modules/glamor/lib/index.js");
-/* harmony import */ var glamor__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(glamor__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _utils_ui__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../utils/ui */ "./utils/ui.js");
-/* harmony import */ var _utils_ui__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_utils_ui__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
-/* harmony import */ var redux__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! redux */ "./node_modules/redux/es/index.js");
-/* harmony import */ var _artisti_tab_Wrapper__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./artisti.tab.Wrapper */ "./components/artisti.tab.Wrapper.js");
-
-
-function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
-
-function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
-
-function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
-
-function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
-
-function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
-
-function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
-
-function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
-
-
-
-
-
-
-
-/*根据title 显示selectText*/
-
-var TitleButton =
-/*#__PURE__*/
-function (_PureComponent) {
-  _inherits(TitleButton, _PureComponent);
-
-  function TitleButton(props) {
-    _classCallCheck(this, TitleButton);
-
-    return _possibleConstructorReturn(this, _getPrototypeOf(TitleButton).call(this, props));
-  }
-
-  _createClass(TitleButton, [{
-    key: "render",
-    value: function render() {
-      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", _extends({}, Object(glamor__WEBPACK_IMPORTED_MODULE_1__["css"])({
-        // marginRight:'3rem',
-        cursor: 'pointer',
-        // width:'3rem',/*居中*/
-        color: this.props.activated ? _utils_ui__WEBPACK_IMPORTED_MODULE_2__["ui"].color.b_o1 : _utils_ui__WEBPACK_IMPORTED_MODULE_2__["ui"].color.b_o2,
-        fontWeight: this.props.activated ? 900 : 100
-      }), {
-        className: 'TITLEBUTTON' // key = {this.props.key}
-        ,
-        onClick: this.props.onClick
-      }), this.props.name);
-    }
-  }]);
-
-  return TitleButton;
-}(react__WEBPACK_IMPORTED_MODULE_0__["PureComponent"]);
-
-var SelectText =
-/*#__PURE__*/
-function (_PureComponent2) {
-  _inherits(SelectText, _PureComponent2);
-
-  function SelectText(props) {
-    var _this;
-
-    _classCallCheck(this, SelectText);
-
-    _this = _possibleConstructorReturn(this, _getPrototypeOf(SelectText).call(this, props));
-    _this.state = {
-      on: 0
-    };
-    _this.handleClick = _this.onClick.bind(_assertThisInitialized(_assertThisInitialized(_this)));
-    return _this;
-  }
-
-  _createClass(SelectText, [{
-    key: "onClick",
-    value: function onClick(index) {
-      this.setState({
-        on: index
-      });
-    }
-  }, {
-    key: "render",
-    value: function render() {
-      var _this2 = this;
-
-      var language = this.props.language;
-      var CONTENTS = this.props.contents;
-      var content = this.props.contents[this.state.on]['content'][language] || this.props.contents[this.state.on]['content']['en'] || this.props.contents[this.state.on]['content']['it'] || this.props.contents[this.state.on]['content']['zh'];
-      var title = this.props.contents[this.state.on]['title'][language] || this.props.contents[this.state.on]['title']['en'] || this.props.contents[this.state.on]['title']['it'] || this.props.contents[this.state.on]['title']['zh'];
-      var author = this.props.contents[this.state.on]['author'][language] || this.props.contents[this.state.on]['author']['en'] || this.props.contents[this.state.on]['author']['it'] || this.props.contents[this.state.on]['author']['zh']; // debugger
-
-      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", _extends({}, Object(glamor__WEBPACK_IMPORTED_MODULE_1__["css"])({
-        position: 'relative',
-        width: "".concat(this.props.width),
-        margin: 'auto',
-        //居中
-        minHeight: '60vh',
-        //为了footer
-        userSelect: 'none'
-      }), {
-        className: this.props.tabName
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", Object(glamor__WEBPACK_IMPORTED_MODULE_1__["css"])({
-        display: 'flex',
-        flexDirection: 'row',
-        justifyContent: this.props.landscape ? 'flex-start' : 'center',
-
-        /*如果是手机居中*/
-        // marginLeft:'auto',
-        // marginRight:'auto',
-        marginTop: '2rem',
-        marginBottom: '3rem'
-      }), this.props.contents.map(function (item, index) {
-        return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(TitleButton, {
-          name: item['title'][language],
-          onClick: function onClick() {
-            _this2.handleClick(index);
-          },
-          activated: _this2.state.on === index,
-          key: 'TITLEBUTTON' + language + index
-        });
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", Object(glamor__WEBPACK_IMPORTED_MODULE_1__["css"])({
-        display: 'flex',
-        flexDirection: 'column',
-        justifyContent: 'center',
-
-        /*如果是手机居中*/
         alignItems: 'center',
-        userSelect: 'none',
-        // marginLeft:'auto',
-        // marginRight:'auto',
-        marginTop: '2rem',
-        marginBottom: '3rem'
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "\u300A".concat(title, "\u300B")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", Object(glamor__WEBPACK_IMPORTED_MODULE_1__["css"])({
-        color: _utils_ui__WEBPACK_IMPORTED_MODULE_2__["ui"].color.b_o2
-      }), author)), content.split('\n').map(function (item, index) {
-        return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", _extends({}, Object(glamor__WEBPACK_IMPORTED_MODULE_1__["css"])({
-          textIndent: '2em'
-        }), {
-          key: "".concat(title, "_").concat(index, "_").concat(language)
-        }), item, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null));
+        position: 'absolute',
+        height: "fit-content",
+        width: landscape ? "".concat(_utils_ui__WEBPACK_IMPORTED_MODULE_5__["GR"].vw(3), "vw") : "".concat(_utils_ui__WEBPACK_IMPORTED_MODULE_5__["GR"].vw(1), "vw"),
+        // display: 'block',
+        marginLeft: landscape ? 'auto' : "".concat(_utils_ui__WEBPACK_IMPORTED_MODULE_5__["GR"].vw(6), "vw"),
+        marginTop: landscape ? 'auto' : "".concat(_utils_ui__WEBPACK_IMPORTED_MODULE_5__["GR"].vw(6), "vw"),
+        marginRight: 'auto',
+        marginBottom: 'auto',
+        top: 0,
+        left: 0,
+        right: 0,
+        bottom: 0,
+        cursor: 'pointer'
+      }), {
+        className: 'index_LOGO',
+        onClick: this.LogoClick
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_svg_icons_logo__WEBPACK_IMPORTED_MODULE_6__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_aboutBackGround__WEBPACK_IMPORTED_MODULE_7__["default"], {
+        showAbout: this.state.showAbout
       }));
-      /*return*/
     }
-    /*render*/
-
   }]);
 
-  return SelectText;
+  return Logo2About;
 }(react__WEBPACK_IMPORTED_MODULE_0__["PureComponent"]);
 
 var mapStateToProps = function mapStateToProps(state) {
   return {
-    // vw:state.Root.view_size.vw,
-    // landscape:state.Root.view_size.is_landscape,
+    vw: state.Root.view_size.vw,
+    vh: state.Root.view_size.vh,
+    landscape: state.Root.view_size.is_landscape,
     language: state.Root.language,
-    landscape: state.Root.view_size.is_landscape // on:state.Tab.on,
-
+    worksFocusOn: state.Tab.worksFocusOn
   };
 };
 
-var Comp = Object(react_redux__WEBPACK_IMPORTED_MODULE_3__["connect"])(mapStateToProps, null)(SelectText);
-/* harmony default export */ __webpack_exports__["default"] = (Object(_artisti_tab_Wrapper__WEBPACK_IMPORTED_MODULE_5__["default"])()(Comp));
+/* harmony default export */ __webpack_exports__["default"] = (Object(react_redux__WEBPACK_IMPORTED_MODULE_1__["connect"])(mapStateToProps, null)(Logo2About));
 
 /***/ }),
 
-/***/ "./components/artisti.tab.works.FULL_IMG.js":
-/*!**************************************************!*\
-  !*** ./components/artisti.tab.works.FULL_IMG.js ***!
-  \**************************************************/
+/***/ "./components/aboutBackGround.js":
+/*!***************************************!*\
+  !*** ./components/aboutBackGround.js ***!
+  \***************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -805,17 +192,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var glamor__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(glamor__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _utils_ui__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../utils/ui */ "./utils/ui.js");
 /* harmony import */ var _utils_ui__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_utils_ui__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
-/* harmony import */ var redux__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! redux */ "./node_modules/redux/es/index.js");
-/* harmony import */ var _img_work__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./img.work */ "./components/img.work.js");
+/* harmony import */ var gsap__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! gsap */ "./node_modules/gsap/esm/index.js");
+/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
+/* harmony import */ var redux__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! redux */ "./node_modules/redux/es/index.js");
 /* harmony import */ var _reducers_artisti_tabs__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../reducers/artisti.tabs */ "./reducers/artisti.tabs.js");
-/* harmony import */ var _svg_icons_chevron_left__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./svg/icons_chevron-left */ "./components/svg/icons_chevron-left.js");
-/* harmony import */ var _svg_icons_chevron_right__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./svg/icons_chevron-right */ "./components/svg/icons_chevron-right.js");
+/* harmony import */ var _reducers_nav__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../reducers/nav */ "./reducers/nav.js");
 
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
-
-function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
@@ -833,6 +217,7 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 
 function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
 
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
 
 
@@ -843,240 +228,161 @@ function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || func
 
 
 
-var Triangle =
+var Shape = function Shape(props) {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", _extends({}, Object(glamor__WEBPACK_IMPORTED_MODULE_1__["css"])({
+    /*初始值*/
+    opacity: 0,
+    visibility: 'hidden',
+    // transform: 'scale(0) translate(-50%, -50%)',
+    transform: 'scale(0)',
+
+    /*初始值*/
+
+    /*center*/
+    zIndex: 10,
+    position: 'absolute',
+
+    /*center*/
+    left: 0,
+    right: 0,
+    background: props.color || _utils_ui__WEBPACK_IMPORTED_MODULE_2__["ui"].color.w_o2,
+    width: "".concat(props.width || 1400, "px"),
+    height: "".concat(props.height || 1400, "px")
+  }), {
+    className: 'aboutBG'
+  }));
+};
+
+var AboutBG =
 /*#__PURE__*/
 function (_PureComponent) {
-  _inherits(Triangle, _PureComponent);
+  _inherits(AboutBG, _PureComponent);
 
-  function Triangle(props) {
-    _classCallCheck(this, Triangle);
+  function AboutBG(props) {
+    _classCallCheck(this, AboutBG);
 
-    return _possibleConstructorReturn(this, _getPrototypeOf(Triangle).call(this, props));
+    return _possibleConstructorReturn(this, _getPrototypeOf(AboutBG).call(this, props));
   }
 
-  _createClass(Triangle, [{
-    key: "render",
-    value: function render() {
-      var size = this.props.size;
-      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("svg", _extends({}, Object(glamor__WEBPACK_IMPORTED_MODULE_1__["css"])({
-        width: size,
-        position: 'absolute'
-      }), {
-        viewBox: "0 0 1 1"
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("polygon", {
-        fill: _utils_ui__WEBPACK_IMPORTED_MODULE_2__["ui"].color.b_o2,
-        stroke: "none",
-        points: "0,0 " + //left_top
-        "1,0 " + //right_top
-        "0,1 " //right_bottom
+  _createClass(AboutBG, [{
+    key: "componentDidMount",
+    value: function componentDidMount() {} // this.close();
+    // 两个数之间的随机值
 
-      }));
+  }, {
+    key: "getRandomInt",
+    value: function getRandomInt(min, max) {
+      min = Math.ceil(min);
+      max = Math.floor(max);
+      return Math.floor(Math.random() * (max - min)) + min; //The maximum is exclusive and the minimum is inclusive
     }
-  }]);
+    /*
+                // ease: Power4.easeOut,
+                  // ease: Elastic.easeOut.config(1, 0.3),
+                   ease:Back.easeOut.config(2),
+                  // ease: Elastic.easeOut.config(1, 0.3),
+                  ease: Back.easeIn.config(2)
+       */
 
-  return Triangle;
-}(react__WEBPACK_IMPORTED_MODULE_0__["PureComponent"]);
+  }, {
+    key: "toInfo",
+    value: function toInfo() {
+      var rot_value = this.props.landscape ? 500 : -122; // console.log(`toInfo_${rot_value}`)
 
-var FullWork =
-/*#__PURE__*/
-function (_PureComponent2) {
-  _inherits(FullWork, _PureComponent2);
+      this.props.setPanelOn('show');
+      gsap__WEBPACK_IMPORTED_MODULE_3__["TweenMax"].staggerTo(".aboutBG", 0.5, {
+        scale: 1,
+        rotationZ: rot_value,
+        transformOrigin: "center center",
+        ease: Power4.easeOut,
+        autoAlpha: 1 //opacity:0,visibility:'hidden'
 
-  function FullWork(props) {
-    var _this;
-
-    _classCallCheck(this, FullWork);
-
-    _this = _possibleConstructorReturn(this, _getPrototypeOf(FullWork).call(this, props));
-    _this.handleClickClose = _this.closeOnClick.bind(_assertThisInitialized(_assertThisInitialized(_this)));
-    _this.state = {
-      showArrows: false
-    };
-    return _this;
-  }
-
-  _createClass(FullWork, [{
-    key: "closeOnClick",
-    value: function closeOnClick() {
-      this.props.setFocusOn(-1);
+      }, 0.06);
     }
   }, {
-    key: "nextOnClick",
-    value: function nextOnClick(index) {
-      // debugger
-      if (index + 1 === this.props.contents.length) {
-        index = -1;
+    key: "toLogo",
+    value: function toLogo() {
+      var rot_value = this.getRandomInt(-360, 360); // console.log(`toLogo_${rot_value}`)
+
+      this.props.setPanelOn('close');
+      gsap__WEBPACK_IMPORTED_MODULE_3__["TweenMax"].staggerTo(".aboutBG", 0.3, {
+        scale: 0.1,
+        rotationZ: rot_value,
+        transformOrigin: "center center",
+        // ease: Power4.easeOut,
+        autoAlpha: 0 //opacity:0,visibility:'hidden'
+
+      }, 0.06);
+    }
+  }, {
+    key: "componentWillReceiveProps",
+    value: function componentWillReceiveProps(nextProps) {
+      if (nextProps.showAbout !== this.props.showAbout) {
+        if (nextProps.showAbout === false) {
+          this.toLogo();
+        } else {
+          this.toInfo();
+        }
       }
-
-      this.props.setFocusOn(index + 1);
-    }
-  }, {
-    key: "prevOnClick",
-    value: function prevOnClick(index) {
-      // if(index===this.props.contents.length) {index=-1;debugger}
-      this.props.setFocusOn(index - 1);
     }
   }, {
     key: "render",
     value: function render() {
-      var _this2 = this;
+      var _this = this;
 
-      if (this.props.worksFocusOn === undefined || this.props.worksFocusOn === -1) return null;
-      var index = this.props.worksFocusOn;
-      /*跳转前一张或者后一张*/
-
-      var landscape = this.props.landscape; // debugger
-
-      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", _extends({}, Object(glamor__WEBPACK_IMPORTED_MODULE_1__["css"])({
+      var _this$props = this.props,
+          landscape = _this$props.landscape,
+          vw = _this$props.vw,
+          vh = _this$props.vh;
+      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", Object(glamor__WEBPACK_IMPORTED_MODULE_1__["css"])({
         position: 'fixed',
-        height: '100vh',
-        width: '100vw',
-        left: 0,
-        top: 0,
-        right: 0,
-        zIndex: 9,
-        // backgroundColor:'rgba(240,240,240,.95)',
-        background: 'rgba(240,240,240,.99)',
-        transition: 'background 1s cubic-bezier(0, 0.6, 0, 1)',
-        willChange: 'background',
-        pointerEvents: 'none'
-      }), {
-        className: "FullWork"
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", Object(glamor__WEBPACK_IMPORTED_MODULE_1__["css"])({
-        /*居中*/
-        position: 'fixed',
-        display: 'flex',
-        justifyContent: 'space-between',
-        left: 0,
-        top: 0,
-        width: '100vw',
-        height: '100vh',
-        pointerEvents: 'auto',
-        zIndex: 11,
-        opacity: 0,
-        // height: `fit-content`,
-        // width: landscape?`${GR.vw(8)}vw`:`${GR.vw(5)}vw`,
-        cursor: 'pointer',
-        ':hover': {
-          opacity: 1,
-          transition: 'opacity 1s'
-        }
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", _extends({}, Object(glamor__WEBPACK_IMPORTED_MODULE_1__["css"])({
-        /*居中*/
-        // position: 'fixed',
-        // left:0,
-        // top:0,
-        zIndex: 12,
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: landscape ? 'center' : 'flex-start',
-        margin: landscape ? '0' : '.6em',
-        height: '100vh',
-        width: '33vw',
-        pointerEvents: 'all',
-        cursor: 'pointer'
-      }), {
-        onClick: function onClick() {
-          _this2.prevOnClick(_this2.props.worksFocusOn);
-        }
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_svg_icons_chevron_left__WEBPACK_IMPORTED_MODULE_7__["default"], {
-        size: 30,
-        color: _utils_ui__WEBPACK_IMPORTED_MODULE_2__["ui"].color.b_o2,
-        strokeWidth: 0.75
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", _extends({}, Object(glamor__WEBPACK_IMPORTED_MODULE_1__["css"])({
-        /*居中*/
-        // position: 'fixed',
-        zIndex: 12,
-        display: 'flex',
-        alignItems: 'center',
-        height: '100vh',
-        width: '33vw',
-        pointerEvents: 'all',
-        cursor: 'pointer'
-      }), {
-        onClick: this.handleClickClose
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", _extends({}, Object(glamor__WEBPACK_IMPORTED_MODULE_1__["css"])({
-        /*居中*/
-        // position: 'fixed',
-        // left:0,
-        // top:0,
-        zIndex: 12,
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: landscape ? 'center' : 'flex-end',
-        margin: landscape ? '0' : '.6em',
-        height: '100vh',
-        width: '33vw',
-        pointerEvents: 'all',
-        cursor: 'pointer'
-      }), {
-        onClick: function onClick() {
-          _this2.nextOnClick(_this2.props.worksFocusOn);
-        }
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_svg_icons_chevron_right__WEBPACK_IMPORTED_MODULE_8__["default"], {
-        size: 30,
-        color: _utils_ui__WEBPACK_IMPORTED_MODULE_2__["ui"].color.b_o2,
-        strokeWidth: 0.75
-      }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", Object(glamor__WEBPACK_IMPORTED_MODULE_1__["css"])({
-        position: 'absolute',
+        overflow: 'hidden',
         display: 'flex',
         justifyContent: 'center',
-        pointerEvents: 'auto',
-        alignItems: landscape ? 'flex-end' : 'flex-start',
-        // width:this.props.vw,
-        zIndex: 10,
+        alignItems: 'center',
         top: 0,
         left: 0,
-        height: '100vh',
-        width: '100vw'
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", Object(glamor__WEBPACK_IMPORTED_MODULE_1__["css"])({
-        position: 'absolute',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'flex-start',
-        // backgroundColor:ui.color.b_o2,
-        // flexDirection:landscape?'row':'column',
-        width: this.props.vw
-      }), landscape ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", Object(glamor__WEBPACK_IMPORTED_MODULE_1__["css"])({
-        width: landscape ? '2rem' : '1rem',
-        height: landscape ? '2rem' : '1rem',
-        paddingBottom: '2rem',
-        paddingTop: '2rem' // paddingLeft:'2rem',
+        width: '100vw',
+        height: '100vh'
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Shape, {
+        width: vw,
+        height: vh
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Shape, {
+        width: vw,
+        height: vh
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Shape, {
+        width: vw,
+        height: vh
+      }), this.props.showAbout ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", Object(glamor__WEBPACK_IMPORTED_MODULE_1__["css"])({
+        // fontSize:'14px',
+        position: 'relative',
+        zIndex: 13,
+        width: landscape ? "45vw" : "80vw",
+        overflowY: 'auto',
+        maxHeight: landscape ? '58vh' : '58vh',
+        fontSize: '0.8em' // height:'100vh',
+        // zIndex:10,
 
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Triangle, {
-        size: landscape ? '2rem' : '1rem'
-      })) : null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", Object(glamor__WEBPACK_IMPORTED_MODULE_1__["css"])({
-        color: _utils_ui__WEBPACK_IMPORTED_MODULE_2__["ui"].color.b_o3,
-        fontWeight: 1000,
-        fontSize: landscape ? '1.5rem' : '1rem',
-        paddingBottom: '2rem',
-        paddingTop: '2rem',
-        paddingLeft: '0.8rem'
-      }), this.props.contents[this.props.worksFocusOn].time), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", Object(glamor__WEBPACK_IMPORTED_MODULE_1__["css"])({
-        color: _utils_ui__WEBPACK_IMPORTED_MODULE_2__["ui"].color.b_o1,
-        paddingBottom: '2rem',
-        paddingTop: '2rem',
-        paddingLeft: landscape ? '1rem' : '.5rem',
-        width: landscape ? 'auto' : '13em'
-      }), this.props.contents[this.props.worksFocusOn].title[this.props.language]), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", Object(glamor__WEBPACK_IMPORTED_MODULE_1__["css"])({
-        color: _utils_ui__WEBPACK_IMPORTED_MODULE_2__["ui"].color.b_o2,
-        fontSize: landscape ? '0.8rem' : '0.4rem',
-        paddingBottom: '2rem',
-        paddingTop: '2rem',
-        paddingLeft: '0.8rem'
-      }), this.props.contents[this.props.worksFocusOn].dim))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_img_work__WEBPACK_IMPORTED_MODULE_5__["IMG_WithLoader"], {
-        src: this.props.contents[this.props.worksFocusOn].img,
-        height: this.props.vh * 0.8,
-        width: this.props.vw * 0.8,
-        fullWidth: true,
-        fetch: true,
-        key: this.props.contents[this.props.worksFocusOn].img
-      }));
+      }), aboutInfo["".concat(this.props.language)].split('\n').map(function (item, key) {
+        return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", _extends({}, Object(glamor__WEBPACK_IMPORTED_MODULE_1__["css"])({// fontSize:'.5em',
+          // paddingTop:'2em',
+          // paddingLeft:'2em',
+          // paddingRight:'2em',
+        }), {
+          key: "aboutInfo_".concat(_this.props.language, "_").concat(key) // className = {'aboutBG'}
+
+        }), item, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null));
+      })) : null);
+      /*return*/
     }
+    /*render*/
+
   }]);
 
-  return FullWork;
-}(react__WEBPACK_IMPORTED_MODULE_0__["PureComponent"]);
+  return AboutBG;
+}(react__WEBPACK_IMPORTED_MODULE_0__["PureComponent"]); //aboutInfo[`en`]
+//aboutInfo[`${this.props.language}`]
+
 
 var mapStateToProps = function mapStateToProps(state) {
   return {
@@ -1092,207 +398,16 @@ var mapStateToProps = function mapStateToProps(state) {
 
 var mapDispatchToProps = function mapDispatchToProps(dispatch) {
   return {
-    setFocusOn: Object(redux__WEBPACK_IMPORTED_MODULE_4__["bindActionCreators"])(_reducers_artisti_tabs__WEBPACK_IMPORTED_MODULE_6__["setFocusOn"], dispatch)
+    setPanelOn: Object(redux__WEBPACK_IMPORTED_MODULE_5__["bindActionCreators"])(_reducers_nav__WEBPACK_IMPORTED_MODULE_7__["setPanelOn"], dispatch)
   };
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (Object(react_redux__WEBPACK_IMPORTED_MODULE_3__["connect"])(mapStateToProps, mapDispatchToProps)(FullWork));
-
-/***/ }),
-
-/***/ "./components/artisti.tab.works.js":
-/*!*****************************************!*\
-  !*** ./components/artisti.tab.works.js ***!
-  \*****************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var glamor__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! glamor */ "./node_modules/glamor/lib/index.js");
-/* harmony import */ var glamor__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(glamor__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _utils_ui__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../utils/ui */ "./utils/ui.js");
-/* harmony import */ var _utils_ui__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_utils_ui__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _artisti_tab_Wrapper__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./artisti.tab.Wrapper */ "./components/artisti.tab.Wrapper.js");
-/* harmony import */ var _img__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./img */ "./components/img.js");
-/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
-/* harmony import */ var redux__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! redux */ "./node_modules/redux/es/index.js");
-/* harmony import */ var _reducers_artisti_tabs__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../reducers/artisti.tabs */ "./reducers/artisti.tabs.js");
-/* harmony import */ var _reducers_nav__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../reducers/nav */ "./reducers/nav.js");
-
-
-function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
-
-function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
-
-function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
-
-function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
-
-function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
-
-function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
-
-function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
-
-
-
-
-
-
-
-
-
-
-/*Button_IMG */
-// class Button_IMG extends PureComponent {
-//     constructor(props){
-//         super(props);
-//     }
-//     render(){
-//         return(
-//             <div
-//              {...css({
-//                 marginRight:'3rem',
-//                 cursor:'pointer',
-//                 opacity:this.props.on?1:0,
-//                 fontWeight:this.props.on?900:100,
-//              })}
-//             >{this.props.name}</div>
-//         )
-//     }
-// }
-
-var Works =
-/*#__PURE__*/
-function (_PureComponent) {
-  _inherits(Works, _PureComponent);
-
-  function Works(props) {
-    var _this;
-
-    _classCallCheck(this, Works);
-
-    _this = _possibleConstructorReturn(this, _getPrototypeOf(Works).call(this, props));
-    _this.state = {
-      ctxLength: 9
-    };
-    _this.ctxMax = 0;
-    _this.handleClick = _this.callFullWork.bind(_assertThisInitialized(_assertThisInitialized(_this)));
-    _this.handleClickMore = _this.reqMoreWork.bind(_assertThisInitialized(_assertThisInitialized(_this)));
-    return _this;
-  }
-
-  _createClass(Works, [{
-    key: "callFullWork",
-    value: function callFullWork(index) {
-      console.log(index);
-      this.props.setFocusOn(index);
-      this.props.setPanelOn('close');
-    }
-  }, {
-    key: "reqMoreWork",
-    value: function reqMoreWork() {
-      this.setState({
-        ctxLength: this.state.ctxLength + 9
-      });
-    }
-  }, {
-    key: "componentDidMount",
-    value: function componentDidMount() {
-      this.props.setFocusOn(-1);
-    }
-  }, {
-    key: "componentshouldupdate",
-    value: function componentshouldupdate(nextProps) {
-      if (this.props.vw !== nextProps.vw || this.props.landscape !== nextProps.landscape) {
-        return true;
-      } else {
-        return false;
-      }
-    }
-  }, {
-    key: "render",
-    value: function render() {
-      var _this2 = this;
-
-      var vw = this.props.vw;
-      var width = this.props.landscape ? width : vw;
-      var size = this.props.width / 3.1;
-      var shouldFetch = vw === undefined ? false : true;
-      var contents = this.props.contents.filter(function (item, index) {
-        return index < _this2.state.ctxLength;
-      });
-      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", Object(glamor__WEBPACK_IMPORTED_MODULE_1__["css"])({
-        display: 'flex',
-        flexDirection: 'row',
-        flexWrap: 'wrap',
-        width: "".concat(this.props.width),
-        margin: 'auto' //居中
-
-      }), contents.map(function (item, index) {
-        return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", _extends({}, Object(glamor__WEBPACK_IMPORTED_MODULE_1__["css"])({
-          justifyContent: 'flex-start',
-          margin: "1px",
-          cursor: 'pointer'
-        }), {
-          key: "working_".concat(index),
-          onClick: function onClick() {
-            _this2.handleClick(index);
-          }
-        }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_img__WEBPACK_IMPORTED_MODULE_4__["IMG_WithLoader"], {
-          src: item.img,
-          height: size,
-          width: size,
-          fullWidth: true,
-          fetch: shouldFetch
-        }));
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", _extends({}, Object(glamor__WEBPACK_IMPORTED_MODULE_1__["css"])({
-        display: 'flex',
-        width: '100%',
-        justifyContent: 'center',
-        alignItems: 'center',
-        cursor: 'pointer',
-        height: '20vh',
-        fontSize: '1.5rem'
-      }), {
-        onClick: this.handleClickMore
-      }), 'more'));
-      /*return*/
-    }
-    /*render*/
-
-  }]);
-
-  return Works;
-}(react__WEBPACK_IMPORTED_MODULE_0__["PureComponent"]);
-
-var mapStateToProps = function mapStateToProps(state) {
-  return {
-    vw: state.Root.view_size.vw,
-    landscape: state.Root.view_size.is_landscape // on:state.Tab.on,
-
-  };
+/* harmony default export */ __webpack_exports__["default"] = (Object(react_redux__WEBPACK_IMPORTED_MODULE_4__["connect"])(mapStateToProps, mapDispatchToProps)(AboutBG));
+var aboutInfo = {
+  "it": "Zhong Art International siamo una realtà con sede in Italia e in Cina che opera nel campo dell'Arte e delle Attività Culturali la cui Mission consiste nell’organizzare mostre d’arte ed eventi. Abbiamo parternship con Enti ed Istituzioni, tra cui il Ministero della Cultura cinese, i Consolati e le Ambasciate in Cina in Italia ed siamo impegnati inoltre a favorire scambi culturali tra Università ed Accademie, Musei statali e privati. \nOltre all’organizzazione di mostre temporanee ci dedichiamo alla realizzazione di tutte quelle attività che possono creare un ponte culturale tra Italia e Cina e favorire rapporti di scambio tra Enti ed Istituti dei due Paesi, progetti e collaborazioni che uniscono realtà che hanno come fondamento l’Arte e la Cultura.\nLo scopo che guida tutta la nostra attività è quello di creare un collegamento tra due antiche culture quali la Cina e l’Italia.\nCrediamo che l’arte sia il mezzo di comunicazione più efficace ed immediato, l’unico in grado di superare ogni difficoltà e barriere linguistiche. Stimolare, incuriosire e far conoscere nuove realtà: questo è il nostro proposito, e ci auguriamo di farlo sempre al  meglio lasciando qualcosa di importante alle generazioni future.\nPartendo da quelle che sono le esigenze ed i desideri del cliente siamo in grado di progettare, organizzare e realizzare Eventi e Mostre di alto profilo scientifico, con elevata creatività ed esperienza professionale, offrendo servizi e consulenze su misura per ogni occasione.\nFondata nel 2017 Zhong Art International, Agenzia di Organizzazione Eventi, fortemente radicata nel territorio fiorentino e a Beijing, offre un ventaglio di servizi completo. Un team di professionisti al tuo fianco per assicurare qualità, serietà e risultati. ",
+  "zh": "中艺国际是一个位于意大利佛罗伦萨的国际性艺术与文化交流机构。\n成立于2017年，在中国北京和意大利佛罗伦萨均有办事机构，我们的宗旨是为中国和意大利两国提供文化领域的交流与合作，通过积极为两国的艺术机构之间和艺术家之间策划展览和艺术家之间的学术交流活动，推动促进两国文化积极友好的发展。\n我们与意大利很多国家级的很多重要文化机构如文化部、大使馆等都有长期项目往来，与一些艺术类高等院校如罗马美术学院、佛罗伦萨大学美术学院、欧洲设计学院等都有校际合作关系。\n我们为专业人士提供专业性对接交流，旨在为中国和意大利两国的艺术发展建立文化沟通的桥梁。\n",
+  "en": " Zhong Art International is a reality based in Italy and China, which operates in the field of Arts and Cultural Activities Italy-China. Our main activity is organizing art exhibitions and cultural events. We have parternships with Entities and Institutions, including the Chinese Ministry of Culture, Consulates and Embassies both in China and in Italy, as well as cultural exchanges between Universities and Academies, State and Private Museums, and the most important artistic organization of the country.\nIn addition to exhibitions, we are dedicated to the realization of all those activities that can create a cultural bridge between Italy and China: for example, we work to create new and lasting exchanges between institutions and institutes of the two countries, projects and collaborations that combine similar realities the basis of Art and Culture.\nThe root of our work, the will that drives our whole business, is the commitment to create a strong link between two ancient cultures—China and Italy. We believe that art is the most effective and immediate ways of communication, the only one able to overcome every difficulty and language barriers. Our purpose today is to stimulate the culture’s vitality, to excite our curiosity and to create some new meaningful activities,  and we hope that in the future we can make a prosperous world for our next generation.\nStarting from the demands of our customers, we are able to organize quality events with high creativity and professional experience, offering customized services and practical consultations for every occasions.\nFounded in 2017, Zhong Art International, a highly organized event agency in the Florence and Beijing areas, offers a full range of services.We are the propagators of Chinese art and culture, we strive to promote them to be duly appreciated in Italy. A team of professionals beside you to ensure the quality, reliability and results. "
 };
-
-var mapDispatchToProps = function mapDispatchToProps(dispatch) {
-  return {
-    setFocusOn: Object(redux__WEBPACK_IMPORTED_MODULE_6__["bindActionCreators"])(_reducers_artisti_tabs__WEBPACK_IMPORTED_MODULE_7__["setFocusOn"], dispatch),
-    //nav
-    setPanelOn: Object(redux__WEBPACK_IMPORTED_MODULE_6__["bindActionCreators"])(_reducers_nav__WEBPACK_IMPORTED_MODULE_8__["setPanelOn"], dispatch)
-  };
-};
-
-var Comp = Object(react_redux__WEBPACK_IMPORTED_MODULE_5__["connect"])(mapStateToProps, mapDispatchToProps)(Works);
-/* harmony default export */ __webpack_exports__["default"] = (Object(_artisti_tab_Wrapper__WEBPACK_IMPORTED_MODULE_3__["default"])()(Comp));
 
 /***/ }),
 
@@ -2048,269 +1163,6 @@ var mapDispatchToProps = function mapDispatchToProps(dispatch) {
 
 /***/ }),
 
-/***/ "./components/controller.scroll.js":
-/*!*****************************************!*\
-  !*** ./components/controller.scroll.js ***!
-  \*****************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var redux__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! redux */ "./node_modules/redux/es/index.js");
-/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
-/* harmony import */ var _utils_device__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../utils/device */ "./utils/device.js");
-/* harmony import */ var _utils_device__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_utils_device__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _reducers_root__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../reducers/root */ "./reducers/root.js");
-/* harmony import */ var lodash_throttle__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! lodash/throttle */ "./node_modules/lodash/throttle.js");
-/* harmony import */ var lodash_throttle__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(lodash_throttle__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var lodash_debounce__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! lodash/debounce */ "./node_modules/lodash/debounce.js");
-/* harmony import */ var lodash_debounce__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(lodash_debounce__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var react_no_ssr__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react-no-ssr */ "./node_modules/react-no-ssr/index.js");
-/* harmony import */ var react_no_ssr__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(react_no_ssr__WEBPACK_IMPORTED_MODULE_7__);
-function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
-
-function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
-
-function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
-
-function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
-
-function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
-
-function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
-
-function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
-
- // import ReactDOM from 'react-dom'
-// import fetch from 'isomorphic-fetch' //
-
-
-
-
- // import {throttle, debounce}  from 'utils/throttle'
-
-
-
-
-
-var Scroller =
-/*#__PURE__*/
-function (_PureComponent) {
-  _inherits(Scroller, _PureComponent);
-
-  function Scroller(props) {
-    var _this;
-
-    _classCallCheck(this, Scroller);
-
-    _this = _possibleConstructorReturn(this, _getPrototypeOf(Scroller).call(this, props));
-    /*throttle 支持过程中间切换更快,但safari 造成重新布局卡顿*/
-    // this.lazySetOnUp = debounce(this.isScrollUp,100,{leading:false});
-
-    _defineProperty(_assertThisInitialized(_assertThisInitialized(_this)), "isScrollUp", function () {
-      // debugger
-      _this._scrollY = _this.props.BarOnId ? _this.$win.scrollTop : window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop;
-      if (_this._scrollY === _this._prevScrollY) return;
-
-      if (_this._scrollY - _this._prevScrollY <= 0) {
-        // is up ?
-        console.log('↑');
-
-        _this.props.setScroll(true);
-      } else {
-        console.log('↓');
-
-        _this.props.setScroll(false);
-      } // 刷新当前scroll所在位置
-
-
-      _this._prevScrollY = _this._scrollY;
-    });
-
-    _defineProperty(_assertThisInitialized(_assertThisInitialized(_this)), "updateY", function () {
-      var y = _this.props.BarOnId ? _this.$win.scrollTop : window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop;
-      _this._scrollY = y; // this.props.setScrollOffsetY(y);
-      // debounce(this.props.setScrollOffsetY, 100);
-    });
-
-    _defineProperty(_assertThisInitialized(_assertThisInitialized(_this)), "handleScroll", function (event) {
-      event.preventDefault(); // 阻止事件继续传播
-
-      event.stopPropagation(); // 取消事件的默认行为
-      // this.lazyY()
-
-      _this.lazySetOnUp();
-    });
-
-    _this.lazySetOnUp = lodash_throttle__WEBPACK_IMPORTED_MODULE_5___default()(_this.isScrollUp, 500); // this.lazyY = debounce(this.updateY,200)
-
-    _this._prevScrollY = 0;
-    return _this;
-  }
-
-  _createClass(Scroller, [{
-    key: "componentDidMount",
-    value: function componentDidMount() {
-      // 根据是否设置了滚动区域 ,决定 Listener 安装的元素
-      this.$win = this.props.BarOnId ? document.getElementById(this.props.BarOnId) : window; // 根据是否设置了滚动区域 ,决定从哪个元素获取 scroltop 的参数
-
-      this._prevScrollY = this.props.BarOnId ? this.$win.scrollTop : window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop;
-      this.$win.addEventListener('scroll', this.handleScroll, false); // debugger
-    }
-  }, {
-    key: "componentWillMount",
-    value: function componentWillMount() {
-      if (typeof this.$win == 'undefined') return;
-      this.$win.removeEventListener('scroll', this.handleScroll, false);
-    }
-  }, {
-    key: "componentWillUnmount",
-    value: function componentWillUnmount() {
-      if (typeof this.$win == 'undefined') return; //首次访问会出现无法识别windows
-
-      this.$win.removeEventListener('scroll', this.handleScroll, false);
-    }
-  }, {
-    key: "render",
-    value: function render() {
-      return null;
-    }
-  }]);
-
-  return Scroller;
-}(react__WEBPACK_IMPORTED_MODULE_0__["PureComponent"]); // const mapStateToProps = (state) => ({
-//     view_size:state.Root.view_size,
-// });
-
-
-var mapDispatchToProps = function mapDispatchToProps(dispatch) {
-  return {
-    // root
-    setScroll: Object(redux__WEBPACK_IMPORTED_MODULE_1__["bindActionCreators"])(_reducers_root__WEBPACK_IMPORTED_MODULE_4__["setScroll"], dispatch),
-    setScrollOffsetY: Object(redux__WEBPACK_IMPORTED_MODULE_1__["bindActionCreators"])(_reducers_root__WEBPACK_IMPORTED_MODULE_4__["setScrollOffsetY"], dispatch) // setBrowser: bindActionCreators(setBrowser, dispatch),
-
-  };
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (Object(react_redux__WEBPACK_IMPORTED_MODULE_2__["connect"])(null, mapDispatchToProps)(Scroller));
-
-/***/ }),
-
-/***/ "./components/copyright.js":
-/*!*********************************!*\
-  !*** ./components/copyright.js ***!
-  \*********************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var glamor__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! glamor */ "./node_modules/glamor/lib/index.js");
-/* harmony import */ var glamor__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(glamor__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _utils_ui__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../utils/ui */ "./utils/ui.js");
-/* harmony import */ var _utils_ui__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_utils_ui__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
-
-
-function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
-
-function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
-
-function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
-
-function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
-
-function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
-
-function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
-
-function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
-
-function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
-
-
-
-
-
-
-var Copyright =
-/*#__PURE__*/
-function (_PureComponent) {
-  _inherits(Copyright, _PureComponent);
-
-  function Copyright(props) {
-    var _this;
-
-    _classCallCheck(this, Copyright);
-
-    _this = _possibleConstructorReturn(this, _getPrototypeOf(Copyright).call(this, props));
-    _this.ctx = {
-      'zh': 'Copyright © 2017 中艺国际 All rights reserved',
-      'it': 'Copyright © 2017 ZHONG ART INTERNATIONAL All rights reserved',
-      'en': 'Copyright © 2017 ZHONG ART INTERNATIONAL All rights reserved'
-    };
-    return _this;
-  }
-  /*
-  this.ctx ={
-          'zh':'Copyright © 2017 中艺国际有限公司.All rights reserved',
-          'it':'Copyright © 2017 ZHONG ART INTERNATIONAL SRL.All rights reserved',
-          'en':'Copyright © 2017 ZHONG ART INTERNATIONAL LTD.All rights reserved',
-      }
-   */
-
-
-  _createClass(Copyright, [{
-    key: "render",
-    value: function render() {
-      var _css;
-
-      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", _extends({}, Object(glamor__WEBPACK_IMPORTED_MODULE_1__["css"])((_css = {
-        color: _utils_ui__WEBPACK_IMPORTED_MODULE_2__["ui"].color.b_o2,
-        position: 'relative',
-        right: 0,
-        left: 0,
-        bottom: 0,
-        textAlign: 'center',
-        paddingBottom: '0.5rem'
-      }, _defineProperty(_css, "textAlign", "center"), _defineProperty(_css, "margin", this.props.landscape ? '0 5em 1em 5em' : '0 1em 1em 1em'), _css)), {
-        key: "COPYRIGHT_".concat(this.props.language)
-      }), this.ctx[this.props.language]);
-    }
-  }]);
-
-  return Copyright;
-}(react__WEBPACK_IMPORTED_MODULE_0__["PureComponent"]);
-
-var mapStateToProps = function mapStateToProps(state) {
-  return {
-    // vw:state.Root.view_size.vw,
-    landscape: state.Root.view_size.is_landscape,
-    language: state.Root.language
-  };
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (Object(react_redux__WEBPACK_IMPORTED_MODULE_3__["connect"])(mapStateToProps, null)(Copyright));
-
-/***/ }),
-
 /***/ "./components/img.js":
 /*!***************************!*\
   !*** ./components/img.js ***!
@@ -2633,714 +1485,6 @@ function (_PureComponent2) {
       }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_Loading, {
         width: this.props.width,
         height: this.props.height,
-        show: this.state.loaded == false,
-        percent: this.state.percent,
-        left: this.props.left,
-        top: this.props.top,
-        key: "_LOADIMGER_".concat(this.key)
-      }));
-    }
-  }]);
-
-  return IMG_WithLoader;
-}(react__WEBPACK_IMPORTED_MODULE_1__["PureComponent"]);
-
-/***/ }),
-
-/***/ "./components/img.parallax.js":
-/*!************************************!*\
-  !*** ./components/img.parallax.js ***!
-  \************************************/
-/*! exports provided: _IMG, default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "_IMG", function() { return _IMG; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return IMG_WithLoader; });
-/* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/regenerator */ "./node_modules/@babel/runtime/regenerator/index.js");
-/* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var glamor__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! glamor */ "./node_modules/glamor/lib/index.js");
-/* harmony import */ var glamor__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(glamor__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _utils_Progress__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../utils/Progress */ "./utils/Progress.js");
-/* harmony import */ var _utils_Progress__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_utils_Progress__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _utils_ui__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../utils/ui */ "./utils/ui.js");
-/* harmony import */ var _utils_ui__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_utils_ui__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _utils_img__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../utils/img */ "./utils/img.js");
-
-
-
-function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
-
-function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { Promise.resolve(value).then(_next, _throw); } }
-
-function _asyncToGenerator(fn) { return function () { var self = this, args = arguments; return new Promise(function (resolve, reject) { var gen = fn.apply(self, args); function _next(value) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value); } function _throw(err) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err); } _next(undefined); }); }; }
-
-function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
-
-function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
-
-function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
-
-function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
-
-function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
-
-function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
-
-/**
- * 适用于
- *  :img (全屏图片)
- *  :AVATAR(艺术家)
- *  支持png
- *
- *
- * 组件 IMG_WithLoader
- *  + _IMG
- *  + _LOADER
- *
- *
- * active {false} 在未(可见)到的时候 隐藏,
- * active {true} loader三角形动画转动
- * state , loaded {true}的时候显示img
- *  NoSSR, 需要使用 NoSSR (import NoSSR from 'react-no-ssr';)
- *
- */
-
-
-
-
-
-var _IMG =
-/*#__PURE__*/
-function (_PureComponent) {
-  _inherits(_IMG, _PureComponent);
-
-  function _IMG(props) {
-    _classCallCheck(this, _IMG);
-
-    return _possibleConstructorReturn(this, _getPrototypeOf(_IMG).call(this, props));
-  }
-
-  _createClass(_IMG, [{
-    key: "render",
-    value: function render() {
-      return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", Object(glamor__WEBPACK_IMPORTED_MODULE_2__["css"])({
-        // position:'relative',//文件流识别
-        // justifyContent:   'space-around',
-        backgroundRepeat: 'no-repeat',
-        backgroundSize: 'cover',
-        // overflow:         'hidden',
-        backgroundColor: 'transparent',
-        backgroundPosition: 'center',
-        // backgroundAttachment: 'fixed',
-        // transformStyle: 'preserve-3d',//@parallax
-        // transform: 'translateZ(0px)',
-        // transform: 'skew(0deg,5deg) translateZ(1px)',
-        //position: 'sticky',//@parallax
-        left: this.props.left,
-        top: this.props.top,
-        opacity: this.props.show ? 1 : 0,
-        width: '100%',
-        height: '100%',
-        //在这里找渐变模板 https: //webgradients.com/
-        // backgroundColor:  this.props.src?`url(${this.props.src})`:'white',
-        backgroundImage: this.props.show ? "url(".concat(this.props.src, ")") : null,
-        transition: "opacity 1s cubic-bezier(0.24, 0.49, 0.82, 0.6)",
-        backfaceVisibility: 'hidden' //防止闪烁(flicker)
-
-      }));
-    }
-  }]);
-
-  return _IMG;
-}(react__WEBPACK_IMPORTED_MODULE_1__["PureComponent"]);
-/**
- *  svg style
- */
-
-/**/
-
-var _LoadingKeyframe = glamor__WEBPACK_IMPORTED_MODULE_2__["css"].keyframes({
-  from: {
-    transform: 'rotate(0deg)'
-  },
-  to: {
-    transform: 'rotate(360deg)'
-  }
-});
-
-var _Loading = function _Loading(props) {
-  return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", Object(glamor__WEBPACK_IMPORTED_MODULE_2__["css"])({
-    position: 'absolute',
-    zIndex: 1,
-    fontWeight: 100,
-    flexDirection: 'column',
-    alignItems: 'center',
-    justifyContent: 'center',
-    display: 'flex',
-    left: props.left ? props.left : 0,
-    top: props.top ? props.top : 0,
-    width: '100%',
-    height: props.height,
-    opacity: props.show ? 1 : 0,
-    backfaceVisibility: 'hidden' //防止闪烁(flicker)
-
-  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("svg", _extends({}, Object(glamor__WEBPACK_IMPORTED_MODULE_2__["css"])({
-    width: '20%',
-    height: '20%',
-    transformOrigin: '48% 48%',
-    animation: "".concat(_LoadingKeyframe, " 1s cubic-bezier(0.24, 0.49, 0.82, 0.6) infinite"),
-    animationPlayState: props.show ? 'running' : 'paused',
-    backfaceVisibility: 'hidden' //防止闪烁(flicker)
-
-  }), {
-    viewBox: "1 1 50.1 43.4"
-  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("polygon", {
-    fill: _utils_ui__WEBPACK_IMPORTED_MODULE_4__["ui"].color.secondary,
-    points: "1,43.4 50.1,43.4 25.1,1"
-  })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", _extends({}, Object(glamor__WEBPACK_IMPORTED_MODULE_2__["css"])({
-    color: _utils_ui__WEBPACK_IMPORTED_MODULE_4__["ui"].color.disabled_on_light,
-    fontSize: '0.2rem',
-    backfaceVisibility: 'hidden' //防止闪烁(flicker)
-
-  }), {
-    className: "loader"
-  }), props.percent + '%'));
-};
-/**
-     <IMG_WithLoader
-     @props width [FLOAT]  |定义 _w render/wix请求 包括 img &&loading
-     @props height [FLOAT]  |定义 _h render/wix请求 包括 img &&loading
-     @props top [FLOAT]  |自定义 位置 包括 img &&loading
-     @props left [FLOAT]  |自定义 位置 包括 img &&loading
-     @props src [STRING]  |图片数据地址=> state.src =>_src
-     @props fetch [BOOLEAN]  |true 会触发一次加载
-    />
-*/
-
-
-var IMG_WithLoader =
-/*#__PURE__*/
-function (_PureComponent2) {
-  _inherits(IMG_WithLoader, _PureComponent2);
-
-  function IMG_WithLoader(props) {
-    var _this;
-
-    _classCallCheck(this, IMG_WithLoader);
-
-    _this = _possibleConstructorReturn(this, _getPrototypeOf(IMG_WithLoader).call(this, props));
-    _this.PERSP = 1000;
-    _this.state = {
-      percent: 0,
-      src: _this.props.src,
-      loaded: false
-    };
-    _this._src = _this.props.src; //辨认是否刷新变动
-
-    _this.progress = _this.onProgress.bind(_assertThisInitialized(_assertThisInitialized(_this)));
-    _this.key = Object(_utils_ui__WEBPACK_IMPORTED_MODULE_4__["makeKEY"])();
-    _this.Zp = {
-      pc: {
-        img: Object(_utils_ui__WEBPACK_IMPORTED_MODULE_4__["perspZ"])(10, _this.PERSP),
-        img_pseudo: Object(_utils_ui__WEBPACK_IMPORTED_MODULE_4__["perspZ"])(0, _this.PERSP)
-      },
-      mobile: {
-        img: Object(_utils_ui__WEBPACK_IMPORTED_MODULE_4__["perspZ"])(10, _this.PERSP),
-        img_pseudo: Object(_utils_ui__WEBPACK_IMPORTED_MODULE_4__["perspZ"])(0, _this.PERSP)
-      }
-    };
-    return _this;
-  }
-
-  _createClass(IMG_WithLoader, [{
-    key: "componentDidMount",
-    value: function componentDidMount() {
-      //如果 #Daddy 激活后开始请求
-      if (this.props.fetch == true) {
-        // debugger
-        // this.fetchImg(this.props.src);
-        this.fetchImg();
-      }
-    }
-  }, {
-    key: "componentWillReceiveProps",
-    value: function componentWillReceiveProps(nextProps, nextState) {
-      // debugger
-      // update 过程 #Daddy 随时刷新地址后开始请求
-      // if(nextProps.fetch ==true && nextProps.src!=this.props.src){
-      if (nextProps.fetch !== this.props.fetch && nextProps.fetch === true) {
-        this.fetchImg(nextProps.src);
-        return;
-      }
-    }
-  }, {
-    key: "onProgress",
-    value: function onProgress(xhr) {
-      this._fetching = true;
-
-      if (xhr.lengthComputable) {
-        // false的话total返回是0 ,github 上 json , js , txt
-        var percentComplete = Math.round(xhr.loaded / xhr.total * 100);
-        console.log(percentComplete, '%'); // debugger
-
-        this.setState({
-          percent: "".concat(percentComplete),
-          loaded: false
-        });
-      } else {
-        console.log('@onProgress 该资源无法计算byte长度');
-      }
-    }
-  }, {
-    key: "fetchImg",
-    value: function () {
-      var _fetchImg = _asyncToGenerator(
-      /*#__PURE__*/
-      _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee(nextSrc) {
-        var _this2 = this;
-
-        var w, h, new_src, full_src, XHR, Done;
-        return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee$(_context) {
-          while (1) {
-            switch (_context.prev = _context.next) {
-              case 0:
-                w = this.props.width;
-                h = this.props.height;
-                new_src = nextSrc ? nextSrc : this.props.src; //父亲变动后传下来的
-
-                /**
-                  @{wix}  from '../utils/img'
-                 {wix}转换src
-                 需要<NoSSR> 否则这里的 w h 取回来是 0
-                 */
-
-                full_src = Object(_utils_img__WEBPACK_IMPORTED_MODULE_5__["wix"])(new_src, w, h); // const full_src = wix (new_src,w,h,'fill')
-
-                XHR = new _utils_Progress__WEBPACK_IMPORTED_MODULE_3___default.a();
-                XHR.onProgress = this.progress;
-                /*若要测试logder 高质量图片
-                let isOk = await XHR.send(`http://cdn.wallpapersafari.com/23/11/clBNRq.jpg`)*/
-
-                _context.next = 8;
-                return XHR.send(full_src);
-
-              case 8:
-                Done = _context.sent;
-
-                if (Done) {
-                  this.setState({
-                    src: full_src,
-                    loaded: true
-                  }, function () {
-                    _this2._src = new_src; //帮助辨认是否刷新变动
-                  });
-                } else {
-                  console.error('图片fetchImg 发送不成功');
-                }
-
-              case 10:
-              case "end":
-                return _context.stop();
-            }
-          }
-        }, _callee, this);
-      }));
-
-      return function fetchImg(_x) {
-        return _fetchImg.apply(this, arguments);
-      };
-    }()
-  }, {
-    key: "render",
-    value: function render() {
-      var zp = this.props.is_landscape ? this.Zp.pc : this.Zp.mobile;
-      return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", _extends({}, Object(glamor__WEBPACK_IMPORTED_MODULE_2__["css"])({
-        position: 'relative',
-        overflow: 'hidden',
-        width: "".concat(this.props.width, "px"),
-        //'100%',//this.props.width,
-        height: "".concat(this.props.height, "px"),
-        //transform: 'inherit',//为了section上层skew
-        transformStyle: 'preserve-3d',
-        //@parallax
-        transform: "translateZ(".concat(zp.img.translateZ, "px) scale(").concat(zp.img.scale, ")"),
-        //
-        ':before': {
-          display: 'block',
-          // zIndex:8,
-          position: 'absolute',
-          // top:'-50%',
-          content: '""',
-          backgroundRepeat: 'no-repeat',
-          backgroundSize: 'cover',
-          // backgroundAttachment: 'fixed',
-          // backgroundColor:  'transparent',
-          backgroundPosition: 'center',
-          transform: "skew(0deg,5deg) scale(1.2)",
-          // sale乘以1.5, 避免图高度不足造成留白
-          // left:this.props.left,
-          // top:this.props.top,
-          opacity: this.state.loaded ? 1 : 0,
-          width: '100%',
-          height: '100%',
-          backgroundImage: this.state.loaded ? "url(".concat(this.state.src, ")") : null,
-          transition: "opacity 1s cubic-bezier(0.24, 0.49, 0.82, 0.6)",
-          backfaceVisibility: 'hidden' //防止闪烁(flicker)
-
-        }
-      }), {
-        key: "_IMG_".concat(this.key),
-        className: "imgLoader"
-      }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_Loading, {
-        width: this.props.width,
-        height: this.props.height,
-        show: this.state.loaded == false,
-        percent: this.state.percent,
-        left: this.props.left,
-        top: this.props.top,
-        key: "_LOADIMGER_".concat(this.key)
-      }));
-    }
-  }]);
-
-  return IMG_WithLoader;
-}(react__WEBPACK_IMPORTED_MODULE_1__["PureComponent"]);
-
-
-
-/***/ }),
-
-/***/ "./components/img.work.js":
-/*!********************************!*\
-  !*** ./components/img.work.js ***!
-  \********************************/
-/*! exports provided: _IMG, IMG_WithLoader */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "_IMG", function() { return _IMG; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IMG_WithLoader", function() { return IMG_WithLoader; });
-/* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/regenerator */ "./node_modules/@babel/runtime/regenerator/index.js");
-/* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var glamor__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! glamor */ "./node_modules/glamor/lib/index.js");
-/* harmony import */ var glamor__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(glamor__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _utils_Progress__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../utils/Progress */ "./utils/Progress.js");
-/* harmony import */ var _utils_Progress__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_utils_Progress__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _utils_ui__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../utils/ui */ "./utils/ui.js");
-/* harmony import */ var _utils_ui__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_utils_ui__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _utils_img__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../utils/img */ "./utils/img.js");
-
-
-
-function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
-
-function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { Promise.resolve(value).then(_next, _throw); } }
-
-function _asyncToGenerator(fn) { return function () { var self = this, args = arguments; return new Promise(function (resolve, reject) { var gen = fn.apply(self, args); function _next(value) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value); } function _throw(err) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err); } _next(undefined); }); }; }
-
-function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
-
-function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
-
-function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
-
-function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
-
-function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
-
-function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
-
-/**
- * 适用于
- *  :img (全屏图片)
- *  :AVATAR(艺术家)
- *  支持png
- *
- *
- * 组件 IMG_WithLoader
- *  + _IMG
- *  + _LOADER
- *
- *
- * active {false} 在未(可见)到的时候 隐藏,
- * active {true} loader三角形动画转动
- * state , loaded {true}的时候显示img
- *  NoSSR, 需要使用 NoSSR (import NoSSR from 'react-no-ssr';)
- *
- */
-
-
-
-
-
-/**
- * simple Image
- *   @ display
- *   @ src
- */
-
-var _IMG =
-/*#__PURE__*/
-function (_PureComponent) {
-  _inherits(_IMG, _PureComponent);
-
-  function _IMG(props) {
-    _classCallCheck(this, _IMG);
-
-    return _possibleConstructorReturn(this, _getPrototypeOf(_IMG).call(this, props));
-  }
-
-  _createClass(_IMG, [{
-    key: "render",
-    value: function render() {
-      return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", Object(glamor__WEBPACK_IMPORTED_MODULE_2__["css"])({
-        position: 'absolute',
-        //文件流识别
-        justifyContent: 'space-around',
-        backgroundRepeat: 'no-repeat',
-        overflow: 'hidden',
-        backgroundColor: 'transparent',
-        backgroundPosition: 'center',
-        left: this.props.left,
-        top: this.props.top,
-        opacity: this.props.show ? 1 : 0,
-        // width: this.props.width?this.props.width:'auto',
-        // height: this.props.height?this.props.height:'auto',
-        width: '100vw',
-        height: '100vh',
-        // minWidth: '70%',
-        // minHeight: '70%',
-        //在这里找渐变模板 https: //webgradients.com/
-        // backgroundColor:  this.props.src?`url(${this.props.src})`:'white',
-        background: this.props.show ? "url(".concat(this.props.src, ") center center no-repeat") : null,
-        transition: "opacity 1s cubic-bezier(0.24, 0.49, 0.82, 0.6)"
-      }));
-    }
-  }]);
-
-  return _IMG;
-}(react__WEBPACK_IMPORTED_MODULE_1__["PureComponent"]);
-/**
- *  svg style
- */
-
-/**/
-
-var _LoadingKeyframe = glamor__WEBPACK_IMPORTED_MODULE_2__["css"].keyframes({
-  from: {
-    transform: 'rotate(0deg)'
-  },
-  to: {
-    transform: 'rotate(360deg)'
-  }
-});
-
-var _Loading = function _Loading(props) {
-  return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", Object(glamor__WEBPACK_IMPORTED_MODULE_2__["css"])({
-    position: 'absolute',
-    zIndex: 1,
-    fontWeight: 100,
-    flexDirection: 'column',
-    alignItems: 'center',
-    justifyContent: 'center',
-    display: 'flex',
-    left: props.left ? props.left : 0,
-    top: props.top ? props.top : 0,
-    width: '100%',
-    height: '100%',
-    // height:props.height,
-    opacity: props.show ? 1 : 0
-  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("svg", _extends({}, Object(glamor__WEBPACK_IMPORTED_MODULE_2__["css"])({
-    width: '20%',
-    height: '20%',
-    transformOrigin: '48% 48%',
-    animation: "".concat(_LoadingKeyframe, " 1s cubic-bezier(0.24, 0.49, 0.82, 0.6) infinite"),
-    animationPlayState: props.show ? 'running' : 'paused'
-  }), {
-    viewBox: "1 1 50.1 43.4"
-  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("polygon", {
-    fill: _utils_ui__WEBPACK_IMPORTED_MODULE_4__["ui"].color.secondary,
-    points: "1,43.4 50.1,43.4 25.1,1"
-  })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", _extends({}, Object(glamor__WEBPACK_IMPORTED_MODULE_2__["css"])({
-    color: _utils_ui__WEBPACK_IMPORTED_MODULE_4__["ui"].color.disabled_on_light,
-    fontSize: '0.2rem'
-  }), {
-    className: "loader"
-  }), props.percent + '%'));
-};
-/**
-     <IMG_WithLoader
-     @props width [FLOAT]  |定义 _w render/wix请求 包括 img &&loading
-     @props height [FLOAT]  |定义 _h render/wix请求 包括 img &&loading
-     @props top [FLOAT]  |自定义 位置 包括 img &&loading
-     @props left [FLOAT]  |自定义 位置 包括 img &&loading
-     @props src [STRING]  |图片数据地址=> state.src =>_src
-     @props fetch [BOOLEAN]  |true 会触发一次加载
-    />
-*/
-
-
-var IMG_WithLoader =
-/*#__PURE__*/
-function (_PureComponent2) {
-  _inherits(IMG_WithLoader, _PureComponent2);
-
-  function IMG_WithLoader(props) {
-    var _this;
-
-    _classCallCheck(this, IMG_WithLoader);
-
-    _this = _possibleConstructorReturn(this, _getPrototypeOf(IMG_WithLoader).call(this, props));
-    _this.state = {
-      percent: 0,
-      src: _this.props.src,
-      loaded: false
-    };
-    _this._src = _this.props.src; //辨认是否刷新变动
-
-    _this.progress = _this.onProgress.bind(_assertThisInitialized(_assertThisInitialized(_this)));
-    _this.key = Object(_utils_ui__WEBPACK_IMPORTED_MODULE_4__["makeKEY"])();
-    return _this;
-  }
-
-  _createClass(IMG_WithLoader, [{
-    key: "componentDidMount",
-    value: function componentDidMount() {
-      //如果 #Daddy 激活后开始请求
-      if (this.props.fetch == true) {
-        // debugger
-        // this.fetchImg(this.props.src);
-        this.fetchImg();
-      }
-    }
-  }, {
-    key: "componentWillReceiveProps",
-    value: function componentWillReceiveProps(nextProps, nextState) {
-      // debugger
-      // update 过程 #Daddy 随时刷新地址后开始请求
-      // if(nextProps.fetch ==true && nextProps.src!=this.props.src){
-      if (nextProps.fetch !== this.props.fetch && nextProps.fetch === true) {
-        this.fetchImg(nextProps.src);
-        return;
-      }
-    }
-  }, {
-    key: "onProgress",
-    value: function onProgress(xhr) {
-      this._fetching = true;
-
-      if (xhr.lengthComputable) {
-        // false的话total返回是0 ,github 上 json , js , txt
-        var percentComplete = Math.round(xhr.loaded / xhr.total * 100);
-        console.log(percentComplete, '%'); // debugger
-
-        this.setState({
-          percent: "".concat(percentComplete),
-          loaded: false
-        });
-      } else {
-        console.log('@onProgress 该资源无法计算byte长度');
-      }
-    }
-  }, {
-    key: "fetchImg",
-    value: function () {
-      var _fetchImg = _asyncToGenerator(
-      /*#__PURE__*/
-      _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee(nextSrc) {
-        var _this2 = this;
-
-        var w, h, new_src, full_src, XHR, Done;
-        return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee$(_context) {
-          while (1) {
-            switch (_context.prev = _context.next) {
-              case 0:
-                w = this.props.width;
-                h = this.props.height;
-                new_src = nextSrc ? nextSrc : this.props.src; //父亲变动后传下来的
-
-                /**
-                  @{wix}  from '../utils/img'
-                 {wix}转换src
-                 需要<NoSSR> 否则这里的 w h 取回来是 0
-                 */
-
-                full_src = Object(_utils_img__WEBPACK_IMPORTED_MODULE_5__["wix"])(new_src, w, h); // const full_src = wix (new_src,w,h,'fill')
-
-                XHR = new _utils_Progress__WEBPACK_IMPORTED_MODULE_3___default.a();
-                XHR.onProgress = this.progress;
-                /*若要测试logder 高质量图片
-                let isOk = await XHR.send(`http://cdn.wallpapersafari.com/23/11/clBNRq.jpg`)*/
-
-                _context.next = 8;
-                return XHR.send(full_src);
-
-              case 8:
-                Done = _context.sent;
-
-                if (Done) {
-                  this.setState({
-                    src: full_src,
-                    loaded: true
-                  }, function () {
-                    _this2._src = new_src; //帮助辨认是否刷新变动
-                  });
-                } else {
-                  console.error('图片fetchImg 发送不成功');
-                }
-
-              case 10:
-              case "end":
-                return _context.stop();
-            }
-          }
-        }, _callee, this);
-      }));
-
-      return function fetchImg(_x) {
-        return _fetchImg.apply(this, arguments);
-      };
-    }()
-  }, {
-    key: "render",
-    value: function render() {
-      return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", _extends({}, Object(glamor__WEBPACK_IMPORTED_MODULE_2__["css"])({
-        position: 'relative',
-        width: this.props.width,
-        //this.props.width,
-        height: this.props.height,
-        transform: 'inherit' //为了section上层skew
-
-      }), {
-        className: "imgLoader"
-      }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_IMG, {
-        src: this.state.src,
-        show: this.state.loaded //显示Img
-        ,
-        left: this.props.left,
-        top: this.props.top,
-        key: "_IMG_".concat(this.key),
-        fullWidth: this.props.fullWidth
-      }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_Loading, {
         show: this.state.loaded == false,
         percent: this.state.percent,
         left: this.props.left,
@@ -5565,494 +3709,136 @@ var mapStateToProps = function mapStateToProps(state) {
 
 /***/ }),
 
-/***/ "./components/section.content.js":
-/*!***************************************!*\
-  !*** ./components/section.content.js ***!
-  \***************************************/
-/*! exports provided: _CONTENT, default */
+/***/ "./components/section.welcome.THREE.sphere.js":
+/*!****************************************************!*\
+  !*** ./components/section.welcome.THREE.sphere.js ***!
+  \****************************************************/
+/*! exports provided: ThreeInit */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "_CONTENT", function() { return _CONTENT; });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var isomorphic_fetch__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! isomorphic-fetch */ "./node_modules/isomorphic-fetch/fetch-npm-browserify.js");
-/* harmony import */ var isomorphic_fetch__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(isomorphic_fetch__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var glamor__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! glamor */ "./node_modules/glamor/lib/index.js");
-/* harmony import */ var glamor__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(glamor__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _utils_ui__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../utils/ui */ "./utils/ui.js");
-/* harmony import */ var _utils_ui__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_utils_ui__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _img_parallax__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./img.parallax */ "./components/img.parallax.js");
-/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
-/* harmony import */ var redux__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! redux */ "./node_modules/redux/es/index.js");
-/* harmony import */ var _utils_mouse__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../utils/mouse */ "./utils/mouse.js");
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ThreeInit", function() { return ThreeInit; });
+/* harmony import */ var gsap__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! gsap */ "./node_modules/gsap/esm/index.js");
+/* harmony import */ var three__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! three */ "./node_modules/three/build/three.module.js");
+// @ wait react-vr
 
-
-function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
-
-function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
-
-function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
-
-function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
-
-function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
-
-function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
-
-function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
-
-// import  {Component} from 'react'
-
-
- // import _IMG from './img.skew'
-
-
-
-
- // import {setSectionPostionY} from 'reducers/section'
-
- // import {parallaxInView} from 'utils/inView'
-
-/*
-参考 https://wangwang.taobao.com/+
-    div transform: skew(0deg,-5deg) relative
-        div transform: skew(0deg,5deg); absolute
- */
-
-var BACKGROUND_COLOR = _utils_ui__WEBPACK_IMPORTED_MODULE_3__["ui"].color.w_1;
-
-var _pubblic_key = Object(_utils_ui__WEBPACK_IMPORTED_MODULE_3__["makeKEY"])();
-
-var _CONTENT =
-/*#__PURE__*/
-function (_PureComponent) {
-  _inherits(_CONTENT, _PureComponent);
-
-  function _CONTENT(props) {
-    var _this;
-
-    _classCallCheck(this, _CONTENT);
-
-    _this = _possibleConstructorReturn(this, _getPrototypeOf(_CONTENT).call(this, props)), _this.PERSP = 1000;
-    _this.Zp = {
-      pc: {
-        contents: Object(_utils_ui__WEBPACK_IMPORTED_MODULE_3__["perspZ"])(250, _this.PERSP)
-      },
-      mobile: {
-        contents: Object(_utils_ui__WEBPACK_IMPORTED_MODULE_3__["perspZ"])(150, _this.PERSP)
-      }
-    };
-    return _this;
-  }
-
-  _createClass(_CONTENT, [{
-    key: "render",
-    value: function render() {
-      var _this$props = this.props,
-          img = _this$props.img,
-          vw = _this$props.vw,
-          fetch = _this$props.fetch,
-          is_landscape = _this$props.is_landscape,
-          marginW = _this$props.marginW,
-          content = _this$props.content;
-      var zp = this.props.is_landscape ? this.Zp.pc : this.Zp.mobile;
-      var zParraller = Object(_utils_ui__WEBPACK_IMPORTED_MODULE_3__["perspZ"])(200 * this.props.index, this.PERSP);
-      console.log("translateZ(".concat(zParraller.translateZ, "px) scale(").concat(zParraller.scale, ")"));
-      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", _extends({}, Object(glamor__WEBPACK_IMPORTED_MODULE_2__["css"])({
-        transformStyle: 'preserve-3d',
-        // position:'absolute',
-        //position: '-webkit-sticky',// @safari
-        // top:1/this.props.index*200,
-        perspectiveOrigin: '50% 50%',
-        transform: 'translate3d(0, 0, 0)',
-        // transform:`translateZ(${zParraller.translateZ}px) scale(${zParraller.scale})`,
-        backfaceVisibility: 'hidden' //防止闪烁(flicker)
-
-      }), {
-        className: '_CONTENT',
-        key: "_CONTENT".concat(_pubblic_key)
-      }), img ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_img_parallax__WEBPACK_IMPORTED_MODULE_4__["default"], {
-        src: img,
-        width: vw,
-        height: is_landscape ? "".concat(_utils_ui__WEBPACK_IMPORTED_MODULE_3__["GR"].px(2, vw)) : "".concat(_utils_ui__WEBPACK_IMPORTED_MODULE_3__["GR"].px(1, vw)),
-        fetch: fetch,
-        is_landscape: is_landscape // key={`content_image_${_pubblic_key}`}
-
-      }) : null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", _extends({}, Object(glamor__WEBPACK_IMPORTED_MODULE_2__["css"])({
-        // position:'absolute',
-        // bottom:0,
-        fontSize: is_landscape ? "".concat(_utils_ui__WEBPACK_IMPORTED_MODULE_3__["GR"].vw(9), "vw") : "1rem",
-        fontWeight: 100,
-        backgroundColor: BACKGROUND_COLOR,
-        paddingLeft: marginW,
-        paddingRight: marginW,
-        paddingTop: is_landscape ? "".concat(_utils_ui__WEBPACK_IMPORTED_MODULE_3__["GR"].vw(8), "vw") : "".concat(_utils_ui__WEBPACK_IMPORTED_MODULE_3__["GR"].vw(5), "vw"),
-        paddingBottom: is_landscape ? "".concat(_utils_ui__WEBPACK_IMPORTED_MODULE_3__["GR"].vw(8), "vw") : "".concat(_utils_ui__WEBPACK_IMPORTED_MODULE_3__["GR"].vw(6), "vw"),
-        transformStyle: 'preserve-3d',
-        transition: "all 1s cubic-bezier(0, 0.6, 0, 1)",
-        transform: "translateZ(".concat(zp.contents.translateZ, "px) scale(").concat(zp.contents.scale, ")"),
-        backfaceVisibility: 'hidden' //防止闪烁(flicker)
-
-      }), {
-        className: "_content_word" // key={`content_word_${_pubblic_key}`}
-
-      }), content.split('\n').map(function (p, key) {
-        return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", _extends({}, Object(glamor__WEBPACK_IMPORTED_MODULE_2__["css"])({
-          backfaceVisibility: 'hidden' //防止闪烁(flicker)
-
-        }), {
-          key: "Section_content_" + key
-        }, Object(glamor__WEBPACK_IMPORTED_MODULE_2__["css"])({
-          transform: "skew(0deg,5deg) translate3d(0, 0, 0)"
-        })), p, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null));
-      })));
-    }
-  }]);
-
-  return _CONTENT;
-}(react__WEBPACK_IMPORTED_MODULE_0__["PureComponent"]);
-
-var mapStateToProps = function mapStateToProps(state, ownProps) {
-  // const onClose = state.Section[ownProps.name].onClose
-  return {
-    vw: state.Root.view_size.vw,
-    vh: state.Root.view_size.vh,
-    is_landscape: state.Root.view_size.is_landscape,
-    language: state.Root.language
-  };
-}; // const mapDisp0000atchToProps = (dispatch ) =>{
-//     return {
-//         // setSectionPostionY:bindActionCreators(setSectionPostionY, dispatch ),
+ // import  {PureComponent} from 'react'
+// import { bindActionCreators } from 'redux'
+// import { connect } from 'react-redux'
+// export default class Z3D_SPHERE extends PureComponent {
+//     constructor(props){
+//         super(props);
+//         // 球面的渲染参数
+//         this.opacity = 1;
+//         this.polygons = 15;
+//         this.rotation = true;
+//         this.duration = 5;
+//         this.direction = 2;
+//     }
+//     render(){
+//         return null
 //     }
 // }
-// export default Nav;
+// let store = initStore()  读取state
+// const {vw,vh}=store.getState().Root.view_size
+// var vw = window.innerWidth,
+//     vh = window.innerHeight;
+// var vw = 800,
+//     vh = 800;
 
-
-/* harmony default export */ __webpack_exports__["default"] = (Object(react_redux__WEBPACK_IMPORTED_MODULE_5__["connect"])(mapStateToProps, null)(_CONTENT));
-
-/***/ }),
-
-/***/ "./components/section.js":
-/*!*******************************!*\
-  !*** ./components/section.js ***!
-  \*******************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var isomorphic_fetch__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! isomorphic-fetch */ "./node_modules/isomorphic-fetch/fetch-npm-browserify.js");
-/* harmony import */ var isomorphic_fetch__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(isomorphic_fetch__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var glamor__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! glamor */ "./node_modules/glamor/lib/index.js");
-/* harmony import */ var glamor__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(glamor__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _utils_ui__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../utils/ui */ "./utils/ui.js");
-/* harmony import */ var _utils_ui__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_utils_ui__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _img_parallax__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./img.parallax */ "./components/img.parallax.js");
-/* harmony import */ var _section_content__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./section.content */ "./components/section.content.js");
-/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
-/* harmony import */ var redux__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! redux */ "./node_modules/redux/es/index.js");
-/* harmony import */ var _reducers_section__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../reducers/section */ "./reducers/section.js");
-/* harmony import */ var _utils_mouse__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../utils/mouse */ "./utils/mouse.js");
-
-
-function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
-
-function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
-
-function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
-
-function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
-
-function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
-
-function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
-
-function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
-
-// import  {Component} from 'react'
-
-
- // import _IMG from './img.skew'
-
-
-
-
-
-
-
-
-/*
-参考 https://wangwang.taobao.com/+
-    div transform: skew(0deg,-5deg) relative
-        div transform: skew(0deg,5deg); absolute
- */
-
-var BACKGROUND_COLOR = _utils_ui__WEBPACK_IMPORTED_MODULE_3__["ui"].color.w_1;
-var BORDER_COLOR = _utils_ui__WEBPACK_IMPORTED_MODULE_3__["ui"].color.b_o3;
-
-var _pubblic_key = Object(_utils_ui__WEBPACK_IMPORTED_MODULE_3__["makeKEY"])();
-/**
- * SECTION 组件
- * @props  {STRING} name (option) SECTION菜单的(导航标题)
- * @props  {STRING} img  (option)如果有首图,设置图片地址
- * @props  {ARRAY} items 传入数组{Object}对象, 每个对象包含会 {title} {img} {contents}
- * @props  {langueage} 方便组件内 map /过滤 语种内容
- * @props  {INT} vw 设备屏幕宽度
- * @props  {INT} offset 如果组件上放有IMG带有svg,减去SVG的高度,迟早要还的
- * @props  {INT} color 是内嵌 SVG 颜色
- * @props  {INT} marginW 文本左右 margin margin on Width
- * @props  {FLOAT} maxHeight 展开动画必须设置
- *
- * @state  {INT} maxHeight 用于content折叠 fold 动画
- * @return {COMPONENT}
- */
-// language
-// vw
-// is_landscape
-
-
-var Seczione =
-/*#__PURE__*/
-function (_PureComponent) {
-  _inherits(Seczione, _PureComponent);
-
-  function Seczione(props) {
-    var _this;
-
-    _classCallCheck(this, Seczione);
-
-    _this = _possibleConstructorReturn(this, _getPrototypeOf(Seczione).call(this, props));
-    _this.TriangleHeight = _this.props.is_landscape ? _utils_ui__WEBPACK_IMPORTED_MODULE_3__["GR"].px(7, _this.props.vw) : _utils_ui__WEBPACK_IMPORTED_MODULE_3__["GR"].px(4, _this.props.vw);
-    _this.PERSP = 1000;
-    _this.Zp = {
-      pc: {
-        title_backgound: Object(_utils_ui__WEBPACK_IMPORTED_MODULE_3__["perspZ"])(0, _this.PERSP),
-        title: Object(_utils_ui__WEBPACK_IMPORTED_MODULE_3__["perspZ"])(120, _this.PERSP)
-      },
-      mobile: {
-        title_backgound: Object(_utils_ui__WEBPACK_IMPORTED_MODULE_3__["perspZ"])(0, _this.PERSP),
-        title: Object(_utils_ui__WEBPACK_IMPORTED_MODULE_3__["perspZ"])(120, _this.PERSP)
-      }
-    };
-    _this.zPos = Object(_utils_ui__WEBPACK_IMPORTED_MODULE_3__["perspZ"])(_this.props.zPos, _this.PERSP);
-    _this.ToggleFold = _this.toggleFold.bind(_assertThisInitialized(_assertThisInitialized(_this))); //@this._height
-
-    _this._keyCtx = Object(_utils_ui__WEBPACK_IMPORTED_MODULE_3__["makeKEY"])();
-    _this.state = {
-      height: '100%'
-    };
-    return _this;
-  } // componentWillMount(){
-  // debugger
-  // console.log('willmount')
-  // this.props.setClose(name,this.props.is_landscape?false:true)
-  // }
-
-
-  _createClass(Seczione, [{
-    key: "componentWillReceiveProps",
-    value: function componentWillReceiveProps(nextProps) {
-      if (this.props.onScrollingY !== nextProps.onScrollingY) {}
-
-      if (nextProps.RePosTrigger > this.props.RePosTrigger) {
-        if (nextProps.RePosTrigger) {
-          this.reSetPosition();
-        }
-      }
-    }
-  }, {
-    key: "componentDidMount",
-    value: function componentDidMount() {
-      // debugger
-      //计算 section 高度, height 动画必须
-      var height = this._$CONTENT.getBoundingClientRect().height;
-
-      this.setState({
-        height: "".concat(height, "px")
-      }); // onClose 状态手机和电脑(lanscape)不一样
-
-      var name = this.props.name;
-      this.props.is_landscape ? this.props.setClose(name, false) : this.props.setClose(name, true);
-    }
-  }, {
-    key: "componentWillUnmount",
-    value: function componentWillUnmount() {
-      // 卸载时还原到初始状态
-      // componentDidMount ,mapStateToProps 分别定义了初始状态
-      this.setState({
-        height: "100%"
-      });
-      this.props.setClose(this.props.name, false);
-    }
-  }, {
-    key: "toggleFold",
-    value: function toggleFold() {
-      console.log('toggle');
-      this.props.setClose(this.props.name, !this.props.onClose);
-    }
-  }, {
-    key: "reSetPosition",
-    value: function reSetPosition() {
-      this.props.setSectionPostionY(this.props.name, Object(_utils_mouse__WEBPACK_IMPORTED_MODULE_9__["findPos"])(this._$folder));
-    }
-  }, {
-    key: "render",
-    value: function render() {
-      var _this2 = this;
-
-      var zp = this.props.is_landscape ? this.Zp.pc : this.Zp.mobile;
-      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", _extends({}, Object(glamor__WEBPACK_IMPORTED_MODULE_2__["css"])({
-        transformStyle: 'preserve-3d',
-        //@parallax
-        backgroundColor: BACKGROUND_COLOR,
-        transform: "skew(0deg,-5deg) translateZ(".concat(this.props.zPos.translateZ, "px) scale(").concat(this.props.zPos.scale, ")"),
-        backfaceVisibility: 'hidden' //防止闪烁(flicker)
-
-      }), {
-        key: "Section_".concat(this._keyCtx, "_").concat(this.props.name, "_").concat(this.props.artista)
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", _extends({}, Object(glamor__WEBPACK_IMPORTED_MODULE_2__["css"])({
-        // button
-        position: 'relative',
-        //不设static是因为close时content上移不会叠在上面header
-        top: 0,
-        // zIndex:2,
-        width: '100vw',
-        transformStyle: 'preserve-3d',
-        //@parallax
-        cursor: 'pointer',
-        backgroundColor: BACKGROUND_COLOR,
-        height: this.TriangleHeight,
-        transform: "translateZ(".concat(zp.title_backgound.translateZ, "px) scale(").concat(zp.title_backgound.scale, ")"),
-        borderBottomWidth: '1px',
-        borderBottomStyle: 'solid ',
-        borderBottomColor: BORDER_COLOR,
-        backfaceVisibility: 'hidden' //防止闪烁(flicker)
-
-      }), {
-        onClick: this.ToggleFold,
-        ref: function ref(c) {
-          return _this2._$folder = c;
-        },
-        className: 'SECTION_HEADER'
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", Object(glamor__WEBPACK_IMPORTED_MODULE_2__["css"])({
-        position: 'absolute',
-        fontSize: this.props.is_landscape ? "".concat(_utils_ui__WEBPACK_IMPORTED_MODULE_3__["GR"].vw(9), "vw") : "".concat(_utils_ui__WEBPACK_IMPORTED_MODULE_3__["GR"].vw(6), "vw"),
-        fontWeight: 100,
-        top: this.props.is_landscape ? "".concat(_utils_ui__WEBPACK_IMPORTED_MODULE_3__["GR"].vw(8), "vw") : "".concat(_utils_ui__WEBPACK_IMPORTED_MODULE_3__["GR"].vw(5), "vw"),
-        left: this.props.is_landscape ? "".concat(_utils_ui__WEBPACK_IMPORTED_MODULE_3__["GR"].vw(4), "vw") : this.props.marginW,
-        // artisti - avatar&& description 的marginLeft/marginWidth
-        // zIndex:3,
-        transform: "skew(0deg,5deg) translateZ(".concat(zp.title.translateZ, "px) scale(").concat(zp.title.scale, ")"),
-        backfaceVisibility: 'hidden' //防止闪烁(flicker)
-        // 视差
-        // transformOrigin: '0 0',
-        // transform: 'translateZ(-2px) scale(4)',
-
-      }), this.props.name)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", _extends({}, Object(glamor__WEBPACK_IMPORTED_MODULE_2__["css"])({
-        // backgroundColor:BACKGROUND_COLOR,
-        paddingBottom: "".concat(this.TriangleHeight, "px"),
-        // 占位避免下方title覆盖内容
-        // 打开时 , 内容下一效果
-        transform: this.props.onClose ? "translateY(-".concat(this.TriangleHeight, "px) ") : 'translateY(0px) ',
-        height: this.props.onClose ? '1px' : "".concat(this.state.height),
-        opacity: this.props.onClose ? 0 : 1,
-        // 0.5更好 但关闭时会显示
-        pointerEvents: 'none',
-
-        /*
-            * transformStyle ,willChange 都会造成内容在动画最后一刻位置刷新,闪烁一下
-            * willChange,会使 children 的translateZ效果 会失去
-         */
-        transformStyle: 'preserve-3d',
-        //@parallax
-        transition: "all 1s cubic-bezier(0, 0.6, 0, 1)",
-        overflowY: this.props.onClose ? 'hidden' : 'unset',
-        //消除fold动画时scroll移动, 如果指定了合适的高度,可以只指定 hidden
-        backfaceVisibility: 'hidden' //防止闪烁(flicker)
-
-      }), {
-        className: 'CONTENT_WARPPER',
-        ref: function ref(c) {
-          return _this2._$CONTENT = c;
-        }
-      }), this.props.img ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_img_parallax__WEBPACK_IMPORTED_MODULE_4__["default"], {
-        src: this.props.img,
-        vw: this.props.vw,
-        fetch: !this.props.onClose,
-        width: vw,
-        height: is_landscape ? "".concat(_utils_ui__WEBPACK_IMPORTED_MODULE_3__["GR"].px(2, vw)) : "".concat(_utils_ui__WEBPACK_IMPORTED_MODULE_3__["GR"].px(1, vw)),
-        fullWidth: true,
-        key: "section_head_img_".concat(_keyCtx)
-      }) : null, this.props.items.map(function (item, index) {
-        return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_section_content__WEBPACK_IMPORTED_MODULE_5__["default"], {
-          img: item.img,
-          title: item.title,
-          content: item.content["".concat(_this2.props.language)],
-          marginW: _this2.props.marginW,
-          key: _this2._keyCtx + index + _this2.props.name,
-          fetch: !_this2.props.onClose,
-          className: 'img_&&_content',
-          index: index
-        });
-      }), " "));
-    }
-  }]);
-
-  return Seczione;
-}(react__WEBPACK_IMPORTED_MODULE_0__["PureComponent"]); // language
-// vw
-// is_landscape
-
-
-var mapStateToProps = function mapStateToProps(state, ownProps) {
-  var onClose = state.Section[ownProps.name] !== undefined ? state.Section[ownProps.name].onClose : false; // const onClose = state.Section[ownProps.name].onClose
-
-  return {
-    vw: state.Root.view_size.vw,
-    language: state.Root.language,
-    is_landscape: state.Root.view_size.is_landscape,
-    RePosTrigger: state.Section.RePosTrigger,
-    onClose: onClose,
-    onScrollingY: state.Root.scroll.y
-  };
+var renderer, scene, camera, allTriangles;
+var ctrl = {
+  opacity: 1,
+  polygons: 15,
+  rotation: true,
+  duration: 5,
+  direction: 2
+};
+var ThreeInit = function ThreeInit() {
+  /* INIT */
+  var vh = document.documentElement.clientHeight,
+      vw = document.documentElement.clientWidth;
+  renderer = new three__WEBPACK_IMPORTED_MODULE_1__["WebGLRenderer"]({
+    canvas: document.getElementById('scene'),
+    antialias: true
+  });
+  renderer.setSize(vw, vh);
+  renderer.setClearColor(0xffffff);
+  scene = new three__WEBPACK_IMPORTED_MODULE_1__["Scene"]();
+  camera = new three__WEBPACK_IMPORTED_MODULE_1__["PerspectiveCamera"](50, vw / vh, 0.1, 10000);
+  camera.position.set(0, 0, 800);
+  scene.add(camera);
+  init_Triangles();
+  render();
 };
 
-var mapDispatchToProps = function mapDispatchToProps(dispatch) {
-  return {
-    setSectionPostionY: Object(redux__WEBPACK_IMPORTED_MODULE_7__["bindActionCreators"])(_reducers_section__WEBPACK_IMPORTED_MODULE_8__["setSectionPostionY"], dispatch),
-    setClose: Object(redux__WEBPACK_IMPORTED_MODULE_7__["bindActionCreators"])(_reducers_section__WEBPACK_IMPORTED_MODULE_8__["setClose"], dispatch)
-  };
-}; // export default Nav;
+var init_Triangles = function init_Triangles() {
+  if (allTriangles) {
+    scene.remove(allTriangles);
+  }
 
+  allTriangles = new three__WEBPACK_IMPORTED_MODULE_1__["Object3D"]();
+  scene.add(allTriangles);
+  var geometry = new three__WEBPACK_IMPORTED_MODULE_1__["SphereGeometry"](1500, 15, 7);
 
-/* harmony default export */ __webpack_exports__["default"] = (Object(react_redux__WEBPACK_IMPORTED_MODULE_6__["connect"])(mapStateToProps, mapDispatchToProps)(Seczione)); // {
-//   section:'#0',
-//   rect:{top:0,left:0,bottom:0,right:0,height:0,width:0},
-//   isClose:false,//如果true,可以忽略这个单元请求
-//   element:[
-//     {name:'#0',rect:{top:0,left:0,bottom:0,right:0,height:0,width:0}},
-//     {name:'#1',rect:{top:0,left:0,bottom:0,right:0,height:0,width:0}},
-//     {
-//         name:'#1',// 索引element,找到element的方式
-//         rect:{top:0,left:0,bottom:0,right:0}},
-//   ]
-// }
+  for (var i = 0, j = geometry.faces.length; i < j; i++) {
+    //Get one face from the sphere
+    var whichTriangle = i;
+
+    if (ctrl.direction == 1) {
+      whichTriangle = j - 1 - i;
+    } else if (ctrl.direction == 2) {
+      whichTriangle = i % 2 === 0 ? i : j - i;
+    }
+
+    var face = geometry.faces[whichTriangle]; //Create a geometry for that face
+
+    var geometry2 = new three__WEBPACK_IMPORTED_MODULE_1__["Geometry"](); //Add the vertices of the face in the geometry
+
+    geometry2.vertices = face.vertexNormals; //Set a new face
+
+    geometry2.faces.push(new three__WEBPACK_IMPORTED_MODULE_1__["Face3"](0, 1, 2)); //Create a custom material
+
+    var material = new three__WEBPACK_IMPORTED_MODULE_1__["MeshBasicMaterial"]({
+      side: three__WEBPACK_IMPORTED_MODULE_1__["DoubleSide"],
+      wireframe: false,
+      transparent: true,
+      opacity: ctrl.opacity
+    }); //Create a Mesh object
+
+    var triangle = new three__WEBPACK_IMPORTED_MODULE_1__["Mesh"](geometry2, material);
+    var randomColor = 0.6 + Math.random() * 0.4;
+    triangle.material.color = new three__WEBPACK_IMPORTED_MODULE_1__["Color"](randomColor, randomColor, randomColor);
+    allTriangles.add(triangle); // triangle.scale
+
+    triangle.tl = new gsap__WEBPACK_IMPORTED_MODULE_0__["TimelineMax"]({
+      repeat: -1,
+      repeatDelay: (j - i) / (j * 4),
+      delay: i / (ctrl.polygons * 5),
+      yoyo: true
+    });
+    var radm = Math.random();
+    triangle.scale.set(900, 900, 900);
+    triangle.tl.to(triangle.scale, 50, {
+      x: 900 + radm * 3000,
+      y: 900 + radm * 3000,
+      z: 900 + radm * 3000,
+      ease: Linear.ease //Back.easeIn, Back.easeOut, Bounce.easeIn, Bounce.easeOut, Linear.ease, Elastic.easeOut
+
+    });
+  }
+};
+
+var render = function render() {
+  requestAnimationFrame(render);
+
+  if (ctrl.rotation) {
+    allTriangles.rotation.y += 0.0005;
+  }
+
+  renderer.render(scene, camera);
+};
 
 /***/ }),
 
@@ -6097,10 +3883,10 @@ var Svg = function Svg(props) {
 
 /***/ }),
 
-/***/ "./components/svg/icons_chevron-left.js":
-/*!**********************************************!*\
-  !*** ./components/svg/icons_chevron-left.js ***!
-  \**********************************************/
+/***/ "./components/svg/icons_logo.js":
+/*!**************************************!*\
+  !*** ./components/svg/icons_logo.js ***!
+  \**************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -6114,87 +3900,166 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _utils_ui__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_utils_ui__WEBPACK_IMPORTED_MODULE_2__);
 
 
-function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
-
-
-
-
-var SVG = function SVG(props) {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("svg", {
-    width: props.size || 32,
-    height: props.size || 32,
-    viewBox: "0 0 31 31"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("title", null, "chevron-left"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("polyline", _extends({}, Object(glamor__WEBPACK_IMPORTED_MODULE_1__["css"])({
-    fill: 'none',
-    stroke: props.color || 'black',
-    strokeMiterlimit: 10,
-    strokeWidth: "".concat(props.strokeWidth || 1, "px")
-  }), {
-    points: "19.82 23.82 11.19 15.19 19.7 6.68"
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("circle", _extends({}, Object(glamor__WEBPACK_IMPORTED_MODULE_1__["css"])({
-    fill: 'none',
-    stroke: props.color || 'black',
-    strokeMiterlimit: 10,
-    strokeWidth: "".concat(props.strokeWidth || 1, "px")
-  }), {
-    cx: "15.25",
-    cy: "15.25",
-    r: "15"
-  })));
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (SVG);
-
-/***/ }),
-
-/***/ "./components/svg/icons_chevron-right.js":
-/*!***********************************************!*\
-  !*** ./components/svg/icons_chevron-right.js ***!
-  \***********************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var glamor__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! glamor */ "./node_modules/glamor/lib/index.js");
-/* harmony import */ var glamor__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(glamor__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _utils_ui__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../utils/ui */ "./utils/ui.js");
-/* harmony import */ var _utils_ui__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_utils_ui__WEBPACK_IMPORTED_MODULE_2__);
-
+function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
+
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
 
 
 
+ /////////////
+// ELEMENT //
+/////////////
+///
 
-var SVG = function SVG(props) {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("svg", {
-    width: props.size || 32,
-    height: props.size || 32,
-    viewBox: "0 0 31 31"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("title", null, "chevron-right"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("polyline", _extends({}, Object(glamor__WEBPACK_IMPORTED_MODULE_1__["css"])({
-    fill: 'none',
-    stroke: props.color || 'black',
-    strokeMiterlimit: 10,
-    strokeWidth: "".concat(props.strokeWidth || 1, "px")
-  }), {
-    points: "11.19 6.68 19.82 15.31 11.3 23.82"
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("circle", _extends({}, Object(glamor__WEBPACK_IMPORTED_MODULE_1__["css"])({
-    fill: 'none',
-    stroke: props.color || 'black',
-    strokeMiterlimit: 10,
-    strokeWidth: "".concat(props.strokeWidth || 1, "px")
-  }), {
-    cx: "15.25",
-    cy: "15.25",
-    r: "15"
-  })));
-};
+var LOGO =
+/*#__PURE__*/
+function (_PureComponent) {
+  _inherits(LOGO, _PureComponent);
 
-/* harmony default export */ __webpack_exports__["default"] = (SVG);
+  function LOGO() {
+    _classCallCheck(this, LOGO);
+
+    return _possibleConstructorReturn(this, _getPrototypeOf(LOGO).apply(this, arguments));
+  }
+
+  _createClass(LOGO, [{
+    key: "render",
+    value: function render() {
+      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("svg", _extends({}, Object(glamor__WEBPACK_IMPORTED_MODULE_1__["css"])({
+        fill: 'none',
+        stroke: '#333',
+        strokeWidth: '.5px',
+        strokeLinejoin: 'round',
+
+        /*round bevel*/
+        strokeLinecap: 'round'
+      }), {
+        viewBox: "0 0 58.31 22.5",
+        x: "0px",
+        y: "0px"
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("title", null, "\u4E2D\u827A\u56FD\u9645,ZAI,carllx,\u6797\u6615"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("g", {
+        className: "icon"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("polyline", {
+        points: "0.36 0.25 16.25 0.25 0.25 16.25 16.14 16.25"
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("polyline", {
+        points: "0.25 16.25 16.25 0.25 16.25 16.25 8.29 8.17"
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("line", {
+        x1: "0.38",
+        y1: "16.25",
+        x2: "0.38",
+        y2: "0.25"
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("g", {
+        className: "zai"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("polyline", {
+        points: "20.08 0.25 35.97 0.25 19.97 16.25 35.86 16.25"
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("polyline", {
+        points: "35.7 16.25 51.7 0.25 51.7 16.25 44.17 8.75"
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("line", {
+        x1: "58.06",
+        y1: "16.25",
+        x2: "58.06",
+        y2: "0.25"
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("g", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("text", {
+        x: "0",
+        y: "22",
+        fontFamily: "raleway",
+        stroke: "none" // strokeWidth ='0.1'
+        ,
+        fill: _utils_ui__WEBPACK_IMPORTED_MODULE_2__["ui"].color.b_o2,
+        textLength: "16.25",
+        lengthAdjust: "spacing",
+        fontSize: "2.8"
+      }, "\u4E2D\u827A\u56FD\u9645"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("text", {
+        x: "20",
+        y: "22",
+        fontFamily: "raleway",
+        stroke: "none" // strokeWidth ='0.1'
+        ,
+        fill: _utils_ui__WEBPACK_IMPORTED_MODULE_2__["ui"].color.b_o2,
+        textLength: "37.98" //58.06-20.08
+        ,
+        lengthAdjust: "spacing",
+        fontSize: "2.8"
+      }, "ZHONG ART INTERNAZIONAL")));
+    }
+  }]);
+
+  return LOGO;
+}(react__WEBPACK_IMPORTED_MODULE_0__["PureComponent"]);
+
+/* harmony default export */ __webpack_exports__["default"] = (LOGO); // const svg_style = css({
+//     width:`${gr(5)}rem`,
+//     height:`${gr(5)}rem`
+// });
+// const logo_default  = {filter:'url(#dropshadow)'}
+// const logo_s_top    = css({...logo_default,fill:'#E6E6E6'});
+// const logo_s_bottom = css({...logo_default,fill:'#E6E6E6'});
+// const logo_l_top    = css({...logo_default,fill:'#B3B3B3'});
+// const logo_l_bottom = css({...logo_default,fill:'#CCCCCC'});
+// const LogoRight = glamorous.div({
+//     fontSize      :`${gr(8)}rem`,
+//     fontFamily    :ZhoFont,
+//     color:'#B3B3B3',
+//     marginBottom:`${gr(10)}rem`,
+//     marginLeft:`${gr(9)}rem`,
+// });
+
+/*
+const SVGLogoCarta ()=>(
+  <filter id="dropshadow" height="130%">
+    <feGaussianBlur in="SourceAlpha" stdDeviation="1"/>
+    <feComponentTransfer xmlns="http://www.w3.org/2000/svg">
+      <feFuncA type="linear" slope="0.2"/>
+    </feComponentTransfer>
+
+    <feOffset dx="2" dy="2" result="offsetblur"/>
+    <feMerge>
+      <feMergeNode/>
+      <feMergeNode in="SourceGraphic"/>
+    </feMerge>
+  </filter>
+  <g>
+    <polygon
+     {...css(logo_l_top)}
+     points="35,35 5,35 5,5 35,5"
+    />
+    <polygon
+     {...css(logo_l_bottom)}
+     points="5,35 5,5 35,5"
+    />
+    <polygon
+     {...css(logo_s_top)}
+     points="35,27.9 35,35 27.9,35 "
+    />
+    <polygon
+     {...css(logo_s_bottom)}
+     points="5,16.5 5,5 16.5,5 "
+    />
+  </g>
+          <LogoRight>
+          <div>{'中艺国际'}</div>
+          <div>{'Zhong Art'}</div>
+          <div>{'Internazionale'}</div>
+        </LogoRight>
+)
+
+*/
 
 /***/ }),
 
@@ -26807,23 +24672,6 @@ module.exports = invariant;
 
 /***/ }),
 
-/***/ "./node_modules/isomorphic-fetch/fetch-npm-browserify.js":
-/*!***************************************************************!*\
-  !*** ./node_modules/isomorphic-fetch/fetch-npm-browserify.js ***!
-  \***************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-// the whatwg-fetch polyfill installs the fetch() function
-// on the global object (window or self)
-//
-// Return that as the export for use in Webpack, Browserify etc.
-__webpack_require__(/*! whatwg-fetch */ "./node_modules/whatwg-fetch/fetch.js");
-module.exports = self.fetch.bind(self);
-
-
-/***/ }),
-
 /***/ "./node_modules/lodash-es/_Symbol.js":
 /*!*******************************************!*\
   !*** ./node_modules/lodash-es/_Symbol.js ***!
@@ -34658,86 +32506,6 @@ function stubFalse() {
 }
 
 module.exports = stubFalse;
-
-
-/***/ }),
-
-/***/ "./node_modules/lodash/throttle.js":
-/*!*****************************************!*\
-  !*** ./node_modules/lodash/throttle.js ***!
-  \*****************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var debounce = __webpack_require__(/*! ./debounce */ "./node_modules/lodash/debounce.js"),
-    isObject = __webpack_require__(/*! ./isObject */ "./node_modules/lodash/isObject.js");
-
-/** Error message constants. */
-var FUNC_ERROR_TEXT = 'Expected a function';
-
-/**
- * Creates a throttled function that only invokes `func` at most once per
- * every `wait` milliseconds. The throttled function comes with a `cancel`
- * method to cancel delayed `func` invocations and a `flush` method to
- * immediately invoke them. Provide `options` to indicate whether `func`
- * should be invoked on the leading and/or trailing edge of the `wait`
- * timeout. The `func` is invoked with the last arguments provided to the
- * throttled function. Subsequent calls to the throttled function return the
- * result of the last `func` invocation.
- *
- * **Note:** If `leading` and `trailing` options are `true`, `func` is
- * invoked on the trailing edge of the timeout only if the throttled function
- * is invoked more than once during the `wait` timeout.
- *
- * If `wait` is `0` and `leading` is `false`, `func` invocation is deferred
- * until to the next tick, similar to `setTimeout` with a timeout of `0`.
- *
- * See [David Corbacho's article](https://css-tricks.com/debouncing-throttling-explained-examples/)
- * for details over the differences between `_.throttle` and `_.debounce`.
- *
- * @static
- * @memberOf _
- * @since 0.1.0
- * @category Function
- * @param {Function} func The function to throttle.
- * @param {number} [wait=0] The number of milliseconds to throttle invocations to.
- * @param {Object} [options={}] The options object.
- * @param {boolean} [options.leading=true]
- *  Specify invoking on the leading edge of the timeout.
- * @param {boolean} [options.trailing=true]
- *  Specify invoking on the trailing edge of the timeout.
- * @returns {Function} Returns the new throttled function.
- * @example
- *
- * // Avoid excessively updating the position while scrolling.
- * jQuery(window).on('scroll', _.throttle(updatePosition, 100));
- *
- * // Invoke `renewToken` when the click event is fired, but not more than once every 5 minutes.
- * var throttled = _.throttle(renewToken, 300000, { 'trailing': false });
- * jQuery(element).on('click', throttled);
- *
- * // Cancel the trailing throttled invocation.
- * jQuery(window).on('popstate', throttled.cancel);
- */
-function throttle(func, wait, options) {
-  var leading = true,
-      trailing = true;
-
-  if (typeof func != 'function') {
-    throw new TypeError(FUNC_ERROR_TEXT);
-  }
-  if (isObject(options)) {
-    leading = 'leading' in options ? !!options.leading : leading;
-    trailing = 'trailing' in options ? !!options.trailing : trailing;
-  }
-  return debounce(func, wait, {
-    'leading': leading,
-    'maxWait': wait,
-    'trailing': trailing
-  });
-}
-
-module.exports = throttle;
 
 
 /***/ }),
@@ -96667,530 +94435,43 @@ module.exports = function(module) {
 
 /***/ }),
 
-/***/ "./node_modules/whatwg-fetch/fetch.js":
-/*!********************************************!*\
-  !*** ./node_modules/whatwg-fetch/fetch.js ***!
-  \********************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-(function(self) {
-  'use strict';
-
-  if (self.fetch) {
-    return
-  }
-
-  var support = {
-    searchParams: 'URLSearchParams' in self,
-    iterable: 'Symbol' in self && 'iterator' in Symbol,
-    blob: 'FileReader' in self && 'Blob' in self && (function() {
-      try {
-        new Blob()
-        return true
-      } catch(e) {
-        return false
-      }
-    })(),
-    formData: 'FormData' in self,
-    arrayBuffer: 'ArrayBuffer' in self
-  }
-
-  if (support.arrayBuffer) {
-    var viewClasses = [
-      '[object Int8Array]',
-      '[object Uint8Array]',
-      '[object Uint8ClampedArray]',
-      '[object Int16Array]',
-      '[object Uint16Array]',
-      '[object Int32Array]',
-      '[object Uint32Array]',
-      '[object Float32Array]',
-      '[object Float64Array]'
-    ]
-
-    var isDataView = function(obj) {
-      return obj && DataView.prototype.isPrototypeOf(obj)
-    }
-
-    var isArrayBufferView = ArrayBuffer.isView || function(obj) {
-      return obj && viewClasses.indexOf(Object.prototype.toString.call(obj)) > -1
-    }
-  }
-
-  function normalizeName(name) {
-    if (typeof name !== 'string') {
-      name = String(name)
-    }
-    if (/[^a-z0-9\-#$%&'*+.\^_`|~]/i.test(name)) {
-      throw new TypeError('Invalid character in header field name')
-    }
-    return name.toLowerCase()
-  }
-
-  function normalizeValue(value) {
-    if (typeof value !== 'string') {
-      value = String(value)
-    }
-    return value
-  }
-
-  // Build a destructive iterator for the value list
-  function iteratorFor(items) {
-    var iterator = {
-      next: function() {
-        var value = items.shift()
-        return {done: value === undefined, value: value}
-      }
-    }
-
-    if (support.iterable) {
-      iterator[Symbol.iterator] = function() {
-        return iterator
-      }
-    }
-
-    return iterator
-  }
-
-  function Headers(headers) {
-    this.map = {}
-
-    if (headers instanceof Headers) {
-      headers.forEach(function(value, name) {
-        this.append(name, value)
-      }, this)
-    } else if (Array.isArray(headers)) {
-      headers.forEach(function(header) {
-        this.append(header[0], header[1])
-      }, this)
-    } else if (headers) {
-      Object.getOwnPropertyNames(headers).forEach(function(name) {
-        this.append(name, headers[name])
-      }, this)
-    }
-  }
-
-  Headers.prototype.append = function(name, value) {
-    name = normalizeName(name)
-    value = normalizeValue(value)
-    var oldValue = this.map[name]
-    this.map[name] = oldValue ? oldValue+','+value : value
-  }
-
-  Headers.prototype['delete'] = function(name) {
-    delete this.map[normalizeName(name)]
-  }
-
-  Headers.prototype.get = function(name) {
-    name = normalizeName(name)
-    return this.has(name) ? this.map[name] : null
-  }
-
-  Headers.prototype.has = function(name) {
-    return this.map.hasOwnProperty(normalizeName(name))
-  }
-
-  Headers.prototype.set = function(name, value) {
-    this.map[normalizeName(name)] = normalizeValue(value)
-  }
-
-  Headers.prototype.forEach = function(callback, thisArg) {
-    for (var name in this.map) {
-      if (this.map.hasOwnProperty(name)) {
-        callback.call(thisArg, this.map[name], name, this)
-      }
-    }
-  }
-
-  Headers.prototype.keys = function() {
-    var items = []
-    this.forEach(function(value, name) { items.push(name) })
-    return iteratorFor(items)
-  }
-
-  Headers.prototype.values = function() {
-    var items = []
-    this.forEach(function(value) { items.push(value) })
-    return iteratorFor(items)
-  }
-
-  Headers.prototype.entries = function() {
-    var items = []
-    this.forEach(function(value, name) { items.push([name, value]) })
-    return iteratorFor(items)
-  }
-
-  if (support.iterable) {
-    Headers.prototype[Symbol.iterator] = Headers.prototype.entries
-  }
-
-  function consumed(body) {
-    if (body.bodyUsed) {
-      return Promise.reject(new TypeError('Already read'))
-    }
-    body.bodyUsed = true
-  }
-
-  function fileReaderReady(reader) {
-    return new Promise(function(resolve, reject) {
-      reader.onload = function() {
-        resolve(reader.result)
-      }
-      reader.onerror = function() {
-        reject(reader.error)
-      }
-    })
-  }
-
-  function readBlobAsArrayBuffer(blob) {
-    var reader = new FileReader()
-    var promise = fileReaderReady(reader)
-    reader.readAsArrayBuffer(blob)
-    return promise
-  }
-
-  function readBlobAsText(blob) {
-    var reader = new FileReader()
-    var promise = fileReaderReady(reader)
-    reader.readAsText(blob)
-    return promise
-  }
-
-  function readArrayBufferAsText(buf) {
-    var view = new Uint8Array(buf)
-    var chars = new Array(view.length)
-
-    for (var i = 0; i < view.length; i++) {
-      chars[i] = String.fromCharCode(view[i])
-    }
-    return chars.join('')
-  }
-
-  function bufferClone(buf) {
-    if (buf.slice) {
-      return buf.slice(0)
-    } else {
-      var view = new Uint8Array(buf.byteLength)
-      view.set(new Uint8Array(buf))
-      return view.buffer
-    }
-  }
-
-  function Body() {
-    this.bodyUsed = false
-
-    this._initBody = function(body) {
-      this._bodyInit = body
-      if (!body) {
-        this._bodyText = ''
-      } else if (typeof body === 'string') {
-        this._bodyText = body
-      } else if (support.blob && Blob.prototype.isPrototypeOf(body)) {
-        this._bodyBlob = body
-      } else if (support.formData && FormData.prototype.isPrototypeOf(body)) {
-        this._bodyFormData = body
-      } else if (support.searchParams && URLSearchParams.prototype.isPrototypeOf(body)) {
-        this._bodyText = body.toString()
-      } else if (support.arrayBuffer && support.blob && isDataView(body)) {
-        this._bodyArrayBuffer = bufferClone(body.buffer)
-        // IE 10-11 can't handle a DataView body.
-        this._bodyInit = new Blob([this._bodyArrayBuffer])
-      } else if (support.arrayBuffer && (ArrayBuffer.prototype.isPrototypeOf(body) || isArrayBufferView(body))) {
-        this._bodyArrayBuffer = bufferClone(body)
-      } else {
-        throw new Error('unsupported BodyInit type')
-      }
-
-      if (!this.headers.get('content-type')) {
-        if (typeof body === 'string') {
-          this.headers.set('content-type', 'text/plain;charset=UTF-8')
-        } else if (this._bodyBlob && this._bodyBlob.type) {
-          this.headers.set('content-type', this._bodyBlob.type)
-        } else if (support.searchParams && URLSearchParams.prototype.isPrototypeOf(body)) {
-          this.headers.set('content-type', 'application/x-www-form-urlencoded;charset=UTF-8')
-        }
-      }
-    }
-
-    if (support.blob) {
-      this.blob = function() {
-        var rejected = consumed(this)
-        if (rejected) {
-          return rejected
-        }
-
-        if (this._bodyBlob) {
-          return Promise.resolve(this._bodyBlob)
-        } else if (this._bodyArrayBuffer) {
-          return Promise.resolve(new Blob([this._bodyArrayBuffer]))
-        } else if (this._bodyFormData) {
-          throw new Error('could not read FormData body as blob')
-        } else {
-          return Promise.resolve(new Blob([this._bodyText]))
-        }
-      }
-
-      this.arrayBuffer = function() {
-        if (this._bodyArrayBuffer) {
-          return consumed(this) || Promise.resolve(this._bodyArrayBuffer)
-        } else {
-          return this.blob().then(readBlobAsArrayBuffer)
-        }
-      }
-    }
-
-    this.text = function() {
-      var rejected = consumed(this)
-      if (rejected) {
-        return rejected
-      }
-
-      if (this._bodyBlob) {
-        return readBlobAsText(this._bodyBlob)
-      } else if (this._bodyArrayBuffer) {
-        return Promise.resolve(readArrayBufferAsText(this._bodyArrayBuffer))
-      } else if (this._bodyFormData) {
-        throw new Error('could not read FormData body as text')
-      } else {
-        return Promise.resolve(this._bodyText)
-      }
-    }
-
-    if (support.formData) {
-      this.formData = function() {
-        return this.text().then(decode)
-      }
-    }
-
-    this.json = function() {
-      return this.text().then(JSON.parse)
-    }
-
-    return this
-  }
-
-  // HTTP methods whose capitalization should be normalized
-  var methods = ['DELETE', 'GET', 'HEAD', 'OPTIONS', 'POST', 'PUT']
-
-  function normalizeMethod(method) {
-    var upcased = method.toUpperCase()
-    return (methods.indexOf(upcased) > -1) ? upcased : method
-  }
-
-  function Request(input, options) {
-    options = options || {}
-    var body = options.body
-
-    if (input instanceof Request) {
-      if (input.bodyUsed) {
-        throw new TypeError('Already read')
-      }
-      this.url = input.url
-      this.credentials = input.credentials
-      if (!options.headers) {
-        this.headers = new Headers(input.headers)
-      }
-      this.method = input.method
-      this.mode = input.mode
-      if (!body && input._bodyInit != null) {
-        body = input._bodyInit
-        input.bodyUsed = true
-      }
-    } else {
-      this.url = String(input)
-    }
-
-    this.credentials = options.credentials || this.credentials || 'omit'
-    if (options.headers || !this.headers) {
-      this.headers = new Headers(options.headers)
-    }
-    this.method = normalizeMethod(options.method || this.method || 'GET')
-    this.mode = options.mode || this.mode || null
-    this.referrer = null
-
-    if ((this.method === 'GET' || this.method === 'HEAD') && body) {
-      throw new TypeError('Body not allowed for GET or HEAD requests')
-    }
-    this._initBody(body)
-  }
-
-  Request.prototype.clone = function() {
-    return new Request(this, { body: this._bodyInit })
-  }
-
-  function decode(body) {
-    var form = new FormData()
-    body.trim().split('&').forEach(function(bytes) {
-      if (bytes) {
-        var split = bytes.split('=')
-        var name = split.shift().replace(/\+/g, ' ')
-        var value = split.join('=').replace(/\+/g, ' ')
-        form.append(decodeURIComponent(name), decodeURIComponent(value))
-      }
-    })
-    return form
-  }
-
-  function parseHeaders(rawHeaders) {
-    var headers = new Headers()
-    rawHeaders.split(/\r?\n/).forEach(function(line) {
-      var parts = line.split(':')
-      var key = parts.shift().trim()
-      if (key) {
-        var value = parts.join(':').trim()
-        headers.append(key, value)
-      }
-    })
-    return headers
-  }
-
-  Body.call(Request.prototype)
-
-  function Response(bodyInit, options) {
-    if (!options) {
-      options = {}
-    }
-
-    this.type = 'default'
-    this.status = 'status' in options ? options.status : 200
-    this.ok = this.status >= 200 && this.status < 300
-    this.statusText = 'statusText' in options ? options.statusText : 'OK'
-    this.headers = new Headers(options.headers)
-    this.url = options.url || ''
-    this._initBody(bodyInit)
-  }
-
-  Body.call(Response.prototype)
-
-  Response.prototype.clone = function() {
-    return new Response(this._bodyInit, {
-      status: this.status,
-      statusText: this.statusText,
-      headers: new Headers(this.headers),
-      url: this.url
-    })
-  }
-
-  Response.error = function() {
-    var response = new Response(null, {status: 0, statusText: ''})
-    response.type = 'error'
-    return response
-  }
-
-  var redirectStatuses = [301, 302, 303, 307, 308]
-
-  Response.redirect = function(url, status) {
-    if (redirectStatuses.indexOf(status) === -1) {
-      throw new RangeError('Invalid status code')
-    }
-
-    return new Response(null, {status: status, headers: {location: url}})
-  }
-
-  self.Headers = Headers
-  self.Request = Request
-  self.Response = Response
-
-  self.fetch = function(input, init) {
-    return new Promise(function(resolve, reject) {
-      var request = new Request(input, init)
-      var xhr = new XMLHttpRequest()
-
-      xhr.onload = function() {
-        var options = {
-          status: xhr.status,
-          statusText: xhr.statusText,
-          headers: parseHeaders(xhr.getAllResponseHeaders() || '')
-        }
-        options.url = 'responseURL' in xhr ? xhr.responseURL : options.headers.get('X-Request-URL')
-        var body = 'response' in xhr ? xhr.response : xhr.responseText
-        resolve(new Response(body, options))
-      }
-
-      xhr.onerror = function() {
-        reject(new TypeError('Network request failed'))
-      }
-
-      xhr.ontimeout = function() {
-        reject(new TypeError('Network request failed'))
-      }
-
-      xhr.open(request.method, request.url, true)
-
-      if (request.credentials === 'include') {
-        xhr.withCredentials = true
-      }
-
-      if ('responseType' in xhr && support.blob) {
-        xhr.responseType = 'blob'
-      }
-
-      request.headers.forEach(function(value, name) {
-        xhr.setRequestHeader(name, value)
-      })
-
-      xhr.send(typeof request._bodyInit === 'undefined' ? null : request._bodyInit)
-    })
-  }
-  self.fetch.polyfill = true
-})(typeof self !== 'undefined' ? self : this);
-
-
-/***/ }),
-
-/***/ "./pages/artisti.js":
-/*!**************************!*\
-  !*** ./pages/artisti.js ***!
-  \**************************/
+/***/ "./pages/index.js":
+/*!************************!*\
+  !*** ./pages/index.js ***!
+  \************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* WEBPACK VAR INJECTION */(function(module) {/* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/regenerator */ "./node_modules/@babel/runtime/regenerator/index.js");
-/* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var redux__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! redux */ "./node_modules/redux/es/index.js");
-/* harmony import */ var next_redux_wrapper__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next-redux-wrapper */ "./node_modules/next-redux-wrapper/src/index.js");
-/* harmony import */ var next_redux_wrapper__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_redux_wrapper__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var glamor__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! glamor */ "./node_modules/glamor/lib/index.js");
-/* harmony import */ var glamor__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(glamor__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var react_no_ssr__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-no-ssr */ "./node_modules/react-no-ssr/index.js");
-/* harmony import */ var react_no_ssr__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react_no_ssr__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! next/head */ "./node_modules/next/head.js");
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var _utils_ui__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../utils/ui */ "./utils/ui.js");
-/* harmony import */ var _utils_ui__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_utils_ui__WEBPACK_IMPORTED_MODULE_7__);
-/* harmony import */ var _utils_device__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../utils/device */ "./utils/device.js");
-/* harmony import */ var _utils_device__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_utils_device__WEBPACK_IMPORTED_MODULE_8__);
-/* harmony import */ var _reducers_root__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../reducers/root */ "./reducers/root.js");
-/* harmony import */ var _components_controller_scroll__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../components/controller.scroll */ "./components/controller.scroll.js");
-/* harmony import */ var _components_controller_resize__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../components/controller.resize */ "./components/controller.resize.js");
-/* harmony import */ var _components_avatar__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../components/avatar */ "./components/avatar.js");
-/* harmony import */ var _components_nav__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../components/nav */ "./components/nav.js");
-/* harmony import */ var _components_section__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../components/section */ "./components/section.js");
-/* harmony import */ var _store__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../store */ "./store.js");
-/* harmony import */ var lodash_debounce__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! lodash/debounce */ "./node_modules/lodash/debounce.js");
-/* harmony import */ var lodash_debounce__WEBPACK_IMPORTED_MODULE_16___default = /*#__PURE__*/__webpack_require__.n(lodash_debounce__WEBPACK_IMPORTED_MODULE_16__);
-/* harmony import */ var _components_artisti_tab_button__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ../components/artisti.tab.button */ "./components/artisti.tab.button.js");
-/* harmony import */ var _components_artisti_tab_biography__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ../components/artisti.tab.biography */ "./components/artisti.tab.biography.js");
-/* harmony import */ var _components_artisti_tab_selectText__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ../components/artisti.tab.selectText */ "./components/artisti.tab.selectText.js");
-/* harmony import */ var _components_artisti_tab_works__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ../components/artisti.tab.works */ "./components/artisti.tab.works.js");
-/* harmony import */ var _components_artisti_tab_works_FULL_IMG__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ../components/artisti.tab.works.FULL_IMG */ "./components/artisti.tab.works.FULL_IMG.js");
-
+/* WEBPACK VAR INJECTION */(function(module) {/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var redux__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! redux */ "./node_modules/redux/es/index.js");
+/* harmony import */ var next_redux_wrapper__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next-redux-wrapper */ "./node_modules/next-redux-wrapper/src/index.js");
+/* harmony import */ var next_redux_wrapper__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_redux_wrapper__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var glamor__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! glamor */ "./node_modules/glamor/lib/index.js");
+/* harmony import */ var glamor__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(glamor__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _store__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../store */ "./store.js");
+/* harmony import */ var _reducers_root__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../reducers/root */ "./reducers/root.js");
+/* harmony import */ var _reducers_nav__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../reducers/nav */ "./reducers/nav.js");
+/* harmony import */ var react_no_ssr__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react-no-ssr */ "./node_modules/react-no-ssr/index.js");
+/* harmony import */ var react_no_ssr__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(react_no_ssr__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! next/head */ "./node_modules/next/head.js");
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var _components_SEO_index__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../components/SEO.index */ "./components/SEO.index.js");
+/* harmony import */ var _components_nav__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../components/nav */ "./components/nav.js");
+/* harmony import */ var _components_about__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../components/about */ "./components/about.js");
+/* harmony import */ var _components_controller_resize__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../components/controller.resize */ "./components/controller.resize.js");
+/* harmony import */ var _components_section_welcome_THREE_sphere_js__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../components/section.welcome.THREE.sphere.js */ "./components/section.welcome.THREE.sphere.js");
+/* harmony import */ var _utils_device__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../utils/device */ "./utils/device.js");
+/* harmony import */ var _utils_device__WEBPACK_IMPORTED_MODULE_14___default = /*#__PURE__*/__webpack_require__.n(_utils_device__WEBPACK_IMPORTED_MODULE_14__);
+/* harmony import */ var _utils_ui__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../utils/ui */ "./utils/ui.js");
+/* harmony import */ var _utils_ui__WEBPACK_IMPORTED_MODULE_15___default = /*#__PURE__*/__webpack_require__.n(_utils_ui__WEBPACK_IMPORTED_MODULE_15__);
 
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
-
-function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; var ownKeys = Object.keys(source); if (typeof Object.getOwnPropertySymbols === 'function') { ownKeys = ownKeys.concat(Object.getOwnPropertySymbols(source).filter(function (sym) { return Object.getOwnPropertyDescriptor(source, sym).enumerable; })); } ownKeys.forEach(function (key) { _defineProperty(target, key, source[key]); }); } return target; }
-
-function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { Promise.resolve(value).then(_next, _throw); } }
-
-function _asyncToGenerator(fn) { return function () { var self = this, args = arguments; return new Promise(function (resolve, reject) { var gen = fn.apply(self, args); function _next(value) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value); } function _throw(err) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err); } _next(undefined); }); }; }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
@@ -97227,68 +94508,38 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 
 
 
-
-
-
-
-
-var Artisti =
+var Index =
 /*#__PURE__*/
 function (_PureComponent) {
-  _inherits(Artisti, _PureComponent);
+  _inherits(Index, _PureComponent);
 
-  _createClass(Artisti, null, [{
+  _createClass(Index, null, [{
     key: "getInitialProps",
-    value: function () {
-      var _getInitialProps = _asyncToGenerator(
-      /*#__PURE__*/
-      _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee(_ref) {
-        var isServer, query, post;
-        return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee$(_context) {
-          while (1) {
-            switch (_context.prev = _context.next) {
-              case 0:
-                isServer = _ref.isServer, query = _ref.query;
-
-                /*es: query :{ id: 'EnzoCucchi' }*/
-                post = __webpack_require__("./static/contents/artisti sync recursive ^\\.\\/.*$")("./".concat(query.id));
-                return _context.abrupt("return", _objectSpread({}, post));
-
-              case 3:
-              case "end":
-                return _context.stop();
-            }
-          }
-        }, _callee, this);
-      }));
-
-      return function getInitialProps(_x) {
-        return _getInitialProps.apply(this, arguments);
-      };
-    }()
+    value: function getInitialProps(_ref) {
+      var isServer = _ref.isServer;
+      return Object.assign({}, {
+        isServer: isServer
+      });
+    }
   }]);
 
-  function Artisti(props) {
+  function Index(props) {
     var _this;
 
-    _classCallCheck(this, Artisti);
+    _classCallCheck(this, Index);
 
-    _this = _possibleConstructorReturn(this, _getPrototypeOf(Artisti).call(this, props));
+    _this = _possibleConstructorReturn(this, _getPrototypeOf(Index).call(this, props));
 
     _defineProperty(_assertThisInitialized(_assertThisInitialized(_this)), "setLanguage", function (language) {
       _this.props.switchLanguage(language);
     });
 
-    _defineProperty(_assertThisInitialized(_assertThisInitialized(_this)), "Post2Tabs", function () {
-      _this.tab_names = ['BIOGRAPHY', 'WORKS', 'SELECTTEXTS', 'NEWS', 'EXHIBITIONS'];
-    });
-
     _defineProperty(_assertThisInitialized(_assertThisInitialized(_this)), "setDevice", function () {
       var whatDevice;
 
-      if (Object(_utils_device__WEBPACK_IMPORTED_MODULE_8__["isMobile"])()) {
+      if (Object(_utils_device__WEBPACK_IMPORTED_MODULE_14__["isMobile"])()) {
         whatDevice = 'mobile';
-      } else if (Object(_utils_device__WEBPACK_IMPORTED_MODULE_8__["isTablet"])()) {
+      } else if (Object(_utils_device__WEBPACK_IMPORTED_MODULE_14__["isTablet"])()) {
         whatDevice = 'tablet';
       } else {
         whatDevice = 'desktop';
@@ -97297,156 +94548,94 @@ function (_PureComponent) {
       _this.props.onDevice(whatDevice);
     });
 
-    _this.PERSP = 1000;
-    _this.tabs = _this.Post2Tabs();
     return _this;
   }
 
-  _createClass(Artisti, [{
+  _createClass(Index, [{
     key: "componentDidMount",
     value: function componentDidMount() {
       // DEVICE
       this.setDevice();
       /* LANGUGE */
 
-      this.setLanguage(Object(_utils_device__WEBPACK_IMPORTED_MODULE_8__["getLanguer"])());
+      this.setLanguage(Object(_utils_device__WEBPACK_IMPORTED_MODULE_14__["getLanguer"])());
+      /* height width DIRECTION */
+      // this.setViewSize()
+
+      Object(_components_section_welcome_THREE_sphere_js__WEBPACK_IMPORTED_MODULE_13__["ThreeInit"])(); //@bug 不能resize,不能交互
     }
   }, {
     key: "render",
     value: function render() {
-      var _ref2 = this.props || {
-        language: 'zh'
-      },
-          language = _ref2.language;
+      var _this2 = this;
 
-      var _ref3 = this.props.view_size || {
+      // debugger
+      var language = this.props.language || 'zh';
+
+      var _ref2 = this.props.view_size || {
         view_size: {
           vw: 0,
           vh: 0,
           is_landscap: false
         }
       },
-          vw = _ref3.vw,
-          vh = _ref3.vh,
-          is_landscape = _ref3.is_landscape;
+          vw = _ref2.vw,
+          vh = _ref2.vh,
+          is_landscape = _ref2.is_landscape;
 
-      var WIDTH = is_landscape ? _utils_ui__WEBPACK_IMPORTED_MODULE_7__["GR"].px(1, vw) : _utils_ui__WEBPACK_IMPORTED_MODULE_7__["GR"].px(0.4, vw);
-      return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("main", {
-        key: "page-".concat(this.props.id)
-      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_head__WEBPACK_IMPORTED_MODULE_6___default.a, null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("title", null, this.props.name[language]), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
-        content: "ZAI - ".concat(this.props.name[language]),
+      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("main", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_head__WEBPACK_IMPORTED_MODULE_8___default.a, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("title", null, '中艺国际 - ZAI - zhong art'), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
+        content: "\u4E2D\u827A\u56FD\u9645, ZAI, zhongart international",
         name: "title"
-      }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
-        content: "ZAI - ".concat(this.props.name[language]),
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
+        content: "\u4E2D\u827A\u56FD\u9645, ZAI, zhongart international",
         property: "og:title"
-      }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
-        content: "ZAI - ".concat(this.props.biography.zh, " ").concat(this.props.biography[language], " ").concat(this.props.biography.en),
-        name: "biography"
-      }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
-        content: "ZAI - ".concat(this.props.biography.zh, " ").concat(this.props.biography[language], " ").concat(this.props.biography.en),
-        property: "og:biography"
-      }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
-        content: "".concat(this.props.keywords, " ZAI, zhongart internationale, Gallery, arte,\u4E2D\u827A\u56FD\u9645, \u4F5B\u7F57\u4F26\u8428 "),
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
+        content: "\u4E2D\u827A\u56FD\u9645, ZAI, zhong art international, \u4E2D\u827A\u56FD\u9645\u662F\u4E00\u4E2A\u4F4D\u4E8E\u610F\u5927\u5229\u4F5B\u7F57\u4F26\u8428\u7684\u56FD\u9645\u6027\u827A\u672F\u4E0E\u6587\u5316\u4EA4\u6D41\u673A\u6784\u3002\u6210\u7ACB\u4E8E2017\u5E74\uFF0C\u5728\u4E2D\u56FD\u5317\u4EAC\u548C\u610F\u5927\u5229\u4F5B\u7F57\u4F26\u8428\u5747\u6709\u529E\u4E8B\u673A\u6784\uFF0C\u6211\u4EEC\u7684\u5B97\u65E8\u662F\u4E3A\u4E2D\u56FD\u548C\u610F\u5927\u5229\u4E24\u56FD\u63D0\u4F9B\u6587\u5316\u9886\u57DF\u7684\u4EA4\u6D41\u4E0E\u5408\u4F5C\uFF0C\u901A\u8FC7\u79EF\u6781\u4E3A\u4E24\u56FD\u7684\u827A\u672F\u673A\u6784\u4E4B\u95F4\u548C\u827A\u672F\u5BB6\u4E4B\u95F4\u7B56\u5212\u5C55\u89C8\u548C\u827A\u672F\u5BB6\u4E4B\u95F4\u7684\u5B66\u672F\u4EA4\u6D41\u6D3B\u52A8\uFF0C\u63A8\u52A8\u4FC3\u8FDB\u4E24\u56FD\u6587\u5316\u79EF\u6781\u53CB\u597D\u7684\u53D1\u5C55\u3002\u6211\u4EEC\u4E0E\u610F\u5927\u5229\u5F88\u591A\u56FD\u5BB6\u7EA7\u7684\u5F88\u591A\u91CD\u8981\u6587\u5316\u673A\u6784\u5982\u6587\u5316\u90E8\u3001\u5927\u4F7F\u9986\u7B49\u90FD\u6709\u957F\u671F\u9879\u76EE\u5F80\u6765\uFF0C\u4E0E\u4E00\u4E9B\u827A\u672F\u7C7B\u9AD8\u7B49\u9662\u6821\u5982\u7F57\u9A6C\u7F8E\u672F\u5B66\u9662\u3001\u4F5B\u7F57\u4F26\u8428\u5927\u5B66\u7F8E\u672F\u5B66\u9662\u3001\u6B27\u6D32\u8BBE\u8BA1\u5B66\u9662\u7B49\u90FD\u6709\u6821\u9645\u5408\u4F5C\u5173\u7CFB\u3002\u6211\u4EEC\u4E3A\u4E13\u4E1A\u4EBA\u58EB\u63D0\u4F9B\u4E13\u4E1A\u6027\u5BF9\u63A5\u4EA4\u6D41\uFF0C\u65E8\u5728\u4E3A\u4E2D\u56FD\u548C\u610F\u5927\u5229\u4E24\u56FD\u7684\u827A\u672F\u53D1\u5C55\u5EFA\u7ACB\u6587\u5316\u6C9F\u901A\u7684\u6865\u6881\u3002",
+        name: "description"
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
+        content: "\u4E2D\u827A\u56FD\u9645, ZAI, zhong art international,\u4E2D\u827A\u56FD\u9645\u662F\u4E00\u4E2A\u4F4D\u4E8E\u610F\u5927\u5229\u4F5B\u7F57\u4F26\u8428\u7684\u56FD\u9645\u6027\u827A\u672F\u4E0E\u6587\u5316\u4EA4\u6D41\u673A\u6784\u3002\u6210\u7ACB\u4E8E2017\u5E74\uFF0C\u5728\u4E2D\u56FD\u5317\u4EAC\u548C\u610F\u5927\u5229\u4F5B\u7F57\u4F26\u8428\u5747\u6709\u529E\u4E8B\u673A\u6784\uFF0C\u6211\u4EEC\u7684\u5B97\u65E8\u662F\u4E3A\u4E2D\u56FD\u548C\u610F\u5927\u5229\u4E24\u56FD\u63D0\u4F9B\u6587\u5316\u9886\u57DF\u7684\u4EA4\u6D41\u4E0E\u5408\u4F5C\uFF0C\u901A\u8FC7\u79EF\u6781\u4E3A\u4E24\u56FD\u7684\u827A\u672F\u673A\u6784\u4E4B\u95F4\u548C\u827A\u672F\u5BB6\u4E4B\u95F4\u7B56\u5212\u5C55\u89C8\u548C\u827A\u672F\u5BB6\u4E4B\u95F4\u7684\u5B66\u672F\u4EA4\u6D41\u6D3B\u52A8\uFF0C\u63A8\u52A8\u4FC3\u8FDB\u4E24\u56FD\u6587\u5316\u79EF\u6781\u53CB\u597D\u7684\u53D1\u5C55\u3002\u6211\u4EEC\u4E0E\u610F\u5927\u5229\u5F88\u591A\u56FD\u5BB6\u7EA7\u7684\u5F88\u591A\u91CD\u8981\u6587\u5316\u673A\u6784\u5982\u6587\u5316\u90E8\u3001\u5927\u4F7F\u9986\u7B49\u90FD\u6709\u957F\u671F\u9879\u76EE\u5F80\u6765\uFF0C\u4E0E\u4E00\u4E9B\u827A\u672F\u7C7B\u9AD8\u7B49\u9662\u6821\u5982\u7F57\u9A6C\u7F8E\u672F\u5B66\u9662\u3001\u4F5B\u7F57\u4F26\u8428\u5927\u5B66\u7F8E\u672F\u5B66\u9662\u3001\u6B27\u6D32\u8BBE\u8BA1\u5B66\u9662\u7B49\u90FD\u6709\u6821\u9645\u5408\u4F5C\u5173\u7CFB\u3002\u6211\u4EEC\u4E3A\u4E13\u4E1A\u4EBA\u58EB\u63D0\u4F9B\u4E13\u4E1A\u6027\u5BF9\u63A5\u4EA4\u6D41\uFF0C\u65E8\u5728\u4E3A\u4E2D\u56FD\u548C\u610F\u5927\u5229\u4E24\u56FD\u7684\u827A\u672F\u53D1\u5C55\u5EFA\u7ACB\u6587\u5316\u6C9F\u901A\u7684\u6865\u6881\u3002",
+        property: "og:description"
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
+        content: "\u4E2D\u827A\u56FD\u9645, ZAI, zhongart, zhong art international, \u610F\u5927\u5229, \u4F5B\u7F57\u4F26\u8428, firenze, arte, Gallery",
         name: "keywords"
-      }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
-        content: "article",
-        property: "og:type"
-      }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
-        content: "http://www.zhongart.it/artisti/".concat(this.props.name[language]),
-        property: "og:url"
-      })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", _extends({}, Object(glamor__WEBPACK_IMPORTED_MODULE_4__["css"])({
-        position: '-webkit-sticky',
-        // @safari
-        height: '100vh',
-        //@parallax
-        overflowX: 'hidden',
-        //@parallax
-        overflowY: 'auto',
-        //@parallax
-        perspective: '1000px',
-        //@parallax
-        perspectiveOrigin: '50% 50%',
-        //@parallax left,top
-        'WebkitOverflowScrolling': 'touch',
-        // @safari
-        backfaceVisibility: 'hidden' // @parallax防止闪烁(flicker)
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
+        httpEquiv: "keyword",
+        content: "\u4E2D\u827A\u56FD\u9645, ZAI, zhongart, zhong art international, \u610F\u5927\u5229, \u4F5B\u7F57\u4F26\u8428, firenze, arte, Gallery"
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_no_ssr__WEBPACK_IMPORTED_MODULE_7___default.a, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_nav__WEBPACK_IMPORTED_MODULE_10__["default"] // vw = {vw}
+      // vh = {vh}
+      // isLandscape={isLandscape}
+      // language= {language}
+      // marginW = {GR.vw(5)}
+      , {
+        show_on_init: false //默认关闭
 
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_no_ssr__WEBPACK_IMPORTED_MODULE_7___default.a, {
+        onSSR: react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_SEO_index__WEBPACK_IMPORTED_MODULE_9__["default"], null)
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(ABS, null, '客户端')), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("canvas", _extends({}, Object(glamor__WEBPACK_IMPORTED_MODULE_3__["css"])({
+        position: 'absolute',
+        top: 0,
+        left: 0,
+        cursor: 'pointer'
       }), {
-        // ref= {c=>this._$win = c}
-        // onMouseMove = {(e)=>{this.onMouse(e)}}
-        id: "win_scroller"
-      }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_no_ssr__WEBPACK_IMPORTED_MODULE_5___default.a, null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", _extends({}, Object(glamor__WEBPACK_IMPORTED_MODULE_4__["css"])({
-        // is_landscape
-        display: 'flex',
-        flexDirection: 'column',
-        justifyContent: is_landscape ? 'center' : 'left',
-        // iphone
-        alignItems: 'center',
-        marginTop: "".concat(is_landscape ? _utils_ui__WEBPACK_IMPORTED_MODULE_7__["GR"].vw(7) : _utils_ui__WEBPACK_IMPORTED_MODULE_7__["GR"].vw(6), "vw"),
-        marginBottom: is_landscape ? "".concat(_utils_ui__WEBPACK_IMPORTED_MODULE_7__["GR"].vw(7), "vh") : "".concat(_utils_ui__WEBPACK_IMPORTED_MODULE_7__["GR"].vw(7), "vw"),
-        transformStyle: 'preserve-3d' //@parallax
-        // transform: `rotate3d(${this.state.tiltx},${this.state.tilty},0,${this.state.degree}deg)`,
-        // transition: `transform 1s cubic-bezier(0.1, 0.5, 0.4, 1)`,
-
-      }), {
-        id: "roll"
-      }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", Object(glamor__WEBPACK_IMPORTED_MODULE_4__["css"])({
-        width: "".concat(WIDTH, "px"),
-        display: 'flex',
-        flexDirection: 'row',
-        height: "".concat(is_landscape ? _utils_ui__WEBPACK_IMPORTED_MODULE_7__["GR"].px(4, vw) : _utils_ui__WEBPACK_IMPORTED_MODULE_7__["GR"].px(1, vw), "px"),
-        marginBottom: "".concat(is_landscape ? _utils_ui__WEBPACK_IMPORTED_MODULE_7__["GR"].vw(6) : _utils_ui__WEBPACK_IMPORTED_MODULE_7__["GR"].vw(6), "vw"),
-        transformStyle: 'preserve-3d',
-        //@parallax
-        backfaceVisibility: 'hidden' //防止闪烁(flicker)
-
-      }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_avatar__WEBPACK_IMPORTED_MODULE_12__["default"], {
-        src: this.props.avatar,
-        SizeWidth: is_landscape ? _utils_ui__WEBPACK_IMPORTED_MODULE_7__["GR"].px(4, vw) : _utils_ui__WEBPACK_IMPORTED_MODULE_7__["GR"].px(1, vw),
-        name: this.props.name[language]
-      }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_artisti_tab_button__WEBPACK_IMPORTED_MODULE_17__["default"], {
-        tabs: this.tab_names,
-        width: "".concat(_utils_ui__WEBPACK_IMPORTED_MODULE_7__["GR"].px(1, vw), "px")
-      })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", _extends({}, Object(glamor__WEBPACK_IMPORTED_MODULE_4__["css"])({
-        // display:'flex',
-        position: 'relative',
-        width: this.props.view_size.vw,
-        // 不许提供，否则不能居中
-        left: 0
-      }), {
-        className: "TAB_MAIN"
-      }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_artisti_tab_biography__WEBPACK_IMPORTED_MODULE_18__["default"], {
-        width: WIDTH,
-        tabName: 'BIOGRAPHY',
-        contents: {
-          biography: this.props.biography,
-          exhibitions: this.props.exhibitions
+        id: "scene",
+        width: vw,
+        height: vh,
+        onClick: function onClick() {
+          _this2.props.setPanelOn('show');
         }
-      }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_artisti_tab_works__WEBPACK_IMPORTED_MODULE_20__["default"], {
-        width: WIDTH,
-        tabName: 'WORKS',
-        contents: this.props.works
-      }), this.props.selectTexts ? react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_artisti_tab_selectText__WEBPACK_IMPORTED_MODULE_19__["default"], {
-        width: WIDTH,
-        tabName: 'SELECTTEXTS',
-        contents: this.props.selectTexts
-      }) : null)))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_artisti_tab_works_FULL_IMG__WEBPACK_IMPORTED_MODULE_21__["default"], {
-        contents: this.props.works
-      }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_no_ssr__WEBPACK_IMPORTED_MODULE_5___default.a, null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_nav__WEBPACK_IMPORTED_MODULE_13__["default"], {
-        show_on_init: !is_landscape
-      })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_no_ssr__WEBPACK_IMPORTED_MODULE_5___default.a, null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_controller_scroll__WEBPACK_IMPORTED_MODULE_10__["default"], {
-        BarOnId: "win_scroller"
-      })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_controller_resize__WEBPACK_IMPORTED_MODULE_11__["default"], null));
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_about__WEBPACK_IMPORTED_MODULE_11__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_controller_resize__WEBPACK_IMPORTED_MODULE_12__["default"], null));
     }
   }]);
 
-  return Artisti;
-}(react__WEBPACK_IMPORTED_MODULE_1__["PureComponent"]);
+  return Index;
+}(react__WEBPACK_IMPORTED_MODULE_0__["PureComponent"]);
 
 var mapStateToProps = function mapStateToProps(state) {
   return {
     view_size: state.Root.view_size,
-    language: state.Root.language // device:state.Root.device,
+    os: state.Root.os,
+    device: state.Root.device,
+    language: state.Root.language // nav:state.nav
 
   };
 };
@@ -97454,13 +94643,22 @@ var mapStateToProps = function mapStateToProps(state) {
 var mapDispatchToProps = function mapDispatchToProps(dispatch) {
   return {
     // root
-    switchLanguage: Object(redux__WEBPACK_IMPORTED_MODULE_2__["bindActionCreators"])(_reducers_root__WEBPACK_IMPORTED_MODULE_9__["switchLanguage"], dispatch),
-    onDevice: Object(redux__WEBPACK_IMPORTED_MODULE_2__["bindActionCreators"])(_reducers_root__WEBPACK_IMPORTED_MODULE_9__["onDevice"], dispatch) // setBrowser: bindActionCreators(setBrowser, dispatch),
-
+    switchLanguage: Object(redux__WEBPACK_IMPORTED_MODULE_1__["bindActionCreators"])(_reducers_root__WEBPACK_IMPORTED_MODULE_5__["switchLanguage"], dispatch),
+    // setBrowser: bindActionCreators(setBrowser, dispatch),
+    onDevice: Object(redux__WEBPACK_IMPORTED_MODULE_1__["bindActionCreators"])(_reducers_root__WEBPACK_IMPORTED_MODULE_5__["onDevice"], dispatch),
+    //nav
+    setPanelOn: Object(redux__WEBPACK_IMPORTED_MODULE_1__["bindActionCreators"])(_reducers_nav__WEBPACK_IMPORTED_MODULE_6__["setPanelOn"], dispatch)
   };
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (next_redux_wrapper__WEBPACK_IMPORTED_MODULE_3___default()(_store__WEBPACK_IMPORTED_MODULE_15__["initStore"], mapStateToProps, mapDispatchToProps)(Artisti));
+/* harmony default export */ __webpack_exports__["default"] = (next_redux_wrapper__WEBPACK_IMPORTED_MODULE_2___default()(_store__WEBPACK_IMPORTED_MODULE_4__["initStore"], mapStateToProps, mapDispatchToProps)(Index));
+
+var ABS = function ABS(props) {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", Object(glamor__WEBPACK_IMPORTED_MODULE_3__["css"])({
+    position: 'absolute',
+    zIndex: -1
+  }), props.children);
+};
     (function (Component, route) {
       if(!Component) return
       if (false) {}
@@ -97477,7 +94675,7 @@ var mapDispatchToProps = function mapDispatchToProps(dispatch) {
           next.router.update(r, Component)
         }
       }
-    })(typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__.default : (module.exports.default || module.exports), "/artisti")
+    })(typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__.default : (module.exports.default || module.exports), "/")
   
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../node_modules/webpack/buildin/harmony-module.js */ "./node_modules/webpack/buildin/harmony-module.js")(module)))
 
@@ -98080,54 +95278,6 @@ var setPositionTrigger = function setPositionTrigger() {
       return state;
   }
 });
-
-/***/ }),
-
-/***/ "./static/contents/artisti sync recursive ^\\.\\/.*$":
-/*!***********************************************!*\
-  !*** ./static/contents/artisti sync ^\.\/.*$ ***!
-  \***********************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var map = {
-	"./": "./static/contents/artisti/index.js",
-	"./EnzoCucchi": "./static/contents/artisti/EnzoCucchi.js",
-	"./EnzoCucchi.js": "./static/contents/artisti/EnzoCucchi.js",
-	"./FangLijun": "./static/contents/artisti/FangLijun.js",
-	"./FangLijun.js": "./static/contents/artisti/FangLijun.js",
-	"./PangMaokun": "./static/contents/artisti/PangMaokun.js",
-	"./PangMaokun.js": "./static/contents/artisti/PangMaokun.js",
-	"./SandroChia": "./static/contents/artisti/SandroChia.js",
-	"./SandroChia.js": "./static/contents/artisti/SandroChia.js",
-	"./VincenzoVentimiglia": "./static/contents/artisti/VincenzoVentimiglia.js",
-	"./VincenzoVentimiglia.js": "./static/contents/artisti/VincenzoVentimiglia.js",
-	"./WangYi": "./static/contents/artisti/WangYi.js",
-	"./WangYi.js": "./static/contents/artisti/WangYi.js",
-	"./index": "./static/contents/artisti/index.js",
-	"./index.js": "./static/contents/artisti/index.js"
-};
-
-
-function webpackContext(req) {
-	var id = webpackContextResolve(req);
-	return __webpack_require__(id);
-}
-function webpackContextResolve(req) {
-	var id = map[req];
-	if(!(id + 1)) { // check for number or string
-		var e = new Error("Cannot find module '" + req + "'");
-		e.code = 'MODULE_NOT_FOUND';
-		throw e;
-	}
-	return id;
-}
-webpackContext.keys = function webpackContextKeys() {
-	return Object.keys(map);
-};
-webpackContext.resolve = webpackContextResolve;
-module.exports = webpackContext;
-webpackContext.id = "./static/contents/artisti sync recursive ^\\.\\/.*$";
 
 /***/ }),
 
@@ -100442,98 +97592,6 @@ _75_22_0.50_1.20_0
 
 /***/ }),
 
-/***/ "./utils/mouse.js":
-/*!************************!*\
-  !*** ./utils/mouse.js ***!
-  \************************/
-/*! exports provided: mouseTarget, mousePositionDocument, findPos, mousePositionElement, mouseCenterElement */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "mouseTarget", function() { return mouseTarget; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "mousePositionDocument", function() { return mousePositionDocument; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "findPos", function() { return findPos; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "mousePositionElement", function() { return mousePositionElement; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "mouseCenterElement", function() { return mouseCenterElement; });
-/**
- * 来源
- *  https://gist.github.com/electricg/4435259
- */
-// Which HTML element is the target of the event
-function mouseTarget(e) {
-  var targ;
-  if (!e) var e = window.event;
-  if (e.target) targ = e.target;else if (e.srcElement) targ = e.srcElement;
-  if (targ.nodeType == 3) // defeat Safari bug
-    targ = targ.parentNode;
-  return targ;
-} // Mouse position relative to the document
-// From http://www.quirksmode.org/js/events_properties.html
-
-function mousePositionDocument(e) {
-  var posx = 0;
-  var posy = 0;
-
-  if (!e) {
-    var e = window.event;
-  }
-
-  if (e.pageX || e.pageY) {
-    posx = e.pageX;
-    posy = e.pageY;
-  } else if (e.clientX || e.clientY) {
-    posx = e.clientX + document.body.scrollLeft + document.documentElement.scrollLeft;
-    posy = e.clientY + document.body.scrollTop + document.documentElement.scrollTop;
-  }
-
-  return {
-    x: posx,
-    y: posy
-  };
-} //  element 在page 的 位置 is on the page
-// From http://www.quirksmode.org/js/findpos.html
-
-function findPos(obj) {
-  var curleft = 0;
-  var curtop = 0;
-
-  if (obj.offsetParent) {
-    do {
-      curleft += obj.offsetLeft;
-      curtop += obj.offsetTop;
-    } while (obj = obj.offsetParent);
-  }
-
-  return {
-    left: curleft,
-    top: curtop
-  };
-} // Mouse position relative to the element
-// not working on IE7 and below
-
-function mousePositionElement(e) {
-  var mousePosDoc = mousePositionDocument(e);
-  var target = mouseTarget(e);
-  var targetPos = findPos(target);
-  var posx = mousePosDoc.x - targetPos.left;
-  var posy = mousePosDoc.y - targetPos.top;
-  return {
-    x: posx,
-    y: posy
-  };
-} //如果ink 圆形的初始半径>1 ,这里就要加上他的半径
-
-function mouseCenterElement(e, r) {
-  var mousePosDoc = mousePositionElement(e);
-  return {
-    x: mousePosDoc.x + r,
-    y: mousePosDoc.y + r
-  };
-}
-
-/***/ }),
-
 /***/ "./utils/throttle.js":
 /*!***************************!*\
   !*** ./utils/throttle.js ***!
@@ -100896,15 +97954,15 @@ module.exports.perspZ = function (translateZ, perspective) {
 
 /***/ }),
 
-/***/ 4:
-/*!********************************!*\
-  !*** multi ./pages/artisti.js ***!
-  \********************************/
+/***/ 3:
+/*!******************************!*\
+  !*** multi ./pages/index.js ***!
+  \******************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__NEXT_REGISTER_PAGE('/artisti', function() {
-module.exports = __webpack_require__(/*! ./pages/artisti.js */"./pages/artisti.js");
+__NEXT_REGISTER_PAGE('/', function() {
+module.exports = __webpack_require__(/*! ./pages/index.js */"./pages/index.js");
 
 return { page: module.exports.default }});
 
@@ -100921,5 +97979,5 @@ module.exports = dll_08a40b72c33be87674f0;
 
 /***/ })
 
-},[[4,"static/runtime/webpack.js"]]]));;
-//# sourceMappingURL=artisti.js.map
+},[[3,"static/runtime/webpack.js"]]]));;
+//# sourceMappingURL=index.js.map
