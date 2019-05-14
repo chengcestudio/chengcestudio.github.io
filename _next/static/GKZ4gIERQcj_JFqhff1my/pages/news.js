@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([["da95"],{vDAS:function(n,w,d){(window.__NEXT_P=window.__NEXT_P||[]).push(["/news",function(){var n=d("TgFc");return{page:n.default||n}}])}},[["vDAS","5d41","9da1"]]]);
